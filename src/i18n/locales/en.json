@@ -1,0 +1,1375 @@
+{
+  "meta": {
+    "siteName": "ReadyGate",
+    "siteDescription": "Travel info for each stage of your trip.",
+    "brandGuideTitle": "ReadyGate Brand Guide",
+    "brandGuideDescription": "Visual and interaction rules for travel screens. Calm tone, clear hierarchy.",
+    "brandGuideVersion": "Version 1.0",
+    "brandGuideDate": "July 2026"
+  },
+  "navigation": {
+    "home": "Home",
+    "today": "Today",
+    "journey": "My Journey",
+    "flight": "My Flight",
+    "destination": "Destination",
+    "updates": "Updates",
+    "settings": "Settings",
+    "profile": "Profile",
+    "designSystem": "Design system",
+    "aboutReadyGate": "About ReadyGate",
+    "signOut": "Sign out",
+    "account": {
+      "label": "Account",
+      "description": "Profile and sign-in."
+    },
+    "notifications": {
+      "label": "Notifications settings",
+      "description": "Choose which trip alerts you receive."
+    },
+    "travellerPreferences": {
+      "label": "Traveller preferences",
+      "description": "Language, units, and display."
+    }
+  },
+  "common": {
+    "nextAction": "Next action",
+    "boardingPass": "Boarding pass",
+    "gate": "Gate",
+    "seat": "Seat",
+    "loading": "Loading",
+    "done": "Done",
+    "toDo": "To do",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "now": "Now",
+    "confirmed": "Confirmed",
+    "onTime": "On time",
+    "onTrack": "On track",
+    "notAssigned": "Not assigned",
+    "window": "Window",
+    "domesticTerminal": "Domestic Terminal",
+    "normalQueue": "Normal queue",
+    "standardQueue": "Standard queue",
+    "yourCall": "Your call",
+    "yourChoice": "Your choice",
+    "digital": "Digital",
+    "afterCheckIn": "After check-in",
+    "opensToday": "Opens today",
+    "ready": "Ready",
+    "allDone": "All done",
+    "nothingNew": "Nothing new",
+    "stillOnTrack": "Still on track.",
+    "then": "then",
+    "currentStage": "(current stage)",
+    "currentStep": "(current step)",
+    "current": "(current)"
+  },
+  "a11y": {
+    "skipToContent": "Skip to content",
+    "mainNavigation": "Main navigation",
+    "mobileNavigation": "Mobile navigation",
+    "readyGateHome": "ReadyGate home",
+    "openProfileMenu": "Open profile menu",
+    "journeyMilestones": "Journey milestones",
+    "journeyTimeline": "Journey timeline",
+    "journeyProgress": "Journey progress",
+    "journeyHealthOverview": "Journey health overview",
+    "journeyStatus": "Journey status: {status}",
+    "journeyCompletePercent": "Journey {percent}% complete",
+    "flightProgress": "Flight progress",
+    "filterUpdates": "Filter updates",
+    "recentUpdates": "Recent updates",
+    "lookingAhead": "Looking ahead",
+    "contextDetails": "Context details",
+    "todayPlan": "Today",
+    "boardingPassQrPlaceholder": "Boarding pass QR code placeholder",
+    "demoControls": "ReadyGate prototype demo controls",
+    "expandDemoPanel": "Expand demo panel",
+    "collapseDemoPanel": "Collapse demo panel",
+    "pauseDemo": "Pause demo",
+    "playDemo": "Play demo",
+    "previousStage": "Previous journey stage",
+    "nextStage": "Next journey stage",
+    "startDemo": "Start demo",
+    "productPrinciples": "Product principles"
+  },
+  "format": {
+    "daysUntilDeparture": "{days} days until departure",
+    "driveMinutes": "{minutes} drive",
+    "walkMinutes": "{minutes}-minute walk",
+    "arriveBy": "Arrive by {time}",
+    "leaveBy": "Leave by {time}",
+    "boardingAt": "Boarding {time}",
+    "routeArrow": "{origin} → {destination}",
+    "gateAndGroup": "{gate} · {group}",
+    "driveAndArrive": "{drive} drive · arrive {time}",
+    "stageOfTotal": "Stage {current} of {total}",
+    "demoStageCounter": "{current} / {total}",
+    "flightTimelineNext": "Next: {step}",
+    "seatLeftSide": "Seat {seat}, left side of the aircraft.",
+    "seatDetail": "Seat {seat}. Baggage allowance already on your booking.",
+    "flightOpenCheckIn": "{flightNumber} is open for check-in.",
+    "flightBoarding": "{flightNumber} is boarding.",
+    "flightLandedOnTime": "{flightNumber} landed on time.",
+    "flightOnTimeFor": "On time for {time}.",
+    "gateAssigned": "{gate} assigned.",
+    "gateWalkAway": "{gate} is {walk} away. Boarding at {time}.",
+    "walkToGate": "Walk to {gate}",
+    "baggageAt": "Baggage at {carousel}",
+    "boardingGroupGate": "{group} · {gate}",
+    "checkInOpensAt": "Check-in opens at {time} today.",
+    "leaveHomeValue": "{time} drive · arrive {arrival}",
+    "melbourneWeatherTitle": "Melbourne weather",
+    "oneCheckedBag": "1 checked bag",
+    "oneCheckedOneCarryOn": "1 checked · 1 carry-on",
+    "aboutMinutes": "About {minutes} minutes",
+    "aboutHourHalf": "About 1 hour 30 minutes",
+    "about45Minutes": "About 45 minutes",
+    "sameAsBrisbane": "Same as Brisbane",
+    "flightOnTimeDetail": "{flightNumber} · on time",
+    "priorityGroupsFirst": "Priority groups first. Seat {seat}, left side.",
+    "updatedAgo": "Updated {time} ago",
+    "driveMinutesMetric": "{minutes} min",
+    "driveMinutesImperial": "{miles} mi",
+    "durationMinutes": "{minutes} minutes",
+    "durationOneHour": "1 hour",
+    "durationHours": "{hours} hours",
+    "durationOneHourMinutes": "1 hour {minutes} minutes",
+    "durationHoursMinutes": "{hours} hours {minutes} minutes",
+    "distanceKm": "{value} km",
+    "distanceM": "{value} m",
+    "distanceMi": "{value} mi",
+    "distanceFt": "{value} ft",
+    "temperatureC": "{value}°C",
+    "temperatureF": "{value}°F",
+    "relativeTime": {
+      "justNow": "Just now",
+      "minutesAgo": "{count} min ago",
+      "hoursAgo": "{count} hr ago",
+      "dayAgo": "1 day ago",
+      "daysAgo": "{count} days ago"
+    }
+  },
+  "status": {
+    "flight": {
+      "scheduled": "Scheduled",
+      "checkInOpen": "Check-in Open",
+      "boarding": "Boarding",
+      "inFlight": "In Flight",
+      "landed": "Landed",
+      "onTime": "On time",
+      "delayed": "Delayed"
+    },
+    "milestone": {
+      "complete": "Complete",
+      "current": "Now",
+      "upcoming": "Upcoming"
+    },
+    "health": {
+      "ready": "Ready",
+      "attention": "Check when ready",
+      "pending": "Not yet"
+    },
+    "flightTimeline": {
+      "booked": {
+        "pending": "Booked",
+        "complete": "Booked"
+      },
+      "checkedIn": {
+        "pending": "Check In",
+        "complete": "Checked In"
+      },
+      "security": {
+        "pending": "Security",
+        "complete": "Security cleared"
+      },
+      "boarding": {
+        "pending": "Boarding",
+        "complete": "Boarded"
+      },
+      "departed": {
+        "pending": "Depart",
+        "complete": "Departed"
+      },
+      "landed": {
+        "pending": "Arrive",
+        "complete": "Landed"
+      }
+    }
+  },
+  "stageLabels": {
+    "PLANNING": "2 Weeks Before",
+    "WEEK_BEFORE": "Week before",
+    "DAY_BEFORE": "Day before",
+    "CHECK_IN_OPEN": "Check-in open",
+    "LEAVING_HOME": "Leaving home",
+    "AT_AIRPORT": "At airport",
+    "AFTER_SECURITY": "After security",
+    "BOARDING": "Boarding",
+    "IN_FLIGHT": "In flight",
+    "ARRIVAL": "Arrival",
+    "AFTER_ARRIVAL": "After arrival"
+  },
+  "stages": {
+    "PLANNING": {
+      "eyebrow": "{days} days until departure",
+      "heading": "Melbourne in two weeks.",
+      "reassurance": "Nothing to do yet. We'll tell you when that changes.",
+      "journeyStatus": "Booked · Seat selected",
+      "nextActionTitle": "Run through your packing list",
+      "nextActionTiming": "Any time",
+      "nextActionExplanation": "Seat and booking are set.",
+      "whatChanged": "Nothing new since your last visit.",
+      "cardDaysDetail": "{travelDate}",
+      "cardSeatDetail": "{boardingGroup} · Window",
+      "cardBaggageValue": "1 checked · 1 carry-on",
+      "cardChecklistDone": "Done",
+      "cardChecklistToDo": "To do"
+    },
+    "WEEK_BEFORE": {
+      "eyebrow": "One week to go",
+      "heading": "One week out.",
+      "reassurance": "Flight's confirmed. Sort out how you'll get to the airport.",
+      "journeyStatus": "Packed yet?",
+      "nextActionTitle": "Plan your airport trip",
+      "nextActionTiming": "This week",
+      "nextActionExplanation": "About 35 minutes by car.",
+      "whatChanged": "Still on time.",
+      "cardTransportValue": "{drive} drive",
+      "cardTransportDetail": "Arrive by {time}",
+      "cardBaggageValue": "1 checked bag",
+      "cardWeatherDetail": "August in Melbourne is usually cool. Forecast updates closer to travel."
+    },
+    "DAY_BEFORE": {
+      "eyebrow": "Travel day tomorrow",
+      "heading": "You fly tomorrow.",
+      "reassurance": "Pack tonight. Check-in opens this afternoon.",
+      "journeyStatus": "Phone charged? ID ready?",
+      "nextActionTitle": "Pack and find your ID",
+      "nextActionTiming": "Tonight",
+      "nextActionExplanation": "Rain forecast in Melbourne. Pack a jacket.",
+      "whatChanged": "Check-in opens at {time} today.",
+      "cardPackingValue": "Bring a jacket",
+      "cardLeaveHomeDetail": "{drive} drive · arrive {time}",
+      "cardCheckInValue": "Opens today",
+      "notificationSummary": "Check-in opens this afternoon"
+    },
+    "CHECK_IN_OPEN": {
+      "eyebrow": "Check-in open",
+      "heading": "Check-in's open.",
+      "reassurance": "Check in to get your boarding pass on your phone.",
+      "journeyStatus": "Check in now",
+      "nextActionTitle": "Check in online",
+      "nextActionTiming": "Now",
+      "nextActionExplanation": "Seat {seat}. Baggage allowance already on your booking.",
+      "nextActionLabel": "Check in",
+      "whatChanged": "{flightNumber} is open for check-in.",
+      "cardBaggageValue": "1 checked · 1 carry-on",
+      "cardDepartureDetail": "{origin} → {destination}",
+      "notificationSummary": "Check-in open"
+    },
+    "LEAVING_HOME": {
+      "eyebrow": "Time to leave",
+      "heading": "Time to go.",
+      "reassurance": "You have time for the drive, bag drop, and security.",
+      "journeyStatus": "Time to leave for the airport",
+      "nextActionTitle": "Leave by {time}",
+      "nextActionTiming": "{time}",
+      "nextActionExplanation": "Traffic builds after 8:15. This gets you there with room to spare.",
+      "whatChanged": "No changes. Flight on time.",
+      "cardArrivalDetail": "Domestic Terminal",
+      "cardBoardingDetail": "{gate} · {group}"
+    },
+    "AT_AIRPORT": {
+      "eyebrow": "Brisbane Airport",
+      "heading": "You're at the airport.",
+      "reassurance": "On time. Bag drop first, then security.",
+      "journeyStatus": "{gate} assigned",
+      "nextActionTitle": "Bag drop, then security",
+      "nextActionTiming": "Now",
+      "nextActionExplanation": "Virgin Australia counter, then about {minutes} minutes for security. {gate} is a short walk after.",
+      "whatChanged": "{gate} assigned.",
+      "cardSecurityValue": "{minutes} minutes",
+      "cardUntilBoardingValue": "About 1 hour 30 minutes",
+      "cardUntilBoardingDetail": "Boarding {time}",
+      "cardNextValue": "Bag drop",
+      "notificationSummary": "{gate}"
+    },
+    "AFTER_SECURITY": {
+      "eyebrow": "Airside",
+      "heading": "You've got time.",
+      "reassurance": "{gate} is {walk} away. Boarding at {time}.",
+      "journeyStatus": "You should be through security now",
+      "nextActionTitle": "Walk to {gate}",
+      "nextActionTiming": "{walk}",
+      "nextActionExplanation": "Grab a coffee if you want. Boarding hasn't started yet.",
+      "whatChanged": "Rain forecast in Melbourne this afternoon.",
+      "cardUntilBoardingValue": "About 45 minutes",
+      "cardUntilBoardingDetail": "Boarding {time}",
+      "cardWalkDetail": "If you're not at the gate yet"
+    },
+    "BOARDING": {
+      "eyebrow": "Boarding",
+      "heading": "Boarding now.",
+      "reassurance": "Head to the gate. Boarding pass ready to scan.",
+      "journeyStatus": "Plane boarding",
+      "nextActionTitle": "{group} · {gate}",
+      "nextActionTiming": "Now",
+      "nextActionExplanation": "Seat {seat}, left side of the aircraft.",
+      "whatChanged": "{flightNumber} is boarding.",
+      "cardWalkDetail": "If you're not at the gate yet",
+      "notificationSummary": "Boarding started"
+    },
+    "IN_FLIGHT": {
+      "eyebrow": "En route to Melbourne",
+      "heading": "In the air.",
+      "reassurance": "On the way to Melbourne.",
+      "journeyStatus": "Treat yourself to an in-flight snack",
+      "nextActionTitle": "Before you land",
+      "nextActionTiming": "{time}",
+      "nextActionExplanation": "Light rain in Melbourne. Hotel check-in from 3:00 PM.",
+      "whatChanged": "On time for {time}.",
+      "cardLocalTimeDetail": "Same as Brisbane"
+    },
+    "ARRIVAL": {
+      "eyebrow": "Melbourne",
+      "heading": "You've landed.",
+      "reassurance": "Baggage and transport are below.",
+      "journeyStatus": "Baggage on carousel {carousel}",
+      "nextActionTitle": "Baggage at {carousel}",
+      "nextActionTiming": "{wait}",
+      "nextActionExplanation": "Then SkyBus, taxi, or rideshare to the city. Hotel from 3:00 PM.",
+      "whatChanged": "{flightNumber} landed on time."
+    },
+    "AFTER_ARRIVAL": {
+      "eyebrow": "Done for today",
+      "heading": "Flight's over.",
+      "reassurance": "Nothing urgent.",
+      "journeyStatus": "Put your feet up. You made it.",
+      "nextActionTitle": "Head to the hotel",
+      "nextActionTiming": "Check-in from 3:00 PM",
+      "nextActionExplanation": "Booking confirmed at Victoria Hotel Melbourne.",
+      "nextActionLabel": "Trip summary",
+      "whatChanged": "All done.",
+      "cardSummaryValue": "Landed on time",
+      "cardSummaryDetail": "{flightNumber} · arrived {time} in {city}",
+      "cardHotelValue": "Confirmed"
+    }
+  },
+  "journey": {
+    "cardTitles": {
+      "daysUntilDeparture": "Days until departure",
+      "seat": "Seat",
+      "baggage": "Baggage",
+      "baggageAllowance": "Baggage allowance",
+      "checklist": "Checklist",
+      "melbourneWeather": "Melbourne weather",
+      "melbourne": "Melbourne",
+      "gettingThere": "Getting there",
+      "toDo": "To do",
+      "packing": "Packing",
+      "leaveHome": "Leave home",
+      "checkIn": "Check-in",
+      "documents": "Documents",
+      "departure": "Departure",
+      "drive": "Drive",
+      "arriveAtAirport": "Arrive at airport",
+      "boarding": "Boarding",
+      "terminal": "Terminal",
+      "security": "Security",
+      "untilBoarding": "Until boarding",
+      "next": "Next",
+      "gate": "Gate",
+      "boardingGroup": "Boarding group",
+      "group": "Group",
+      "walk": "Walk to gate",
+      "arrival": "Arrival",
+      "localTime": "Local time",
+      "hotel": "Hotel",
+      "carousel": "Carousel",
+      "transport": "Transport",
+      "weather": "Weather",
+      "today": "Today",
+      "tripSummary": "Trip summary",
+      "nearby": "Nearby"
+    },
+    "page": {
+      "yourTrip": "Your trip",
+      "myJourney": "Journey",
+      "tripProgress": "Trip progress",
+      "tripProgressSubtitle": "Every step from planning through arrival.",
+      "lookingAhead": "Looking ahead",
+      "noUpcomingSteps": "No upcoming steps.",
+      "today": "Today",
+      "moreDetail": "More detail",
+      "sinceLastVisit": "Since your last visit",
+      "sectionSummary": "Your full trip timeline, milestones, and what is ahead. Separate from what you need right now on Today.",
+      "sectionUpdatesHint": "Gate, timing, and milestone changes appear here when something shifts.",
+      "journeyHealth": "Journey health",
+      "journeyHealthSubtitle": "Documents, flight, weather, and hotel at a glance."
+    },
+    "milestones": {
+      "planning": {
+        "title": "Planning",
+        "time": "Now",
+        "description": "Trip confirmed. Seat selected.",
+        "whyItMatters": "Nothing urgent yet. Checklist and baggage allowance are here when you want them.",
+        "detailStatus": "On track",
+        "detailStatusDetail": "{days} days until departure",
+        "detailSeatDetail": "Window · already selected",
+        "detailBoardingPassValue": "Digital",
+        "detailBoardingPassDetail": "After check-in",
+        "detailStatusReady": "Ready when check-in opens"
+      },
+      "checkIn": {
+        "title": "Check-in",
+        "time": "Opens 24 hours before departure",
+        "description": "Check in online for your boarding pass.",
+        "whyItMatters": "Confirms your seat. Saves time at the counter."
+      },
+      "leaveHome": {
+        "title": "Leave Home",
+        "time": "{time}",
+        "description": "Leave home to reach the airport with time to spare.",
+        "whyItMatters": "Traffic picks up after 8:15 AM. This timing covers the drive and bag drop.",
+        "detailDrive": "Drive",
+        "detailAirportArrival": "Airport arrival",
+        "detailStatusEnough": "Enough time"
+      },
+      "airport": {
+        "title": "Airport",
+        "time": "{time}",
+        "description": "Arrive at {terminal}. Bag drop, then security.",
+        "whyItMatters": "You're early enough to handle queues without rushing.",
+        "detailBaggageDrop": "Baggage drop",
+        "detailBaggageDropValue": "Next"
+      },
+      "security": {
+        "title": "Security",
+        "time": "About 15 minutes",
+        "description": "Clear security, then walk to your gate.",
+        "whyItMatters": "Typical wait at this hour. You'll still have time near the gate.",
+        "detailWait": "Wait",
+        "detailGateDetail": "{walk} after security",
+        "detailStatusAhead": "Ahead of boarding"
+      },
+      "boarding": {
+        "title": "Boarding",
+        "time": "{time}",
+        "description": "{group} at Gate {gate}.",
+        "whyItMatters": "Priority groups first. Seat {seat}, left side.",
+        "detailBoardingGroup": "Boarding group"
+      },
+      "flight": {
+        "title": "Flight",
+        "time": "{departure} to {arrival}",
+        "description": "{flightNumber} to {city}.",
+        "whyItMatters": "On time. Light rain in Melbourne. Pack a jacket."
+      },
+      "arrival": {
+        "title": "Arrival",
+        "time": "{time}",
+        "description": "Collect baggage. Pick your ride into the city.",
+        "whyItMatters": "Carousel and transport options are listed before you leave the terminal."
+      },
+      "hotel": {
+        "title": "Hotel",
+        "time": "{time}",
+        "description": "Check in at Victoria Hotel Melbourne.",
+        "whyItMatters": "Reservation confirmed. No rush from the airport.",
+        "detailCheckIn": "Check-in",
+        "detailTransportValue": "Your choice"
+      }
+    },
+    "milestoneDetailLabels": {
+      "seat": "Seat",
+      "baggage": "Baggage",
+      "status": "Status",
+      "boardingPass": "Boarding pass",
+      "drive": "Drive",
+      "airportArrival": "Airport arrival",
+      "terminal": "Terminal",
+      "baggageDrop": "Baggage drop",
+      "wait": "Wait",
+      "gate": "Gate",
+      "boardingGroup": "Boarding group",
+      "flight": "Flight",
+      "arrival": "Arrival",
+      "weather": "Weather",
+      "localTime": "Local time",
+      "carousel": "Carousel",
+      "checkIn": "Check-in",
+      "transport": "Transport"
+    },
+    "checklist": {
+      "photoId": "Photo ID ready",
+      "seatSelected": "Seat selected",
+      "baggageReviewed": "Baggage allowance reviewed",
+      "transportPlanned": "Airport transport planned"
+    },
+    "documents": {
+      "photoId": "Photo ID",
+      "photoIdStatus": "Ready",
+      "boardingPass": "Boarding pass",
+      "boardingPassStatus": "Available after check-in",
+      "bookingReference": "Booking reference"
+    },
+    "preparationTasks": {
+      "parking": "Confirm airport parking or ride",
+      "liquids": "Review carry-on liquids limits"
+    }
+  },
+  "flight": {
+    "summary": "Flight summary",
+    "passenger": "Passenger",
+    "flightLabel": "Flight",
+    "group": "Group",
+    "terminal": "Terminal",
+    "boarding": "Boarding",
+    "departure": "Departure",
+    "arrival": "Arrival",
+    "flightNumber": "Flight number",
+    "route": "Route",
+    "boardingGroup": "Boarding group",
+    "viewDetails": "View flight details",
+    "baggageCarousel": "Baggage carousel",
+    "notAssigned": "Not assigned",
+    "aircraft": "Aircraft",
+    "duration": "Duration",
+    "airline": "Airline",
+    "distance": "Distance",
+    "flightTime": "Flight time",
+    "baggageAllowance": "Baggage allowance",
+    "cabin": "Cabin",
+    "meal": "Meal",
+    "wifi": "Wi-Fi",
+    "powerOutlets": "Power outlets",
+    "entertainment": "Entertainment",
+    "flightDetails": "Flight details",
+    "yourFlight": "Your flight",
+    "helpfulInformation": "Helpful information",
+    "boardingPassNoteAfterCheckIn": "Available after check-in",
+    "boardingPassNoteActivate": "Complete check-in to activate",
+    "boardingPassTicket": {
+      "departing": "Departing",
+      "arriving": "Arriving",
+      "class": "Class"
+    },
+    "amenities": {
+      "cabin": "Economy",
+      "meal": "Snack available for purchase",
+      "wifi": "Available",
+      "power": "USB-A at every seat",
+      "entertainment": "Streaming via personal device"
+    },
+    "pages": {
+      "PLANNING": {
+        "displayStatus": "Scheduled",
+        "nextActionMessage": "No action needed.",
+        "tips": [
+          "Seat 8A, left side.",
+          "Boarding starts 30 minutes before departure.",
+          "Check-in opens 24 hours ahead."
+        ]
+      },
+      "WEEK_BEFORE": {
+        "displayStatus": "Scheduled",
+        "nextActionMessage": "No action needed.",
+        "tips": [
+          "One checked bag (23 kg) and one carry-on (7 kg).",
+          "Boarding starts 30 minutes before departure.",
+          "Seat 8A, left side."
+        ]
+      },
+      "DAY_BEFORE": {
+        "displayStatus": "Scheduled",
+        "nextActionMessage": "Check-in opens this afternoon.",
+        "tips": [
+          "Check-in opens at 10:35 AM today.",
+          "Pack a light jacket for Melbourne.",
+          "Boarding starts 30 minutes before departure."
+        ]
+      },
+      "CHECK_IN_OPEN": {
+        "displayStatus": "Check-in Open",
+        "nextActionMessage": "Check in now.",
+        "tips": [
+          "Check in for your digital boarding pass.",
+          "Seat 8A, left side.",
+          "Boarding starts 30 minutes before departure."
+        ]
+      },
+      "LEAVING_HOME": {
+        "displayStatus": "Scheduled",
+        "nextActionMessage": "Leave within {minutes} minutes.",
+        "tips": [
+          "About 35 minutes to Brisbane Airport.",
+          "Boarding pass and photo ID ready.",
+          "Boarding starts 30 minutes before departure."
+        ]
+      },
+      "AT_AIRPORT": {
+        "displayStatus": "Scheduled",
+        "nextActionMessage": "Bag drop, then security.",
+        "tips": [
+          "Drop checked bags at the Virgin Australia counter.",
+          "About 15 minutes for security.",
+          "{gate} in the Domestic Terminal."
+        ]
+      },
+      "AFTER_SECURITY": {
+        "displayStatus": "Scheduled",
+        "nextActionMessage": "Head to {gate}.",
+        "tips": [
+          "{gate} is a 6-minute walk.",
+          "Boarding starts 30 minutes before departure.",
+          "Seat 8A, left side."
+        ]
+      },
+      "BOARDING": {
+        "displayStatus": "Boarding",
+        "nextActionMessage": "Head to {gate}.",
+        "tips": [
+          "{group} boarding at {gate}.",
+          "Boarding pass ready to scan.",
+          "Seat 8A, left side."
+        ]
+      },
+      "IN_FLIGHT": {
+        "displayStatus": "In Flight",
+        "nextActionMessage": "Arriving at 1:00 PM.",
+        "tips": [
+          "Melbourne arrival {time}.",
+          "Light rain on arrival. Pack a jacket.",
+          "Hotel check-in from 3:00 PM."
+        ]
+      },
+      "ARRIVAL": {
+        "displayStatus": "Landed",
+        "nextActionMessage": "Baggage at {carousel}.",
+        "tips": [
+          "{carousel}. About 15 minutes.",
+          "SkyBus and taxis from Terminal 3.",
+          "Melbourne time 1:05 PM."
+        ]
+      },
+      "AFTER_ARRIVAL": {
+        "displayStatus": "Landed",
+        "nextActionMessage": "Head to your hotel.",
+        "tips": [
+          "Flight complete.",
+          "Hotel check-in from 3:00 PM.",
+          "Keep your baggage tag until you've collected everything."
+        ]
+      }
+    }
+  },
+  "destination": {
+    "weather": "Weather",
+    "localTime": "Local time",
+    "expectedArrival": "Expected arrival",
+    "localInformation": "Local information",
+    "transport": "Transport",
+    "transportSubtitle": "Options from Melbourne Airport to the city.",
+    "hotel": "Hotel",
+    "checkIn": "Check-in",
+    "distance": "Distance",
+    "travelTime": "Travel time",
+    "discoverSubtitle": "Close to your hotel.",
+    "nearbyTitle": "Nearby after you land",
+    "nearbyDescription": "Shows up when you arrive in Melbourne.",
+    "reminders": "Reminders",
+    "localInfo": {
+      "sunset": "Sunset",
+      "currency": "Currency",
+      "emergency": "Emergency",
+      "powerPlug": "Power plug",
+      "timezone": "Timezone"
+    },
+    "steps": {
+      "land": {
+        "title": "Land",
+        "description": "Follow signs to baggage claim or exit."
+      },
+      "baggage": {
+        "title": "Collect baggage",
+        "description": "Carousel {carousel} in the arrivals hall."
+      },
+      "transport": {
+        "title": "Transport",
+        "description": "SkyBus, taxi, and rideshare from Terminal 3."
+      },
+      "hotel": {
+        "title": "Hotel",
+        "description": "{hotelName} · check-in from {time}."
+      },
+      "freeTime": {
+        "title": "Free time",
+        "time": "After check-in",
+        "description": "Walk the neighbourhood or rest before your plans start."
+      }
+    },
+    "shared": {
+      "previewTagline": "What happens after you land.",
+      "afterYouArrive": "After you arrive",
+      "arrivalSteps": "Arrival steps",
+      "afterLanding": "After landing",
+      "nextSteps": "Next steps",
+      "beforeYouLand": "Before you land.",
+      "afterLandingTagline": "After landing.",
+      "settleIn": "Settle in.",
+      "melbourne": "Melbourne"
+    },
+    "pages": {
+      "PLANNING": {
+        "heroTitle": "After you land",
+        "heroSummary": "Hotel and transport are on your booking. Details here when you're closer.",
+        "reminders": [
+          "Melbourne in August is mild. Pack a light jacket.",
+          "Hotel check-in from 3:00 PM.",
+          "Booking confirmed."
+        ]
+      },
+      "WEEK_BEFORE": {
+        "heroTitle": "After you land",
+        "heroSummary": "Same hotel and transport as your booking. Open this page when you need them.",
+        "reminders": [
+          "Melbourne in August is usually mild. Layers are handy.",
+          "Hotel check-in from 3:00 PM.",
+          "Melbourne uses AUD."
+        ]
+      },
+      "DAY_BEFORE": {
+        "heroTitle": "Tomorrow in Melbourne",
+        "heroSummary": "Landing around {time}. Baggage, transport, and hotel below.",
+        "reminders": [
+          "Pack a light jacket.",
+          "Hotel check-in from 3:00 PM.",
+          "Emergency services: 000."
+        ]
+      },
+      "CHECK_IN_OPEN": {
+        "heroTitle": "After you land",
+        "heroSummary": "Today's flight comes first. Arrival details stay here for later.",
+        "reminders": [
+          "Hotel reservation confirmed.",
+          "Light rain on arrival. Pack a jacket."
+        ]
+      },
+      "LEAVING_HOME": {
+        "heroTitle": "After you land",
+        "heroSummary": "Arrival details are set. Check again before landing if you need them.",
+        "reminders": [
+          "Hotel check-in from 3:00 PM."
+        ]
+      },
+      "AT_AIRPORT": {
+        "heroTitle": "Landing at 1:00 PM",
+        "heroSummary": "Transport and {hotelName} are below.",
+        "reminders": [
+          "{hotelName} is about 25 minutes from the airport."
+        ]
+      },
+      "AFTER_SECURITY": {
+        "heroTitle": "After you land",
+        "heroSummary": "Baggage, transport, and hotel. Same details you'll see when you touch down.",
+        "reminders": [
+          "Light rain expected. Pack a jacket."
+        ]
+      },
+      "BOARDING": {
+        "heroTitle": "Melbourne on arrival",
+        "heroSummary": "What happens from touchdown to hotel check-in.",
+        "reminders": [
+          "Save your hotel address for taxi or rideshare.",
+          "Cards widely accepted. Cash optional."
+        ]
+      },
+      "IN_FLIGHT": {
+        "heroTitle": "Almost in Melbourne",
+        "heroSummary": "Arriving around {time}. Light rain expected. {hotelName} is about 25 minutes from the airport.",
+        "reminders": [
+          "Baggage carousel {carousel}.",
+          "Hotel check-in from 3:00 PM.",
+          "Light rain expected."
+        ]
+      },
+      "ARRIVAL": {
+        "heroTitle": "You've landed",
+        "heroSummary": "{temp}, {condition}. Local time {localTime}.",
+        "reminders": [
+          "Carry-on only? Skip baggage claim.",
+          "SkyBus every 10 minutes from Terminal 3.",
+          "Hotel check-in from 3:00 PM."
+        ]
+      },
+      "AFTER_ARRIVAL": {
+        "heroTitle": "In Melbourne",
+        "heroSummary": "Head to the hotel when you're ready. Check-in from 3:00 PM.",
+        "reminders": [
+          "Early? Reception can hold your bags.",
+          "Light rain expected.",
+          "Emergency: 000."
+        ]
+      }
+    },
+    "hotelEarlyArrival": "Reception can store bags before check-in."
+  },
+  "updates": {
+    "title": "Updates",
+    "subtitle": "Changes to your trip. Nothing else.",
+    "emptyTitle": "Nothing new",
+    "emptyDescription": "Still on track.",
+    "filterEmptyTitle": "No updates here",
+    "filterEmptyDescription": "Try a different filter.",
+    "importance": {
+      "normal": "Update",
+      "important": "Important",
+      "critical": "Critical"
+    },
+    "filters": {
+      "all": "All",
+      "important": "Important",
+      "flight": "Flight",
+      "journey": "Journey",
+      "destination": "Destination"
+    },
+    "items": {
+      "gateAssigned": {
+        "title": "Gate assigned",
+        "message": "{gate}.",
+        "relativeTime": "15 minutes ago"
+      },
+      "checkInOpen": {
+        "title": "Check-in open",
+        "message": "Check in online for your boarding pass.",
+        "relativeTime": "Yesterday"
+      },
+      "weatherUpdated": {
+        "title": "Weather updated",
+        "message": "Rain expected after you land.",
+        "relativeTime": "2 hours ago"
+      },
+      "boardingSoon": {
+        "title": "Boarding in 45 minutes",
+        "message": "Head to {gate}.",
+        "relativeTime": "Just now"
+      },
+      "seatConfirmed": {
+        "title": "Seat confirmed",
+        "message": "Seat {seat}.",
+        "relativeTime": "3 days ago"
+      },
+      "packJacket": {
+        "title": "Pack a jacket",
+        "message": "Light rain forecast in Melbourne.",
+        "relativeTime": "Yesterday"
+      },
+      "suggestedArrival": {
+        "title": "Suggested arrival time",
+        "message": "Arrive by {time}.",
+        "relativeTime": "1 hour ago"
+      },
+      "securityWait": {
+        "title": "Security wait",
+        "message": "About {minutes} minutes right now.",
+        "relativeTime": "20 minutes ago"
+      },
+      "boardingStarted": {
+        "title": "Boarding started",
+        "message": "{group} at {gate}.",
+        "relativeTime": "Just now"
+      },
+      "stillOnTime": {
+        "title": "Still on time",
+        "message": "{flightNumber} departs at {time}.",
+        "relativeTime": "45 minutes ago"
+      },
+      "landed": {
+        "title": "Landed",
+        "message": "{flightNumber} on time.",
+        "relativeTime": "Just now"
+      },
+      "baggageCarousel": {
+        "title": "Baggage carousel",
+        "message": "Carousel {carousel}.",
+        "relativeTime": "5 minutes ago"
+      },
+      "skybusRunning": {
+        "title": "SkyBus running",
+        "message": "Every 10 minutes from Terminal 3.",
+        "relativeTime": "10 minutes ago"
+      },
+      "disruptionGateChange": {
+        "title": "Gate changed",
+        "message": "Now departing from Gate {newGate}. Was Gate {oldGate}.",
+        "relativeTime": "Just now"
+      },
+      "disruptionDelay": {
+        "title": "Flight delayed",
+        "message": "{flightNumber} is delayed {minutes} minutes. New departure {time}.",
+        "relativeTime": "Just now"
+      },
+      "hotelCheckIn": {
+        "title": "Hotel check-in",
+        "message": "From {time}.",
+        "relativeTime": "1 hour ago"
+      }
+    }
+  },
+  "pages": {
+    "settings": {
+      "title": "Settings",
+      "description": "Account, notifications, and preferences.",
+      "accountTitle": "Account",
+      "accountDescription": "Profile, sign-in, and security for your ReadyGate account.",
+      "notificationsTitle": "Notifications settings",
+      "notificationsDescription": "Choose which trip alerts you receive and how we deliver them.",
+      "preferencesTitle": "Traveller preferences",
+      "preferencesDescription": "Language, units, and display settings apply across ReadyGate."
+    },
+    "loadingTravelDetails": "Loading travel details",
+    "loadingContent": "Loading content"
+  },
+  "settings": {
+    "language": {
+      "title": "Language",
+      "displayLanguage": "Display language",
+      "english": "English",
+      "japanese": "日本語",
+      "french": "Français"
+    },
+    "regionalFormats": {
+      "title": "Regional formats",
+      "timeFormat": "Time format",
+      "hour24": "24-hour",
+      "hour12": "12-hour",
+      "distanceUnits": "Distance units",
+      "metric": "Metric",
+      "imperial": "Imperial",
+      "temperature": "Temperature",
+      "celsius": "Celsius",
+      "fahrenheit": "Fahrenheit"
+    },
+    "accessibility": {
+      "title": "Accessibility",
+      "largerText": "Larger text",
+      "reducedMotion": "Reduced motion",
+      "highContrast": "High contrast"
+    },
+    "notifications": {
+      "title": "Notifications",
+      "alertTypesTitle": "Alert types",
+      "alertTypesDescription": "Turn individual alerts on or off. Your Updates inbox still lists everything while you are in the app.",
+      "deliveryTitle": "Delivery",
+      "deliveryDescription": "How ReadyGate reaches you outside the app.",
+      "inAppAlerts": "In-app updates",
+      "pushNotifications": "Push notifications",
+      "journeyUpdates": "Journey updates",
+      "boardingReminders": "Boarding reminders",
+      "flightChanges": "Flight changes"
+    },
+    "homeAirport": {
+      "title": "Home airport",
+      "description": "For departures, leave-home timing, and airport guidance.",
+      "preferredAirport": "Preferred airport",
+      "travelTime": "Travel time from home",
+      "travelTimeOption": "{minutes} min",
+      "brisbane": "Brisbane (BNE)",
+      "melbourne": "Melbourne (MEL)",
+      "sydney": "Sydney (SYD)",
+      "adelaide": "Adelaide (ADL)",
+      "perth": "Perth (PER)"
+    },
+    "preferredTransport": {
+      "title": "Preferred transport",
+      "description": "Used on the Destination page.",
+      "gettingAround": "Getting around",
+      "taxi": "Taxi",
+      "rideshare": "Ride share",
+      "publicTransport": "Public transport",
+      "rentalCar": "Rental car",
+      "walking": "Walking"
+    },
+    "frequentFlyer": {
+      "title": "Frequent flyer",
+      "programme": "Programme",
+      "membershipTier": "Membership tier"
+    },
+    "account": {
+      "profileTitle": "Profile",
+      "profileDescription": "Your contact details for bookings and trip updates.",
+      "fullName": "Full name",
+      "email": "Email",
+      "mobile": "Mobile",
+      "signInTitle": "Sign-in",
+      "signInMethod": "Sign-in method",
+      "signInMethodEmail": "Email and password",
+      "memberSince": "Member since",
+      "lastSignedIn": "Last signed in",
+      "securityTitle": "Security",
+      "securityDescription": "How you sign in to ReadyGate on this device.",
+      "biometricSignIn": "Use Face ID to sign in",
+      "changePassword": "Change password"
+    }
+  },
+  "health": {
+    "labels": {
+      "documents": "Travel documents",
+      "transport": "Transport",
+      "flight": "Flight",
+      "weather": "Weather",
+      "accommodation": "Accommodation"
+    },
+    "baseDetails": {
+      "photoIdReady": "Photo ID ready",
+      "planAirportTransport": "Plan airport transport",
+      "onTime": "On time",
+      "lightRainExpected": "Light rain expected",
+      "hotelConfirmed": "Hotel confirmed"
+    },
+    "stages": {
+      "PLANNING": {
+        "transport": "Not planned yet",
+        "flight": "{flightNumber} confirmed",
+        "weather": "Pack a light jacket",
+        "accommodation": "{hotelName} confirmed"
+      },
+      "WEEK_BEFORE": {
+        "transport": "Confirm soon",
+        "weather": "Typical August weather. Check again closer to travel."
+      },
+      "DAY_BEFORE": {
+        "transport": "Confirm tomorrow's route",
+        "flight": "Check-in opens soon"
+      },
+      "CHECK_IN_OPEN": {
+        "transport": "Plan airport travel",
+        "flight": "Check-in open"
+      },
+      "LEAVING_HOME": {
+        "countdownLabel": "Leave home in",
+        "countdownDisplay": "20 minutes",
+        "transport": "Leave at 8:00 AM"
+      },
+      "AT_AIRPORT": {
+        "countdownLabel": "Boarding begins in",
+        "countdownDisplay": "1 hour 30 minutes",
+        "transport": "At the airport",
+        "flight": "{gate} assigned"
+      },
+      "AFTER_SECURITY": {
+        "countdownLabel": "Boarding begins in",
+        "countdownDisplay": "45 minutes",
+        "transport": "Airside",
+        "flight": "Head to {gate}"
+      },
+      "BOARDING": {
+        "countdownLabel": "Departure in",
+        "countdownDisplay": "54 minutes",
+        "transport": "At the gate",
+        "flight": "Boarding now"
+      },
+      "IN_FLIGHT": {
+        "countdownLabel": "Landing in",
+        "countdownDisplay": "46 minutes",
+        "transport": "Plan city transfer",
+        "flight": "In flight · on time",
+        "weather": "Rain on arrival",
+        "accommodation": "Check-in 3:00 PM"
+      },
+      "ARRIVAL": {
+        "transport": "Choose your transfer",
+        "flight": "Landed on time",
+        "accommodation": "Check-in from 3:00 PM"
+      },
+      "AFTER_ARRIVAL": {
+        "transport": "When you're ready",
+        "flight": "Flight done",
+        "accommodation": "Head to your hotel"
+      }
+    }
+  },
+  "pulse": {
+    "relaxed": {
+      "label": "Relax",
+      "badge": "Nothing to do right now"
+    },
+    "attentive": {
+      "label": "Heads up",
+      "badge": "Worth a look when you can"
+    },
+    "actionRequired": {
+      "label": "Action needed",
+      "badge": "Do this next"
+    }
+  },
+  "presentation": {
+    "tagline": "Passenger travel concept",
+    "productConcept": "Interactive concept",
+    "conceptFocus": "Passenger travel concept",
+    "disclaimer": "ReadyGate is an independent product concept created by Jeff Schorr to explore calm, useful passenger travel experiences. It is not affiliated with or endorsed by any airline.",
+    "intro": "Should a travel app change as your trip moves along? This demo follows one Virgin Australia flight, VA 313 from Brisbane to Melbourne.",
+    "inThisPrototype": "In this prototype",
+    "startDemo": "Start demo",
+    "engineeringDecisions": "Engineering Decisions",
+    "brandGuide": "Brand Guide",
+    "backToIntroduction": "Back to introduction",
+    "backHome": "Back Home",
+    "howBuilt": "How this prototype is built.",
+    "principles": {
+      "cutNoise": "Cut the noise",
+      "leadNextStep": "Lead with the next step",
+      "sayWhy": "Say why when it helps"
+    },
+    "highlights": {
+      "stageContent": "Screen content changes by trip stage",
+      "replayDay": "Replay the full day",
+      "flightUpdates": "Updates tied to this flight",
+      "accessibility": "Keyboard and screen reader support",
+      "componentLibrary": "Shared component library",
+      "responsive": "Mobile and desktop layouts"
+    },
+    "engineering": {
+      "nextjs": {
+        "title": "Next.js App Router",
+        "detail": "File-based routing. Presentation and app routes stay separate."
+      },
+      "typescript": {
+        "title": "TypeScript + stage config",
+        "detail": "One config layer drives copy and what appears on each screen."
+      },
+      "muiTailwind": {
+        "title": "MUI + Tailwind v4",
+        "detail": "Accessible components with shared spacing, colour, and type tokens."
+      },
+      "framerMotion": {
+        "title": "Framer Motion",
+        "detail": "Short page and stage transitions. Respects reduced motion."
+      },
+      "componentDriven": {
+        "title": "Component-driven UI",
+        "detail": "Shared cards, health indicators, and countdowns across pages."
+      },
+      "mockData": {
+        "title": "Mock data layer",
+        "detail": "Fixed simulated journey for demos. No live ops feeds."
+      }
+    }
+  },
+  "brand": {
+    "idea": "Tell travellers what is happening, what to do next, and why it matters.",
+    "principles": {
+      "cutNoise": "Cut the noise",
+      "nextStepFirst": "Next step first",
+      "explainWhenHelps": "Explain when it helps",
+      "plainLanguage": "Plain language",
+      "detailsOnDemand": "Details on demand"
+    },
+    "typography": {
+      "display": "Display",
+      "pageTitle": "Page title",
+      "sectionHeading": "Section heading",
+      "cardHeading": "Card heading",
+      "body": "Body",
+      "label": "Label",
+      "metadata": "Metadata",
+      "button": "Button",
+      "samplePageTitle": "Your Journey",
+      "sampleSectionHeading": "Flight Summary",
+      "sampleCardHeading": "Next Action",
+      "sampleBody": "On time. Boarding at {time}.",
+      "sampleLabel": "Boarding group",
+      "sampleMetadata": "Updated 2 minutes ago",
+      "sampleButton": "Start demo"
+    },
+    "voice": {
+      "qualities": {
+        "calm": "Calm",
+        "clear": "Clear",
+        "human": "Human",
+        "direct": "Direct",
+        "reassuring": "Reassuring"
+      },
+      "avoidFlightOnTime": "Flight On Time",
+      "preferOnTime": "On time.",
+      "avoidProceedSecurity": "Proceed to security immediately.",
+      "preferSecurityNext": "Security is your next step. Allow around 10 minutes.",
+      "avoidNoUpdates": "No updates available.",
+      "preferNothingNew": "Nothing new."
+    },
+    "productPrinciples": {
+      "oneQuestion": "One question per screen.",
+      "nextActionFirst": "Next action first.",
+      "urgencyWhenReal": "Urgency only when it's real.",
+      "fewerWords": "Fewer words beat more data.",
+      "showDetailOnAsk": "Show detail when someone asks.",
+      "accessibilityFirst": "Accessibility from the start."
+    },
+    "demo": {
+      "nextActionTitle": "Baggage drop, then security",
+      "nextActionTiming": "Allow around 10 minutes",
+      "nextActionExplanation": "Drop your checked bag, then head to security. {gate} · boarding at {time}.",
+      "nextActionLabel": "View journey",
+      "countdownLabel": "Boarding begins in",
+      "countdownDisplay": "1 hour 30 minutes",
+      "gateAssignedTitle": "Gate assigned",
+      "gateAssignedMessage": "Now departing from {gate}.",
+      "gateAssignedTime": "2 minutes ago",
+      "emptyTitle": "Nothing new",
+      "emptyDescription": "No updates since your last visit."
+    },
+    "components": {
+      "primaryButton": "Primary button",
+      "secondaryButton": "Secondary button",
+      "statusBadge": "Status badge",
+      "informationCard": "Information card",
+      "nextActionCard": "Next Action card",
+      "journeyMilestone": "Journey milestone",
+      "updateCard": "Update card",
+      "countdown": "Countdown",
+      "healthItem": "Journey Health item",
+      "emptyState": "Empty state"
+    }
+  },
+  "demo": {
+    "panelTitle": "ReadyGate Demo",
+      "panelSubtitle": "Step through stages",
+    "journeyStage": "Journey stage",
+    "disruptionScenario": "Disruption Scenario (gate / delay)",
+    "disruptionScenarioActive": "Disruption active",
+    "resetDemo": "Reset demo",
+    "resetConfirmTitle": "Reset demo?",
+    "resetConfirmMessage": "This restores the default journey stage, language, and preferences.",
+    "resetCancel": "Cancel"
+  },
+  "errors": {
+    "notFoundTitle": "Page not found",
+    "notFoundDescription": "That link does not go anywhere in ReadyGate.",
+    "backToIntro": "Back to start",
+    "serverErrorTitle": "Something went wrong",
+    "serverErrorDescription": "ReadyGate could not load this page. Try again or return to the start.",
+    "tryAgain": "Try again"
+  },
+  "landing": {
+    "header": {
+      "about": "About",
+      "engineering": "Engineering Decisions",
+      "brand": "Brand",
+      "designSystem": "Design",
+      "startDemo": "Start Demo",
+      "openMenu": "Open menu",
+      "closeMenu": "Close menu",
+      "mainNav": "Landing page navigation"
+    },
+    "hero": {
+      "eyebrow": "Passenger travel concept",
+      "title": "Know what matters at each stage of your trip.",
+      "descriptionBefore": "ReadyGate is an interactive concept designed around ",
+      "descriptionHighlight": "passenger peace of mind",
+      "descriptionAfter": ". It adapts from planning through arrival, highlights what you need now, and keeps updates clear and timely.",
+      "descriptionSecondary": "Follow one day of travel from Brisbane to Melbourne and see how home, flight, destination, and updates change as the journey progresses.",
+      "beginDemo": "Begin interactive demo",
+      "engineering": "View engineering decisions",
+      "credit": "Passenger travel app concept by Jeff Schorr.",
+      "mobileQrHint": "Scan this QR code on your phone to open the demo on mobile.",
+      "mobileQrAlt": "QR code linking to the ReadyGate mobile demo"
+    },
+    "heroVisual": {
+      "imageAlt": "ReadyGate app preview",
+      "flightLabel": "VA 313",
+      "route": "Brisbane → Melbourne",
+      "status": "On time",
+      "nextAction": "Leave for the airport",
+      "nextActionTiming": "8:00 AM drive · arrive 8:35 AM",
+      "gate": "Gate 42",
+      "seat": "Seat 8A",
+      "preferences": "English · 24-hour · Metric",
+      "stage": "Boarding"
+    },
+    "glance": {
+      "title": "ReadyGate at a glance",
+      "intro": "ReadyGate changes as your trip progresses. Follow one demo flight from Brisbane to Melbourne and see how the app shifts its focus from planning through boarding to arrival, always showing what matters now.",
+      "adaptive": {
+        "title": "Adaptive",
+        "copy": "The home screen, flight view, and destination details change with each journey stage. Not one static dashboard for the whole trip."
+      },
+      "personalised": {
+        "title": "Personalised",
+        "copy": "Language, time format, units, and accessibility settings apply live across the demo."
+      },
+      "focused": {
+        "title": "Focused",
+        "copy": "Each screen highlights one clear next action, such as leave time, gate, or boarding, instead of every detail at once."
+      }
+    },
+    "foundations": {
+      "title": "How it is built",
+      "intro": "ReadyGate combines structured front-end architecture with reusable components, accessibility, and internationalisation to support calm, readable passenger experiences.",
+      "nextjs": {
+        "title": "Next.js",
+        "copy": "App Router, production routing and a clear application structure."
+      },
+      "react": {
+        "title": "React",
+        "copy": "Reusable components with a clear separation of concerns."
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "copy": "Typed stage content and UI props for safer changes."
+      },
+      "tailwind": {
+        "title": "Tailwind CSS",
+        "copy": "Consistent styling and responsive layouts."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "copy": "Keyboard navigation, reduced motion, semantic HTML and ARIA support."
+      },
+      "i18n": {
+        "title": "Internationalisation",
+        "copy": "English and Japanese interfaces with a structured localisation approach."
+      },
+      "preferences": {
+        "title": "Traveller preferences",
+        "copy": "Live personalisation for language, time, units, and accessibility settings."
+      },
+      "journeyEngine": {
+        "title": "Stage-based content",
+        "copy": "Screen content and priorities change as the traveller progresses."
+      }
+    },
+    "boardingPass": {
+      "label": "Boarding pass",
+      "flight": "Flight",
+      "destination": "Destination",
+      "status": "Status",
+      "gate": "Gate",
+      "passenger": "Passenger",
+      "flightValue": "VA 313",
+      "destinationValue": "Melbourne",
+      "statusValue": "On time",
+      "gateValue": "42",
+      "passengerValue": "Alex Morgan",
+      "beginBoarding": "Begin boarding",
+      "continueMobile": "Continue on mobile"
+    },
+    "cta": {
+      "title": "Try the demo",
+      "description": "See how one product can adapt from planning and departure through to arrival. ReadyGate is an independent concept, not affiliated with or endorsed by any airline.",
+      "beginDemo": "Begin interactive demo",
+      "engineering": "View engineering decisions"
+    },
+    "footer": {
+      "disclaimer": "Passenger travel app concept by Jeff Schorr.",
+      "affiliation": "ReadyGate is not affiliated with or endorsed by any airline.",
+      "demo": "Demo",
+      "engineering": "Engineering",
+      "brand": "Brand",
+      "designSystem": "Design",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  }
+}

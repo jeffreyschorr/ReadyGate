@@ -1,0 +1,1375 @@
+{
+  "meta": {
+    "siteName": "ReadyGate",
+    "siteDescription": "旅の各段階に合わせた旅行情報。",
+    "brandGuideTitle": "ReadyGate ブランドガイド",
+    "brandGuideDescription": "旅行画面のビジュアルと操作ルール。落ち着いたトーンで、階層を明確に。",
+    "brandGuideVersion": "バージョン 1.0",
+    "brandGuideDate": "2026年7月"
+  },
+  "navigation": {
+    "home": "ホーム",
+    "today": "今日",
+    "journey": "マイ・ジャーニー",
+    "flight": "マイ・フライト",
+    "destination": "目的地",
+    "updates": "更新",
+    "settings": "設定 (Settings)",
+    "profile": "プロフィール",
+    "designSystem": "デザインシステム",
+    "aboutReadyGate": "ReadyGateについて",
+    "signOut": "サインアウト",
+    "account": {
+      "label": "アカウント",
+      "description": "プロフィールとサインイン。"
+    },
+    "notifications": {
+      "label": "通知設定",
+      "description": "受け取るアラートを選びます。"
+    },
+    "travellerPreferences": {
+      "label": "旅行者の設定 (Preferences)",
+      "description": "言語、単位、表示。"
+    }
+  },
+  "common": {
+    "nextAction": "次のアクション",
+    "boardingPass": "搭乗券",
+    "gate": "ゲート",
+    "seat": "座席",
+    "loading": "読み込み中",
+    "done": "完了",
+    "toDo": "未完了",
+    "today": "今日",
+    "tomorrow": "明日",
+    "now": "現在",
+    "confirmed": "確認済み",
+    "onTime": "定刻",
+    "onTrack": "予定どおり",
+    "notAssigned": "未割当",
+    "window": "窓側",
+    "domesticTerminal": "国内線ターミナル",
+    "normalQueue": "通常の待ち時間",
+    "standardQueue": "通常の列",
+    "yourCall": "お好みで",
+    "yourChoice": "お好みで",
+    "digital": "デジタル",
+    "afterCheckIn": "チェックイン後",
+    "opensToday": "本日開始",
+    "ready": "準備OK",
+    "allDone": "すべて完了",
+    "nothingNew": "新着なし",
+    "stillOnTrack": "予定どおりです。",
+    "then": "次に",
+    "currentStage": "（現在の段階）",
+    "currentStep": "（現在のステップ）",
+    "current": "（現在）"
+  },
+  "a11y": {
+    "skipToContent": "スキップしてコンテンツへ",
+    "mainNavigation": "メインナビゲーション",
+    "mobileNavigation": "モバイルナビゲーション",
+    "readyGateHome": "ReadyGate ホーム",
+    "openProfileMenu": "プロフィールメニューを開く",
+    "journeyMilestones": "旅程のマイルストーン",
+    "journeyTimeline": "旅程タイムライン",
+    "journeyProgress": "旅程の進捗",
+    "journeyHealthOverview": "旅程ステータスの概要",
+    "journeyStatus": "旅程ステータス: {status}",
+    "journeyCompletePercent": "旅程 {percent}% 完了",
+    "flightProgress": "フライトの進捗",
+    "filterUpdates": "更新を絞り込む",
+    "recentUpdates": "最近の更新",
+    "lookingAhead": "この先の予定",
+    "contextDetails": "コンテキスト詳細",
+    "todayPlan": "今日",
+    "boardingPassQrPlaceholder": "搭乗券QRコードのプレースホルダー",
+    "demoControls": "ReadyGate プロトタイプのデモ操作",
+    "expandDemoPanel": "デモパネルを展開",
+    "collapseDemoPanel": "デモパネルを折りたたむ",
+    "pauseDemo": "デモを一時停止",
+    "playDemo": "デモを再生",
+    "previousStage": "前の旅程段階",
+    "nextStage": "次の旅程段階",
+    "startDemo": "デモを開始",
+    "productPrinciples": "プロダクト原則"
+  },
+  "format": {
+    "daysUntilDeparture": "出発まであと {days} 日",
+    "driveMinutes": "車で {minutes}",
+    "walkMinutes": "徒歩 {minutes} 分",
+    "arriveBy": "{time} までに到着",
+    "leaveBy": "{time} までに出発",
+    "boardingAt": "搭乗 {time}",
+    "routeArrow": "{origin} → {destination}",
+    "gateAndGroup": "{gate} · {group}",
+    "driveAndArrive": "車で {drive} · {time} 到着",
+    "stageOfTotal": "段階 {current} / {total}",
+    "demoStageCounter": "{current} / {total}",
+    "flightTimelineNext": "次: {step}",
+    "seatLeftSide": "座席 {seat}、左側（窓側）。",
+    "seatDetail": "座席 {seat}。手荷物許容量は予約済みです。",
+    "flightOpenCheckIn": "{flightNumber} のチェックインが開始しました。",
+    "flightBoarding": "{flightNumber} は搭乗中です。",
+    "flightLandedOnTime": "{flightNumber} は定刻着陸しました。",
+    "flightOnTimeFor": "{time} 定刻です。",
+    "gateAssigned": "{gate} が割り当てられました。",
+    "gateWalkAway": "{gate} まで {walk}。搭乗 {time}。",
+    "walkToGate": "{gate} へ向かう",
+    "baggageAt": "手荷物 {carousel}",
+    "boardingGroupGate": "{group} · {gate}",
+    "checkInOpensAt": "本日 {time} からチェックイン開始。",
+    "leaveHomeValue": "車で {time} · {arrival} 到着",
+    "melbourneWeatherTitle": "Melbourne の天気",
+    "oneCheckedBag": "預け荷物 1 個",
+    "oneCheckedOneCarryOn": "預け 1 · 機内 1",
+    "aboutMinutes": "約 {minutes} 分",
+    "aboutHourHalf": "約 1 時間 30 分",
+    "about45Minutes": "約 45 分",
+    "sameAsBrisbane": "Brisbane と同じ",
+    "flightOnTimeDetail": "{flightNumber} · 定刻",
+    "priorityGroupsFirst": "優先グループから。座席 {seat}、左側。",
+    "updatedAgo": "{time} 前に更新",
+    "driveMinutesMetric": "{minutes}分",
+    "driveMinutesImperial": "{miles} mi",
+    "durationMinutes": "{minutes}分",
+    "durationOneHour": "1時間",
+    "durationHours": "{hours}時間",
+    "durationOneHourMinutes": "1時間{minutes}分",
+    "durationHoursMinutes": "{hours}時間{minutes}分",
+    "distanceKm": "{value} km",
+    "distanceM": "{value} m",
+    "distanceMi": "{value} mi",
+    "distanceFt": "{value} ft",
+    "temperatureC": "{value}°C",
+    "temperatureF": "{value}°F",
+    "relativeTime": {
+      "justNow": "たった今",
+      "minutesAgo": "{count}分前",
+      "hoursAgo": "{count}時間前",
+      "dayAgo": "1日前",
+      "daysAgo": "{count}日前"
+    }
+  },
+  "status": {
+    "flight": {
+      "scheduled": "予定",
+      "checkInOpen": "チェックイン開始",
+      "boarding": "搭乗中",
+      "inFlight": "飛行中",
+      "landed": "着陸済み",
+      "onTime": "定刻",
+      "delayed": "遅延"
+    },
+    "milestone": {
+      "complete": "完了",
+      "current": "現在",
+      "upcoming": "予定"
+    },
+    "health": {
+      "ready": "準備OK",
+      "attention": "時間があるときに確認",
+      "pending": "まだ"
+    },
+    "flightTimeline": {
+      "booked": {
+        "pending": "予約済み",
+        "complete": "予約済み"
+      },
+      "checkedIn": {
+        "pending": "チェックイン",
+        "complete": "チェックイン済み"
+      },
+      "security": {
+        "pending": "保安検査",
+        "complete": "保安検査済み"
+      },
+      "boarding": {
+        "pending": "搭乗",
+        "complete": "搭乗済み"
+      },
+      "departed": {
+        "pending": "出発",
+        "complete": "出発済み"
+      },
+      "landed": {
+        "pending": "到着",
+        "complete": "着陸済み"
+      }
+    }
+  },
+  "stageLabels": {
+    "PLANNING": "2週間前",
+    "WEEK_BEFORE": "1週間前",
+    "DAY_BEFORE": "前日",
+    "CHECK_IN_OPEN": "チェックイン開始",
+    "LEAVING_HOME": "自宅を出発",
+    "AT_AIRPORT": "空港に到着",
+    "AFTER_SECURITY": "保安検査後",
+    "BOARDING": "搭乗",
+    "IN_FLIGHT": "飛行中",
+    "ARRIVAL": "到着",
+    "AFTER_ARRIVAL": "到着後"
+  },
+  "stages": {
+    "PLANNING": {
+      "eyebrow": "出発まであと {days} 日",
+      "heading": "2週間後の Melbourne。",
+      "reassurance": "今はやることはありません。変わったらお知らせします。",
+      "journeyStatus": "予約済み · 座席選択済み",
+      "nextActionTitle": "持ち物リストを確認",
+      "nextActionTiming": "いつでも",
+      "nextActionExplanation": "座席と予約は確定しています。",
+      "whatChanged": "前回の訪問以降、新着はありません。",
+      "cardDaysDetail": "{travelDate}",
+      "cardSeatDetail": "{boardingGroup} · 窓側",
+      "cardBaggageValue": "預け 1 · 機内 1",
+      "cardChecklistDone": "完了",
+      "cardChecklistToDo": "未完了"
+    },
+    "WEEK_BEFORE": {
+      "eyebrow": "あと1週間",
+      "heading": "1週間前。",
+      "reassurance": "フライトは確定しています。空港までの行き方を決めましょう。",
+      "journeyStatus": "もう荷造りした？",
+      "nextActionTitle": "空港までの移動を計画",
+      "nextActionTiming": "今週中",
+      "nextActionExplanation": "車で約35分。",
+      "whatChanged": "定刻のままです。",
+      "cardTransportValue": "車で {drive}",
+      "cardTransportDetail": "{time} までに到着",
+      "cardBaggageValue": "預け荷物 1 個",
+      "cardWeatherDetail": "8月のメルボルンは通常涼しいです。天気予報は出発が近づいてから確認しましょう。"
+    },
+    "DAY_BEFORE": {
+      "eyebrow": "明日が出発日",
+      "heading": "明日フライトです。",
+      "reassurance": "今夜荷造りを。チェックインは午後から開始します。",
+      "journeyStatus": "スマホは充電済み？ 身分証は持った？",
+      "nextActionTitle": "荷造りと身分証の確認",
+      "nextActionTiming": "今夜",
+      "nextActionExplanation": "Melbourne は雨の予報。ジャケットを持参してください。",
+      "whatChanged": "本日 {time} からチェックイン開始。",
+      "cardPackingValue": "ジャケットを持参",
+      "cardLeaveHomeDetail": "車で {drive} · {time} 到着",
+      "cardCheckInValue": "本日開始",
+      "notificationSummary": "午後からチェックイン開始"
+    },
+    "CHECK_IN_OPEN": {
+      "eyebrow": "チェックイン開始",
+      "heading": "チェックインが開始しました。",
+      "reassurance": "チェックインして、スマホで搭乗券を取得しましょう。",
+      "journeyStatus": "今すぐチェックイン",
+      "nextActionTitle": "オンラインでチェックイン",
+      "nextActionTiming": "現在",
+      "nextActionExplanation": "座席 {seat}。手荷物許容量は予約済みです。",
+      "nextActionLabel": "チェックイン",
+      "whatChanged": "{flightNumber} のチェックインが開始しました。",
+      "cardBaggageValue": "預け 1 · 機内 1",
+      "cardDepartureDetail": "{origin} → {destination}",
+      "notificationSummary": "チェックイン開始"
+    },
+    "LEAVING_HOME": {
+      "eyebrow": "出発の時間",
+      "heading": "そろそろ出発。",
+      "reassurance": "ドライブ、預け荷物、保安検査まで時間に余裕があります。",
+      "journeyStatus": "そろそろ空港へ向かう時間",
+      "nextActionTitle": "{time} までに出発",
+      "nextActionTiming": "{time}",
+      "nextActionExplanation": "8:15以降は渋滞が増えます。この時間なら余裕を持って到着できます。",
+      "whatChanged": "変更なし。フライトは定刻。",
+      "cardArrivalDetail": "国内線ターミナル",
+      "cardBoardingDetail": "{gate} · {group}"
+    },
+    "AT_AIRPORT": {
+      "eyebrow": "Brisbane Airport",
+      "heading": "空港に到着しました。",
+      "reassurance": "定刻。預け荷物を先に、それから保安検査。",
+      "journeyStatus": "{gate} 割当",
+      "nextActionTitle": "預け荷物、それから保安検査",
+      "nextActionTiming": "現在",
+      "nextActionExplanation": "Virgin Australia カウンター、その後保安検査は約 {minutes} 分。{gate} まではすぐです。",
+      "whatChanged": "{gate} が割り当てられました。",
+      "cardSecurityValue": "{minutes} 分",
+      "cardUntilBoardingValue": "約 1 時間 30 分",
+      "cardUntilBoardingDetail": "搭乗 {time}",
+      "cardNextValue": "預け荷物",
+      "notificationSummary": "{gate}"
+    },
+    "AFTER_SECURITY": {
+      "eyebrow": "制限区域内",
+      "heading": "時間に余裕があります。",
+      "reassurance": "{gate} まで {walk}。搭乗 {time}。",
+      "journeyStatus": "保安検査は通過したはず",
+      "nextActionTitle": "{gate} へ向かう",
+      "nextActionTiming": "{walk}",
+      "nextActionExplanation": "コーヒーを楽しんでも大丈夫。搭乗はまだ始まっていません。",
+      "whatChanged": "Melbourne は午後から雨の予報。",
+      "cardUntilBoardingValue": "約 45 分",
+      "cardUntilBoardingDetail": "搭乗 {time}",
+      "cardWalkDetail": "まだゲートにいない場合"
+    },
+    "BOARDING": {
+      "eyebrow": "搭乗",
+      "heading": "搭乗中です。",
+      "reassurance": "ゲートへ向かいましょう。搭乗券をスキャンできる状態に。",
+      "journeyStatus": "搭乗開始",
+      "nextActionTitle": "{group} · {gate}",
+      "nextActionTiming": "現在",
+      "nextActionExplanation": "座席 {seat}、左側（窓側）。",
+      "whatChanged": "{flightNumber} は搭乗中です。",
+      "cardWalkDetail": "まだゲートにいない場合",
+      "notificationSummary": "搭乗開始"
+    },
+    "IN_FLIGHT": {
+      "eyebrow": "Melbourne へ向かう途中",
+      "heading": "飛行中。",
+      "reassurance": "Melbourne へ向かっています。",
+      "journeyStatus": "機内食や軽食、どうぞ",
+      "nextActionTitle": "着陸前に",
+      "nextActionTiming": "{time}",
+      "nextActionExplanation": "Melbourne は小雨。ホテルチェックインは午後3時から。",
+      "whatChanged": "{time} 定刻です。",
+      "cardLocalTimeDetail": "Brisbane と同じ"
+    },
+    "ARRIVAL": {
+      "eyebrow": "Melbourne",
+      "heading": "着陸しました。",
+      "reassurance": "手荷物と交通手段は下に表示されています。",
+      "journeyStatus": "荷物はカルーセル {carousel}",
+      "nextActionTitle": "手荷物 {carousel}",
+      "nextActionTiming": "{wait}",
+      "nextActionExplanation": "その後 SkyBus、タクシー、ライドシェアで市内へ。ホテルは午後3時から。",
+      "whatChanged": "{flightNumber} は定刻着陸しました。"
+    },
+    "AFTER_ARRIVAL": {
+      "eyebrow": "今日はこれで終了",
+      "heading": "フライトは終了。",
+      "reassurance": "急ぎの用事はありません。",
+      "journeyStatus": "足を伸ばして。お疲れさま。",
+      "nextActionTitle": "ホテルへ向かう",
+      "nextActionTiming": "チェックイン午後3時から",
+      "nextActionExplanation": "Victoria Hotel Melbourne の予約は確認済みです。",
+      "nextActionLabel": "旅程サマリー",
+      "whatChanged": "すべて完了。",
+      "cardSummaryValue": "定刻着陸",
+      "cardSummaryDetail": "{flightNumber} · {time} {city} 到着",
+      "cardHotelValue": "確認済み"
+    }
+  },
+  "journey": {
+    "cardTitles": {
+      "daysUntilDeparture": "出発までの日数",
+      "seat": "座席",
+      "baggage": "手荷物",
+      "baggageAllowance": "手荷物許容量",
+      "checklist": "チェックリスト",
+      "melbourneWeather": "Melbourne の天気",
+      "melbourne": "Melbourne",
+      "gettingThere": "空港までの移動",
+      "toDo": "未完了",
+      "packing": "荷造り",
+      "leaveHome": "自宅を出発",
+      "checkIn": "チェックイン",
+      "documents": "書類",
+      "departure": "出発",
+      "drive": "ドライブ",
+      "arriveAtAirport": "空港到着",
+      "boarding": "搭乗",
+      "terminal": "ターミナル",
+      "security": "保安検査",
+      "untilBoarding": "搭乗まで",
+      "next": "次",
+      "gate": "ゲート",
+      "boardingGroup": "搭乗グループ",
+      "group": "グループ",
+      "walk": "ゲートまでの徒歩",
+      "arrival": "到着",
+      "localTime": "現地時間",
+      "hotel": "ホテル",
+      "carousel": "ターンテーブル",
+      "transport": "交通",
+      "weather": "天気",
+      "today": "今日",
+      "tripSummary": "旅程サマリー",
+      "nearby": "周辺"
+    },
+    "page": {
+      "yourTrip": "あなたの旅",
+      "myJourney": "旅程",
+      "tripProgress": "旅程の進捗",
+      "tripProgressSubtitle": "計画から到着まで、すべてのステップを確認できます。",
+      "lookingAhead": "この先の予定",
+      "noUpcomingSteps": "予定されているステップはありません。",
+      "today": "今日",
+      "moreDetail": "詳細",
+      "sinceLastVisit": "前回の訪問以降",
+      "sectionSummary": "旅程全体のタイムライン、マイルストーン、この先の予定です。Today の「今必要な情報」とは別の画面です。",
+      "sectionUpdatesHint": "ゲート、時間、マイルストーンに変更があった場合、ここに表示されます。",
+      "journeyHealth": "旅程ステータス",
+      "journeyHealthSubtitle": "書類、フライト、天気、ホテルを一覧で確認。"
+    },
+    "milestones": {
+      "planning": {
+        "title": "計画",
+        "time": "現在",
+        "description": "旅程確定。座席選択済み。",
+        "whyItMatters": "急ぎの用事はまだありません。チェックリストと手荷物許容量はいつでも確認できます。",
+        "detailStatus": "予定どおり",
+        "detailStatusDetail": "出発まであと {days} 日",
+        "detailSeatDetail": "窓側 · 選択済み",
+        "detailBoardingPassValue": "デジタル",
+        "detailBoardingPassDetail": "チェックイン後",
+        "detailStatusReady": "チェックイン開始時に準備OK"
+      },
+      "checkIn": {
+        "title": "チェックイン",
+        "time": "出発24時間前から開始",
+        "description": "オンラインでチェックインして搭乗券を取得。",
+        "whyItMatters": "座席を確定。カウンターでの時間を短縮。"
+      },
+      "leaveHome": {
+        "title": "自宅を出発",
+        "time": "{time}",
+        "description": "余裕を持って空港に到着するための出発時間。",
+        "whyItMatters": "8:15以降は渋滞が増えます。この時間ならドライブと預け荷物に対応できます。",
+        "detailDrive": "ドライブ",
+        "detailAirportArrival": "空港到着",
+        "detailStatusEnough": "十分な時間"
+      },
+      "airport": {
+        "title": "空港",
+        "time": "{time}",
+        "description": "{terminal} に到着。預け荷物、その後保安検査。",
+        "whyItMatters": "急がずに列に並べる十分な時間があります。",
+        "detailBaggageDrop": "預け荷物",
+        "detailBaggageDropValue": "次"
+      },
+      "security": {
+        "title": "保安検査",
+        "time": "約15分",
+        "description": "保安検査を通過し、ゲートへ向かいます。",
+        "whyItMatters": "この時間帯の一般的な待ち時間。ゲート付近でも余裕があります。",
+        "detailWait": "待ち時間",
+        "detailGateDetail": "保安検査後 {walk}",
+        "detailStatusAhead": "搭乗前に余裕あり"
+      },
+      "boarding": {
+        "title": "搭乗",
+        "time": "{time}",
+        "description": "ゲート {gate} で {group}。",
+        "whyItMatters": "優先グループから。座席 {seat}、左側。",
+        "detailBoardingGroup": "搭乗グループ"
+      },
+      "flight": {
+        "title": "フライト",
+        "time": "{departure} から {arrival}",
+        "description": "{city} 行き {flightNumber}。",
+        "whyItMatters": "定刻。Melbourne は小雨。ジャケットを持参。"
+      },
+      "arrival": {
+        "title": "到着",
+        "time": "{time}",
+        "description": "手荷物を受け取り、市内への移動手段を選びます。",
+        "whyItMatters": "ターンテーブルと交通手段はターミナルを出る前に確認できます。"
+      },
+      "hotel": {
+        "title": "ホテル",
+        "time": "{time}",
+        "description": "Victoria Hotel Melbourne にチェックイン。",
+        "whyItMatters": "予約確認済み。空港から急ぐ必要はありません。",
+        "detailCheckIn": "チェックイン",
+        "detailTransportValue": "お好みで"
+      }
+    },
+    "milestoneDetailLabels": {
+      "seat": "座席",
+      "baggage": "手荷物",
+      "status": "ステータス",
+      "boardingPass": "搭乗券",
+      "drive": "ドライブ",
+      "airportArrival": "空港到着",
+      "terminal": "ターミナル",
+      "baggageDrop": "預け荷物",
+      "wait": "待ち時間",
+      "gate": "ゲート",
+      "boardingGroup": "搭乗グループ",
+      "flight": "フライト",
+      "arrival": "到着",
+      "weather": "天気",
+      "localTime": "現地時間",
+      "carousel": "ターンテーブル",
+      "checkIn": "チェックイン",
+      "transport": "交通"
+    },
+    "checklist": {
+      "photoId": "写真付き身分証の準備",
+      "seatSelected": "座席選択済み",
+      "baggageReviewed": "手荷物許容量を確認済み",
+      "transportPlanned": "空港までの移動を計画済み"
+    },
+    "documents": {
+      "photoId": "写真付き身分証",
+      "photoIdStatus": "準備OK",
+      "boardingPass": "搭乗券",
+      "boardingPassStatus": "チェックイン後に利用可能",
+      "bookingReference": "予約番号"
+    },
+    "preparationTasks": {
+      "parking": "空港の駐車場または送迎を確認",
+      "liquids": "機内持ち込み液体の制限を確認"
+    }
+  },
+  "flight": {
+    "summary": "フライト概要",
+    "passenger": "搭乗者",
+    "flightLabel": "フライト",
+    "group": "グループ",
+    "terminal": "ターミナル",
+    "boarding": "搭乗",
+    "departure": "出発",
+    "arrival": "到着",
+    "flightNumber": "便名",
+    "route": "路線",
+    "boardingGroup": "搭乗グループ",
+    "viewDetails": "フライト詳細を見る",
+    "baggageCarousel": "手荷物ターンテーブル",
+    "notAssigned": "未割当",
+    "aircraft": "機材",
+    "duration": "所要時間",
+    "airline": "航空会社",
+    "distance": "距離",
+    "flightTime": "飛行時間",
+    "baggageAllowance": "手荷物許容量",
+    "cabin": "キャビン",
+    "meal": "機内食",
+    "wifi": "Wi-Fi",
+    "powerOutlets": "電源",
+    "entertainment": "エンターテインメント",
+    "flightDetails": "フライト詳細",
+    "yourFlight": "あなたのフライト",
+    "helpfulInformation": "お役立ち情報",
+    "boardingPassNoteAfterCheckIn": "チェックイン後に利用可能",
+    "boardingPassNoteActivate": "チェックイン完了で有効化",
+    "boardingPassTicket": {
+      "departing": "出発",
+      "arriving": "到着",
+      "class": "クラス"
+    },
+    "amenities": {
+      "cabin": "エコノミー",
+      "meal": "軽食（有料）",
+      "wifi": "利用可能",
+      "power": "全席USB-A",
+      "entertainment": "個人デバイスでストリーミング"
+    },
+    "pages": {
+      "PLANNING": {
+        "displayStatus": "予定",
+        "nextActionMessage": "対応不要。",
+        "tips": [
+          "座席 8A、左側。",
+          "出発30分前から搭乗開始。",
+          "チェックインは24時間前から。"
+        ]
+      },
+      "WEEK_BEFORE": {
+        "displayStatus": "予定",
+        "nextActionMessage": "対応不要。",
+        "tips": [
+          "預け荷物1個（23kg）と機内1個（7kg）。",
+          "出発30分前から搭乗開始。",
+          "座席 8A、左側。"
+        ]
+      },
+      "DAY_BEFORE": {
+        "displayStatus": "予定",
+        "nextActionMessage": "午後からチェックイン開始。",
+        "tips": [
+          "本日10:35からチェックイン開始。",
+          "Melbourne 用に薄手のジャケットを。",
+          "出発30分前から搭乗開始。"
+        ]
+      },
+      "CHECK_IN_OPEN": {
+        "displayStatus": "チェックイン開始",
+        "nextActionMessage": "今すぐチェックイン。",
+        "tips": [
+          "デジタル搭乗券のためチェックイン。",
+          "座席 8A、左側。",
+          "出発30分前から搭乗開始。"
+        ]
+      },
+      "LEAVING_HOME": {
+        "displayStatus": "予定",
+        "nextActionMessage": "{minutes}分以内に出発。",
+        "tips": [
+          "Brisbane Airport まで約35分。",
+          "搭乗券と写真付き身分証を準備。",
+          "出発30分前から搭乗開始。"
+        ]
+      },
+      "AT_AIRPORT": {
+        "displayStatus": "予定",
+        "nextActionMessage": "預け荷物、その後保安検査。",
+        "tips": [
+          "Virgin Australia カウンターで預け荷物。",
+          "保安検査は約15分。",
+          "国内線ターミナルの {gate}。"
+        ]
+      },
+      "AFTER_SECURITY": {
+        "displayStatus": "予定",
+        "nextActionMessage": "{gate} へ向かう。",
+        "tips": [
+          "{gate} まで徒歩6分。",
+          "出発30分前から搭乗開始。",
+          "座席 8A、左側。"
+        ]
+      },
+      "BOARDING": {
+        "displayStatus": "搭乗中",
+        "nextActionMessage": "{gate} へ向かう。",
+        "tips": [
+          "{gate} で {group} 搭乗。",
+          "搭乗券をスキャンできる状態に。",
+          "座席 8A、左側。"
+        ]
+      },
+      "IN_FLIGHT": {
+        "displayStatus": "飛行中",
+        "nextActionMessage": "13:00 到着。",
+        "tips": [
+          "Melbourne 到着 {time}。",
+          "到着時小雨。ジャケットを。",
+          "ホテルチェックイン午後3時から。"
+        ]
+      },
+      "ARRIVAL": {
+        "displayStatus": "着陸済み",
+        "nextActionMessage": "手荷物 {carousel}。",
+        "tips": [
+          "{carousel}。約15分。",
+          "Terminal 3 から SkyBus とタクシー。",
+          "Melbourne 時間 13:05。"
+        ]
+      },
+      "AFTER_ARRIVAL": {
+        "displayStatus": "着陸済み",
+        "nextActionMessage": "ホテルへ向かう。",
+        "tips": [
+          "フライト完了。",
+          "ホテルチェックイン午後3時から。",
+          "受け取り完了まで荷物タグを保管。"
+        ]
+      }
+    }
+  },
+  "destination": {
+    "weather": "天気",
+    "localTime": "現地時間",
+    "expectedArrival": "到着予定",
+    "localInformation": "現地情報",
+    "transport": "交通",
+    "transportSubtitle": "Melbourne Airport から市内への移動手段。",
+    "hotel": "ホテル",
+    "checkIn": "チェックイン",
+    "distance": "距離",
+    "travelTime": "所要時間",
+    "discoverSubtitle": "ホテル近く。",
+    "nearbyTitle": "到着後の周辺",
+    "nearbyDescription": "Melbourne 到着時に表示されます。",
+    "reminders": "リマインダー",
+    "localInfo": {
+      "sunset": "日の入り",
+      "currency": "通貨",
+      "emergency": "緊急連絡",
+      "powerPlug": "電源プラグ",
+      "timezone": "タイムゾーン"
+    },
+    "steps": {
+      "land": {
+        "title": "着陸",
+        "description": "手荷物受取または出口への案内に従ってください。"
+      },
+      "baggage": {
+        "title": "手荷物受取",
+        "description": "到着ロビーのターンテーブル {carousel}。"
+      },
+      "transport": {
+        "title": "交通",
+        "description": "Terminal 3 から SkyBus、タクシー、ライドシェア。"
+      },
+      "hotel": {
+        "title": "ホテル",
+        "description": "{hotelName} · チェックイン {time} から。"
+      },
+      "freeTime": {
+        "title": "自由時間",
+        "time": "チェックイン後",
+        "description": "近くを散策するか、予定前に休息。"
+      }
+    },
+    "shared": {
+      "previewTagline": "着陸後の流れ。",
+      "afterYouArrive": "到着後",
+      "arrivalSteps": "到着ステップ",
+      "afterLanding": "着陸後",
+      "nextSteps": "次のステップ",
+      "beforeYouLand": "着陸前。",
+      "afterLandingTagline": "着陸後。",
+      "settleIn": "落ち着く。",
+      "melbourne": "Melbourne"
+    },
+    "pages": {
+      "PLANNING": {
+        "heroTitle": "着陸後",
+        "heroSummary": "ホテルと交通は予約済み。近づいたら詳細を表示します。",
+        "reminders": [
+          "8月の Melbourne は穏やか。薄手のジャケットを。",
+          "ホテルチェックイン午後3時から。",
+          "予約確認済み。"
+        ]
+      },
+      "WEEK_BEFORE": {
+        "heroTitle": "着陸後",
+        "heroSummary": "予約と同じホテルと交通。必要なときにこのページを開いてください。",
+        "reminders": [
+          "8月のメルボルンは一般的に穏やか。重ね着があると安心です。",
+          "ホテルチェックイン午後3時から。",
+          "Melbourne は AUD。"
+        ]
+      },
+      "DAY_BEFORE": {
+        "heroTitle": "明日の Melbourne",
+        "heroSummary": "約 {time} 着陸。手荷物、交通、ホテルは下に。",
+        "reminders": [
+          "薄手のジャケットを。",
+          "ホテルチェックイン午後3時から。",
+          "緊急連絡: 000。"
+        ]
+      },
+      "CHECK_IN_OPEN": {
+        "heroTitle": "着陸後",
+        "heroSummary": "今日のフライトが先。到着詳細は後で確認できます。",
+        "reminders": [
+          "ホテル予約確認済み。",
+          "到着時小雨。ジャケットを。"
+        ]
+      },
+      "LEAVING_HOME": {
+        "heroTitle": "着陸後",
+        "heroSummary": "到着詳細は確定。着陸前に確認したい場合はこちら。",
+        "reminders": [
+          "ホテルチェックイン午後3時から。"
+        ]
+      },
+      "AT_AIRPORT": {
+        "heroTitle": "13:00 着陸",
+        "heroSummary": "交通と {hotelName} は下に。",
+        "reminders": [
+          "{hotelName} は空港から約25分。"
+        ]
+      },
+      "AFTER_SECURITY": {
+        "heroTitle": "着陸後",
+        "heroSummary": "手荷物、交通、ホテル。着陸時と同じ詳細。",
+        "reminders": [
+          "小雨の予報。ジャケットを。"
+        ]
+      },
+      "BOARDING": {
+        "heroTitle": "Melbourne 到着時",
+        "heroSummary": "着陸からホテルチェックインまでの流れ。",
+        "reminders": [
+          "タクシーやライドシェア用にホテル住所を保存。",
+          "カードは広く使えます。現金は任意。"
+        ]
+      },
+      "IN_FLIGHT": {
+        "heroTitle": "Melbourne もうすぐ",
+        "heroSummary": "約 {time} 到着。小雨の予報。{hotelName} は空港から約25分。",
+        "reminders": [
+          "手荷物ターンテーブル {carousel}。",
+          "ホテルチェックイン午後3時から。",
+          "小雨の予報。"
+        ]
+      },
+      "ARRIVAL": {
+        "heroTitle": "着陸しました",
+        "heroSummary": "{temp}、{condition}。現地時間 {localTime}。",
+        "reminders": [
+          "機内のみ？手荷物受取はスキップ。",
+          "Terminal 3 から SkyBus 10分おき。",
+          "ホテルチェックイン午後3時から。"
+        ]
+      },
+      "AFTER_ARRIVAL": {
+        "heroTitle": "Melbourne に到着",
+        "heroSummary": "準備ができたらホテルへ。チェックイン午後3時から。",
+        "reminders": [
+          "早着？フロントで荷物を預かってもらえます。",
+          "小雨の予報。",
+          "緊急: 000。"
+        ]
+      }
+    },
+    "hotelEarlyArrival": "チェックイン前でもフロントで荷物を預かれます。"
+  },
+  "updates": {
+    "title": "更新",
+    "subtitle": "旅程の変更のみ。それ以外はありません。",
+    "emptyTitle": "新着なし",
+    "emptyDescription": "予定どおりです。",
+    "filterEmptyTitle": "該当する更新なし",
+    "filterEmptyDescription": "別のフィルターをお試しください。",
+    "importance": {
+      "normal": "更新",
+      "important": "重要",
+      "critical": "緊急"
+    },
+    "filters": {
+      "all": "すべて",
+      "important": "重要",
+      "flight": "フライト",
+      "journey": "旅程",
+      "destination": "目的地"
+    },
+    "items": {
+      "gateAssigned": {
+        "title": "ゲート割当",
+        "message": "{gate}。",
+        "relativeTime": "15分前"
+      },
+      "checkInOpen": {
+        "title": "チェックイン開始",
+        "message": "オンラインでチェックインして搭乗券を取得。",
+        "relativeTime": "昨日"
+      },
+      "weatherUpdated": {
+        "title": "天気更新",
+        "message": "着陸後に雨の予報。",
+        "relativeTime": "2時間前"
+      },
+      "boardingSoon": {
+        "title": "45分後に搭乗",
+        "message": "{gate} へ向かう。",
+        "relativeTime": "たった今"
+      },
+      "seatConfirmed": {
+        "title": "座席確認",
+        "message": "座席 {seat}。",
+        "relativeTime": "3日前"
+      },
+      "packJacket": {
+        "title": "ジャケットを持参",
+        "message": "Melbourne で小雨の予報。",
+        "relativeTime": "昨日"
+      },
+      "suggestedArrival": {
+        "title": "推奨到着時間",
+        "message": "{time} までに到着。",
+        "relativeTime": "1時間前"
+      },
+      "securityWait": {
+        "title": "保安検査待ち",
+        "message": "現在約 {minutes} 分。",
+        "relativeTime": "20分前"
+      },
+      "boardingStarted": {
+        "title": "搭乗開始",
+        "message": "{gate} で {group}。",
+        "relativeTime": "たった今"
+      },
+      "stillOnTime": {
+        "title": "定刻のまま",
+        "message": "{flightNumber} は {time} 出発。",
+        "relativeTime": "45分前"
+      },
+      "landed": {
+        "title": "着陸",
+        "message": "{flightNumber} 定刻。",
+        "relativeTime": "たった今"
+      },
+      "baggageCarousel": {
+        "title": "手荷物ターンテーブル",
+        "message": "ターンテーブル {carousel}。",
+        "relativeTime": "5分前"
+      },
+      "skybusRunning": {
+        "title": "SkyBus 運行中",
+        "message": "Terminal 3 から10分おき。",
+        "relativeTime": "10分前"
+      },
+      "disruptionGateChange": {
+        "title": "ゲート変更",
+        "message": "出発ゲートが Gate {newGate} に変更されました（以前 Gate {oldGate}）。",
+        "relativeTime": "たった今"
+      },
+      "disruptionDelay": {
+        "title": "フライト遅延",
+        "message": "{flightNumber} は {minutes} 分遅延。新しい出発時刻 {time}。",
+        "relativeTime": "たった今"
+      },
+      "hotelCheckIn": {
+        "title": "ホテルチェックイン",
+        "message": "{time} から。",
+        "relativeTime": "1時間前"
+      }
+    }
+  },
+  "pages": {
+    "settings": {
+      "title": "設定",
+      "description": "アカウント、通知、設定。",
+      "accountTitle": "アカウント",
+      "accountDescription": "ReadyGateアカウントのプロフィール、サインイン、セキュリティ。",
+      "notificationsTitle": "通知設定",
+      "notificationsDescription": "受け取るアラートと配信方法を選びます。",
+      "preferencesTitle": "旅行者の設定 (Preferences)",
+      "preferencesDescription": "言語、単位、表示設定はReadyGate全体に適用されます。"
+    },
+    "loadingTravelDetails": "旅行情報を読み込み中",
+    "loadingContent": "読み込み中"
+  },
+  "settings": {
+    "language": {
+      "title": "言語",
+      "displayLanguage": "表示言語",
+      "english": "English",
+      "japanese": "日本語",
+      "french": "Français"
+    },
+    "regionalFormats": {
+      "title": "地域フォーマット",
+      "timeFormat": "時刻形式",
+      "hour24": "24時間",
+      "hour12": "12時間",
+      "distanceUnits": "距離単位",
+      "metric": "メートル法",
+      "imperial": "ヤード・ポンド法",
+      "temperature": "温度",
+      "celsius": "摂氏",
+      "fahrenheit": "華氏"
+    },
+    "accessibility": {
+      "title": "アクセシビリティ",
+      "largerText": "文字を大きく",
+      "reducedMotion": "モーションを減らす",
+      "highContrast": "ハイコントラスト"
+    },
+    "notifications": {
+      "title": "通知",
+      "alertTypesTitle": "アラートの種類",
+      "alertTypesDescription": "個別のアラートのオン/オフを切り替えます。アプリ内の更新一覧には、引き続きすべて表示されます。",
+      "deliveryTitle": "配信方法",
+      "deliveryDescription": "アプリ外での通知方法。",
+      "inAppAlerts": "アプリ内の更新",
+      "pushNotifications": "プッシュ通知",
+      "journeyUpdates": "旅程の更新",
+      "boardingReminders": "搭乗リマインダー",
+      "flightChanges": "フライト変更"
+    },
+    "homeAirport": {
+      "title": "ホーム空港",
+      "description": "出発、自宅出発タイミング、空港案内に使用。",
+      "preferredAirport": "優先空港",
+      "travelTime": "自宅から空港までの所要時間",
+      "travelTimeOption": "{minutes}分",
+      "brisbane": "Brisbane (BNE)",
+      "melbourne": "Melbourne (MEL)",
+      "sydney": "Sydney (SYD)",
+      "adelaide": "Adelaide (ADL)",
+      "perth": "Perth (PER)"
+    },
+    "preferredTransport": {
+      "title": "優先交通手段",
+      "description": "目的地ページで使用。",
+      "gettingAround": "移動手段",
+      "taxi": "タクシー",
+      "rideshare": "ライドシェア",
+      "publicTransport": "公共交通",
+      "rentalCar": "レンタカー",
+      "walking": "徒歩"
+    },
+    "frequentFlyer": {
+      "title": "マイレージ",
+      "programme": "プログラム",
+      "membershipTier": "会員ランク"
+    },
+    "account": {
+      "profileTitle": "プロフィール",
+      "profileDescription": "予約と旅程更新の連絡先。",
+      "fullName": "氏名",
+      "email": "メール",
+      "mobile": "携帯電話",
+      "signInTitle": "サインイン",
+      "signInMethod": "サインイン方法",
+      "signInMethodEmail": "メールとパスワード",
+      "memberSince": "登録日",
+      "lastSignedIn": "最終サインイン",
+      "securityTitle": "セキュリティ",
+      "securityDescription": "この端末でReadyGateを解除する方法。",
+      "biometricSignIn": "Face IDでサインイン",
+      "changePassword": "パスワードを変更"
+    }
+  },
+  "health": {
+    "labels": {
+      "documents": "旅行書類",
+      "transport": "交通",
+      "flight": "フライト",
+      "weather": "天気",
+      "accommodation": "宿泊"
+    },
+    "baseDetails": {
+      "photoIdReady": "写真付き身分証準備OK",
+      "planAirportTransport": "空港までの移動を計画",
+      "onTime": "定刻",
+      "lightRainExpected": "小雨の予報",
+      "hotelConfirmed": "ホテル確認済み"
+    },
+    "stages": {
+      "PLANNING": {
+        "transport": "未計画",
+        "flight": "{flightNumber} 確認済み",
+        "weather": "薄手のジャケットを",
+        "accommodation": "{hotelName} 確認済み"
+      },
+      "WEEK_BEFORE": {
+        "transport": "近日中に確認",
+        "weather": "8月は一般的に穏やか。出発前に再確認。"
+      },
+      "DAY_BEFORE": {
+        "transport": "明日のルートを確認",
+        "flight": "まもなくチェックイン開始"
+      },
+      "CHECK_IN_OPEN": {
+        "transport": "空港までの移動を計画",
+        "flight": "チェックイン開始"
+      },
+      "LEAVING_HOME": {
+        "countdownLabel": "自宅出発まで",
+        "countdownDisplay": "20分",
+        "transport": "8:00 出発"
+      },
+      "AT_AIRPORT": {
+        "countdownLabel": "搭乗開始まで",
+        "countdownDisplay": "1時間30分",
+        "transport": "空港に到着",
+        "flight": "{gate} 割当"
+      },
+      "AFTER_SECURITY": {
+        "countdownLabel": "搭乗開始まで",
+        "countdownDisplay": "45分",
+        "transport": "制限区域内",
+        "flight": "{gate} へ向かう"
+      },
+      "BOARDING": {
+        "countdownLabel": "出発まで",
+        "countdownDisplay": "54分",
+        "transport": "ゲートに到着",
+        "flight": "搭乗中"
+      },
+      "IN_FLIGHT": {
+        "countdownLabel": "着陸まで",
+        "countdownDisplay": "46分",
+        "transport": "市内移動を計画",
+        "flight": "飛行中 · 定刻",
+        "weather": "到着時に雨",
+        "accommodation": "チェックイン 15:00"
+      },
+      "ARRIVAL": {
+        "transport": "移動手段を選択",
+        "flight": "定刻着陸",
+        "accommodation": "チェックイン午後3時から"
+      },
+      "AFTER_ARRIVAL": {
+        "transport": "準備ができたら",
+        "flight": "フライト完了",
+        "accommodation": "ホテルへ向かう"
+      }
+    }
+  },
+  "pulse": {
+    "relaxed": {
+      "label": "リラックス",
+      "badge": "今はやることなし"
+    },
+    "attentive": {
+      "label": "要確認",
+      "badge": "時間があるときに確認"
+    },
+    "actionRequired": {
+      "label": "対応が必要",
+      "badge": "次にこれを"
+    }
+  },
+  "presentation": {
+    "tagline": "適応型旅客旅程コンセプト",
+    "productConcept": "インタラクティブ・プロダクトコンセプト",
+    "conceptFocus": "適応型旅客旅程コンセプト",
+    "disclaimer": "ReadyGateはJeff Schorrによる独立したプロダクトコンセプトです。適応型旅客体験の探求を目的としており、いかなる航空会社の公式製品でもなく、後援も受けていません。",
+    "intro": "旅行アプリは旅程の段階に合わせて変わるべき？ このプロトタイプは Virgin Australia 便 VA 313、Brisbane から Melbourne までを追います。",
+    "inThisPrototype": "このプロトタイプで",
+    "startDemo": "デモを開始",
+    "engineeringDecisions": "エンジニアリングの判断",
+    "brandGuide": "ブランドガイド",
+    "backToIntroduction": "イントロに戻る",
+    "backHome": "ホームに戻る",
+    "howBuilt": "このプロトタイプの構成。",
+    "principles": {
+      "cutNoise": "ノイズを減らす",
+      "leadNextStep": "次のステップを先に",
+      "sayWhy": "必要なとき理由を伝える"
+    },
+    "highlights": {
+      "stageContent": "旅程段階ごとに画面内容が変わる",
+      "replayDay": "1日を再生",
+      "flightUpdates": "このフライトに紐づく更新",
+      "accessibility": "キーボードとスクリーンリーダー対応",
+      "componentLibrary": "共通コンポーネントライブラリ",
+      "responsive": "モバイルとデスクトップレイアウト"
+    },
+    "engineering": {
+      "nextjs": {
+        "title": "Next.js App Router",
+        "detail": "ファイルベースルーティング。プレゼンとアプリルートを分離。"
+      },
+      "typescript": {
+        "title": "TypeScript + 段階設定",
+        "detail": "1つの設定層で各画面の文言と表示を制御。"
+      },
+      "muiTailwind": {
+        "title": "MUI + Tailwind v4",
+        "detail": "アクセシブルなコンポーネントと共通スペーシング、色、タイポトークン。"
+      },
+      "framerMotion": {
+        "title": "Framer Motion",
+        "detail": "短いページと段階遷移。モーション削減に対応。"
+      },
+      "componentDriven": {
+        "title": "コンポーネント駆動UI",
+        "detail": "共通カード、ヘルス表示、カウントダウンを各ページで再利用。"
+      },
+      "mockData": {
+        "title": "モックデータ層",
+        "detail": "デモ用の固定シミュレーション旅程。ライブ運航データなし。"
+      }
+    }
+  },
+  "brand": {
+    "idea": "乗客に今何が起きているか、次に何をすべきか、なぜ重要かを伝える。",
+    "principles": {
+      "cutNoise": "ノイズを減らす",
+      "nextStepFirst": "次のステップを先に",
+      "explainWhenHelps": "必要なとき説明する",
+      "plainLanguage": "平易な言葉",
+      "detailsOnDemand": "詳細は必要なときに"
+    },
+    "typography": {
+      "display": "ディスプレイ",
+      "pageTitle": "ページタイトル",
+      "sectionHeading": "セクション見出し",
+      "cardHeading": "カード見出し",
+      "body": "本文",
+      "label": "ラベル",
+      "metadata": "メタデータ",
+      "button": "ボタン",
+      "samplePageTitle": "あなたの旅程",
+      "sampleSectionHeading": "フライト概要",
+      "sampleCardHeading": "次のアクション",
+      "sampleBody": "定刻。搭乗 {time}。",
+      "sampleLabel": "搭乗グループ",
+      "sampleMetadata": "2分前に更新",
+      "sampleButton": "デモを開始"
+    },
+    "voice": {
+      "qualities": {
+        "calm": "落ち着き",
+        "clear": "明確",
+        "human": "人間味",
+        "direct": "直接的",
+        "reassuring": "安心感"
+      },
+      "avoidFlightOnTime": "Flight On Time",
+      "preferOnTime": "定刻。",
+      "avoidProceedSecurity": "Proceed to security immediately.",
+      "preferSecurityNext": "次は保安検査。約10分見込み。",
+      "avoidNoUpdates": "No updates available.",
+      "preferNothingNew": "新着なし。"
+    },
+    "productPrinciples": {
+      "oneQuestion": "1画面1つの問い。",
+      "nextActionFirst": "次のアクションを先に。",
+      "urgencyWhenReal": "本当に急ぎのときだけ切迫感を。",
+      "fewerWords": "少ない言葉が多いデータに勝る。",
+      "showDetailOnAsk": "求められたとき詳細を見せる。",
+      "accessibilityFirst": "最初からアクセシビリティ。"
+    },
+    "demo": {
+      "nextActionTitle": "預け荷物、その後保安検査",
+      "nextActionTiming": "約10分見込み",
+      "nextActionExplanation": "預け荷物を預けてから保安検査へ。{gate} · 搭乗 {time}。",
+      "nextActionLabel": "旅程を見る",
+      "countdownLabel": "搭乗開始まで",
+      "countdownDisplay": "1時間30分",
+      "gateAssignedTitle": "ゲート割当",
+      "gateAssignedMessage": "出発ゲート {gate} に変更。",
+      "gateAssignedTime": "2分前",
+      "emptyTitle": "新着なし",
+      "emptyDescription": "前回の訪問以降、更新はありません。"
+    },
+    "components": {
+      "primaryButton": "プライマリボタン",
+      "secondaryButton": "セカンダリボタン",
+      "statusBadge": "ステータスバッジ",
+      "informationCard": "情報カード",
+      "nextActionCard": "次のアクションカード",
+      "journeyMilestone": "旅程マイルストーン",
+      "updateCard": "更新カード",
+      "countdown": "カウントダウン",
+      "healthItem": "旅程ステータス項目",
+      "emptyState": "空の状態"
+    }
+  },
+  "demo": {
+    "panelTitle": "ReadyGate Demo",
+    "panelSubtitle": "段階で試す",
+    "journeyStage": "旅程段階",
+    "disruptionScenario": "乱れシナリオ（ゲート / 遅延）",
+    "disruptionScenarioActive": "乱れシナリオ適用中",
+    "resetDemo": "デモをリセット",
+    "resetConfirmTitle": "デモをリセットしますか？",
+    "resetConfirmMessage": "旅程段階、言語、設定が初期状態に戻ります。",
+    "resetCancel": "キャンセル"
+  },
+  "errors": {
+    "notFoundTitle": "ページが見つかりません",
+    "notFoundDescription": "ReadyGate内にそのリンクはありません。",
+    "backToIntro": "最初に戻る",
+    "serverErrorTitle": "問題が発生しました",
+    "serverErrorDescription": "ページを読み込めませんでした。もう一度試すか、最初に戻ってください。",
+    "tryAgain": "もう一度試す"
+  },
+  "landing": {
+    "header": {
+      "about": "概要",
+      "engineering": "エンジニアリングの判断",
+      "brand": "ブランド",
+      "designSystem": "デザイン",
+      "startDemo": "デモを開始",
+      "openMenu": "メニューを開く",
+      "closeMenu": "メニューを閉じる",
+      "mainNav": "ランディングページのナビゲーション"
+    },
+    "hero": {
+      "eyebrow": "適応型旅客体験",
+      "title": "あなたに合わせて変わる旅。",
+      "descriptionBefore": "ReadyGateは、",
+      "descriptionHighlight": "旅客の安心",
+      "descriptionAfter": "を中心としたインタラクティブなコンセプトです。計画から到着まで状況に合わせて変わり、今必要な情報を際立たせ、更新をわかりやすく届けます。",
+      "descriptionSecondary": "デモは1日の旅行を追い、計画から搭乗、到着まで、ホーム、フライト、目的地、更新がどう変わるかを示します。",
+      "beginDemo": "インタラクティブデモを開始",
+      "engineering": "エンジニアリングの判断を見る",
+      "credit": "Jeff Schorrによる旅客向けトラベルアプリのコンセプト。",
+      "mobileQrHint": "スマートフォンでこのQRコードを読み取ると、モバイル版デモを開けます。",
+      "mobileQrAlt": "ReadyGateモバイルデモへのQRコード"
+    },
+    "heroVisual": {
+      "imageAlt": "ReadyGateアプリプレビュー",
+      "flightLabel": "VA 313",
+      "route": "Brisbane → Melbourne",
+      "status": "定刻",
+      "nextAction": "空港へ向かう",
+      "nextActionTiming": "8:00 AM 車 · 8:35 AM 到着",
+      "gate": "ゲート 42",
+      "seat": "座席 8A",
+      "preferences": "English · 24時間 · メートル法",
+      "stage": "搭乗"
+    },
+    "glance": {
+      "title": "ReadyGate 概要",
+      "intro": "ReadyGateは、旅の進行に合わせて変わるトラベルアプリのコンセプトです。BrisbaneからMelbourneまでのデモ便を追い、計画から搭乗、到着まで、アプリが今必要な情報に焦点を移す様子を体験できます。",
+      "adaptive": {
+        "title": "適応型",
+        "copy": "ホーム、フライト、目的地の画面が旅程の段階ごとに変わります。旅全体で同じダッシュボードではありません。"
+      },
+      "personalised": {
+        "title": "パーソナライズ",
+        "copy": "言語、時刻形式、単位、アクセシビリティ設定がデモ全体にライブで適用されます。"
+      },
+      "focused": {
+        "title": "焦点を絞る",
+        "copy": "各画面は次の一手を一つ示します。出発時刻、ゲート、搭乗など、すべてを一度に並べません。"
+      }
+    },
+    "foundations": {
+      "title": "モダンな基盤",
+      "intro": "ReadyGateはモダンなフロントエンドアーキテクチャと再利用可能なコンポーネント、アクセシビリティ、国際化を組み合わせ、丁寧なエンジニアリングがより良い旅客体験を支える方法を示します。",
+      "nextjs": {
+        "title": "Next.js",
+        "copy": "App Router、本番ルーティング、明確なアプリケーション構造。"
+      },
+      "react": {
+        "title": "React",
+        "copy": "関心の分離が明確な再利用可能なコンポーネント。"
+      },
+      "typescript": {
+        "title": "TypeScript",
+        "copy": "保守性と信頼性のための強い型付け。"
+      },
+      "tailwind": {
+        "title": "Tailwind CSS",
+        "copy": "一貫したスタイリングとレスポンシブレイアウト。"
+      },
+      "accessibility": {
+        "title": "アクセシビリティ",
+        "copy": "キーボード操作、モーション削減、セマンティックHTML、ARIA対応。"
+      },
+      "i18n": {
+        "title": "国際化",
+        "copy": "拡張可能なローカライゼーション構造による完全な英語・日本語UI。"
+      },
+      "preferences": {
+        "title": "旅行者の設定",
+        "copy": "言語、時刻、単位、アクセシビリティ設定のライブパーソナライズ。"
+      },
+      "journeyEngine": {
+        "title": "適応型旅程エンジン",
+        "copy": "旅行者の進行に合わせて変化するコンテキスト対応型体験。"
+      }
+    },
+    "boardingPass": {
+      "label": "搭乗券",
+      "flight": "便名",
+      "destination": "目的地",
+      "status": "ステータス",
+      "gate": "ゲート",
+      "passenger": "搭乗者",
+      "flightValue": "RG001",
+      "destinationValue": "インタラクティブデモ",
+      "statusValue": "搭乗",
+      "gateValue": "ReadyGate",
+      "passengerValue": "Guest",
+      "beginBoarding": "搭乗を開始",
+      "continueMobile": "モバイルで続行"
+    },
+    "cta": {
+      "title": "旅程を体験する",
+      "description": "計画から出発、到着まで1つのデジタルプロダクトがどう適応するかを体験してください。ReadyGateは旅客向けデジタル体験を探る独立したコンセプトです。",
+      "beginDemo": "インタラクティブデモを開始",
+      "engineering": "エンジニアリングの判断を見る"
+    },
+    "footer": {
+      "disclaimer": "Jeff Schorrによる旅客向けトラベルアプリのコンセプト。",
+      "affiliation": "ReadyGateはいかなる航空会社の公式製品でもなく、後援も受けていません。",
+      "demo": "デモ",
+      "engineering": "エンジニアリング",
+      "brand": "ブランド",
+      "designSystem": "デザイン",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  }
+}

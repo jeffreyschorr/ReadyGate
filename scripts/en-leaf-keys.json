@@ -1,0 +1,3102 @@
+[
+  {
+    "path": "meta.siteName",
+    "v": "ReadyGate"
+  },
+  {
+    "path": "meta.siteDescription",
+    "v": "Travel info for each stage of your trip."
+  },
+  {
+    "path": "meta.brandGuideTitle",
+    "v": "ReadyGate Brand Guide"
+  },
+  {
+    "path": "meta.brandGuideDescription",
+    "v": "Visual and interaction rules for travel screens. Calm tone, clear hierarchy."
+  },
+  {
+    "path": "meta.brandGuideVersion",
+    "v": "Version 1.0"
+  },
+  {
+    "path": "meta.brandGuideDate",
+    "v": "July 2026"
+  },
+  {
+    "path": "navigation.home",
+    "v": "Home"
+  },
+  {
+    "path": "navigation.journey",
+    "v": "Journey"
+  },
+  {
+    "path": "navigation.flight",
+    "v": "Flight"
+  },
+  {
+    "path": "navigation.destination",
+    "v": "Destination"
+  },
+  {
+    "path": "navigation.updates",
+    "v": "Updates"
+  },
+  {
+    "path": "navigation.settings",
+    "v": "Settings"
+  },
+  {
+    "path": "navigation.profile",
+    "v": "Profile"
+  },
+  {
+    "path": "navigation.designSystem",
+    "v": "Design system"
+  },
+  {
+    "path": "navigation.signOut",
+    "v": "Sign out"
+  },
+  {
+    "path": "navigation.account.label",
+    "v": "Account"
+  },
+  {
+    "path": "navigation.account.description",
+    "v": "Profile and sign-in."
+  },
+  {
+    "path": "navigation.notifications.label",
+    "v": "Notifications"
+  },
+  {
+    "path": "navigation.notifications.description",
+    "v": "When we send alerts."
+  },
+  {
+    "path": "navigation.travellerPreferences.label",
+    "v": "Traveller preferences"
+  },
+  {
+    "path": "navigation.travellerPreferences.description",
+    "v": "Language, units, and display."
+  },
+  {
+    "path": "common.nextAction",
+    "v": "Next action"
+  },
+  {
+    "path": "common.boardingPass",
+    "v": "Boarding pass"
+  },
+  {
+    "path": "common.gate",
+    "v": "Gate"
+  },
+  {
+    "path": "common.seat",
+    "v": "Seat"
+  },
+  {
+    "path": "common.loading",
+    "v": "Loading"
+  },
+  {
+    "path": "common.done",
+    "v": "Done"
+  },
+  {
+    "path": "common.toDo",
+    "v": "To do"
+  },
+  {
+    "path": "common.today",
+    "v": "Today"
+  },
+  {
+    "path": "common.tomorrow",
+    "v": "Tomorrow"
+  },
+  {
+    "path": "common.now",
+    "v": "Now"
+  },
+  {
+    "path": "common.confirmed",
+    "v": "Confirmed"
+  },
+  {
+    "path": "common.onTime",
+    "v": "On time"
+  },
+  {
+    "path": "common.onTrack",
+    "v": "On track"
+  },
+  {
+    "path": "common.notAssigned",
+    "v": "Not assigned"
+  },
+  {
+    "path": "common.window",
+    "v": "Window"
+  },
+  {
+    "path": "common.domesticTerminal",
+    "v": "Domestic Terminal"
+  },
+  {
+    "path": "common.normalQueue",
+    "v": "Normal queue"
+  },
+  {
+    "path": "common.standardQueue",
+    "v": "Standard queue"
+  },
+  {
+    "path": "common.yourCall",
+    "v": "Your call"
+  },
+  {
+    "path": "common.yourChoice",
+    "v": "Your choice"
+  },
+  {
+    "path": "common.digital",
+    "v": "Digital"
+  },
+  {
+    "path": "common.afterCheckIn",
+    "v": "After check-in"
+  },
+  {
+    "path": "common.opensToday",
+    "v": "Opens today"
+  },
+  {
+    "path": "common.ready",
+    "v": "Ready"
+  },
+  {
+    "path": "common.allDone",
+    "v": "All done"
+  },
+  {
+    "path": "common.nothingNew",
+    "v": "Nothing new"
+  },
+  {
+    "path": "common.stillOnTrack",
+    "v": "Still on track."
+  },
+  {
+    "path": "common.then",
+    "v": "then"
+  },
+  {
+    "path": "common.currentStage",
+    "v": "(current stage)"
+  },
+  {
+    "path": "common.currentStep",
+    "v": "(current step)"
+  },
+  {
+    "path": "common.current",
+    "v": "(current)"
+  },
+  {
+    "path": "a11y.mainNavigation",
+    "v": "Main navigation"
+  },
+  {
+    "path": "a11y.mobileNavigation",
+    "v": "Mobile navigation"
+  },
+  {
+    "path": "a11y.readyGateHome",
+    "v": "ReadyGate home"
+  },
+  {
+    "path": "a11y.openProfileMenu",
+    "v": "Open profile menu"
+  },
+  {
+    "path": "a11y.journeyMilestones",
+    "v": "Journey milestones"
+  },
+  {
+    "path": "a11y.journeyTimeline",
+    "v": "Journey timeline"
+  },
+  {
+    "path": "a11y.journeyProgress",
+    "v": "Journey progress"
+  },
+  {
+    "path": "a11y.journeyHealthOverview",
+    "v": "Journey health overview"
+  },
+  {
+    "path": "a11y.journeyStatus",
+    "v": "Journey status: {status}"
+  },
+  {
+    "path": "a11y.journeyCompletePercent",
+    "v": "Journey {percent}% complete"
+  },
+  {
+    "path": "a11y.flightProgress",
+    "v": "Flight progress"
+  },
+  {
+    "path": "a11y.filterUpdates",
+    "v": "Filter updates"
+  },
+  {
+    "path": "a11y.recentUpdates",
+    "v": "Recent updates"
+  },
+  {
+    "path": "a11y.lookingAhead",
+    "v": "Looking ahead"
+  },
+  {
+    "path": "a11y.todayPlan",
+    "v": "Today"
+  },
+  {
+    "path": "a11y.boardingPassQrPlaceholder",
+    "v": "Boarding pass QR code placeholder"
+  },
+  {
+    "path": "a11y.demoControls",
+    "v": "ReadyGate prototype demo controls"
+  },
+  {
+    "path": "a11y.expandDemoPanel",
+    "v": "Expand demo panel"
+  },
+  {
+    "path": "a11y.collapseDemoPanel",
+    "v": "Collapse demo panel"
+  },
+  {
+    "path": "a11y.pauseDemo",
+    "v": "Pause demo"
+  },
+  {
+    "path": "a11y.playDemo",
+    "v": "Play demo"
+  },
+  {
+    "path": "a11y.previousStage",
+    "v": "Previous journey stage"
+  },
+  {
+    "path": "a11y.nextStage",
+    "v": "Next journey stage"
+  },
+  {
+    "path": "a11y.startDemo",
+    "v": "Start demo"
+  },
+  {
+    "path": "a11y.productPrinciples",
+    "v": "Product principles"
+  },
+  {
+    "path": "format.daysUntilDeparture",
+    "v": "{days} days until departure"
+  },
+  {
+    "path": "format.driveMinutes",
+    "v": "{minutes} drive"
+  },
+  {
+    "path": "format.walkMinutes",
+    "v": "{minutes} walk"
+  },
+  {
+    "path": "format.arriveBy",
+    "v": "Arrive by {time}"
+  },
+  {
+    "path": "format.leaveBy",
+    "v": "Leave by {time}"
+  },
+  {
+    "path": "format.boardingAt",
+    "v": "Boarding {time}"
+  },
+  {
+    "path": "format.routeArrow",
+    "v": "{origin} → {destination}"
+  },
+  {
+    "path": "format.gateAndGroup",
+    "v": "{gate} · {group}"
+  },
+  {
+    "path": "format.driveAndArrive",
+    "v": "{drive} drive · arrive {time}"
+  },
+  {
+    "path": "format.stageOfTotal",
+    "v": "Stage {current} of {total}"
+  },
+  {
+    "path": "format.demoStageCounter",
+    "v": "{current} / {total}"
+  },
+  {
+    "path": "format.seatLeftSide",
+    "v": "Seat {seat}, left side of the aircraft."
+  },
+  {
+    "path": "format.seatDetail",
+    "v": "Seat {seat}. Baggage allowance already on your booking."
+  },
+  {
+    "path": "format.flightOpenCheckIn",
+    "v": "{flightNumber} is open for check-in."
+  },
+  {
+    "path": "format.flightBoarding",
+    "v": "{flightNumber} is boarding."
+  },
+  {
+    "path": "format.flightLandedOnTime",
+    "v": "{flightNumber} landed on time."
+  },
+  {
+    "path": "format.flightOnTimeFor",
+    "v": "On time for {time}."
+  },
+  {
+    "path": "format.gateAssigned",
+    "v": "{gate} assigned."
+  },
+  {
+    "path": "format.gateWalkAway",
+    "v": "{gate} is {walk} away. Boarding at {time}."
+  },
+  {
+    "path": "format.walkToGate",
+    "v": "Walk to {gate}"
+  },
+  {
+    "path": "format.baggageAt",
+    "v": "Baggage at {carousel}"
+  },
+  {
+    "path": "format.boardingGroupGate",
+    "v": "{group} · {gate}"
+  },
+  {
+    "path": "format.checkInOpensAt",
+    "v": "Check-in opens at {time} today."
+  },
+  {
+    "path": "format.leaveHomeValue",
+    "v": "{time} drive · arrive {arrival}"
+  },
+  {
+    "path": "format.melbourneWeatherTitle",
+    "v": "Melbourne weather"
+  },
+  {
+    "path": "format.oneCheckedBag",
+    "v": "1 checked bag"
+  },
+  {
+    "path": "format.oneCheckedOneCarryOn",
+    "v": "1 checked · 1 carry-on"
+  },
+  {
+    "path": "format.aboutMinutes",
+    "v": "About {minutes} minutes"
+  },
+  {
+    "path": "format.aboutHourHalf",
+    "v": "About 1 hour 30 minutes"
+  },
+  {
+    "path": "format.about45Minutes",
+    "v": "About 45 minutes"
+  },
+  {
+    "path": "format.sameAsBrisbane",
+    "v": "Same as Brisbane"
+  },
+  {
+    "path": "format.flightOnTimeDetail",
+    "v": "{flightNumber} · on time"
+  },
+  {
+    "path": "format.priorityGroupsFirst",
+    "v": "Priority groups first. Seat {seat}, left side."
+  },
+  {
+    "path": "format.updatedAgo",
+    "v": "Updated {time} ago"
+  },
+  {
+    "path": "status.flight.scheduled",
+    "v": "Scheduled"
+  },
+  {
+    "path": "status.flight.checkInOpen",
+    "v": "Check-in Open"
+  },
+  {
+    "path": "status.flight.boarding",
+    "v": "Boarding"
+  },
+  {
+    "path": "status.flight.inFlight",
+    "v": "In Flight"
+  },
+  {
+    "path": "status.flight.landed",
+    "v": "Landed"
+  },
+  {
+    "path": "status.flight.onTime",
+    "v": "On time"
+  },
+  {
+    "path": "status.milestone.complete",
+    "v": "Complete"
+  },
+  {
+    "path": "status.milestone.current",
+    "v": "Now"
+  },
+  {
+    "path": "status.milestone.upcoming",
+    "v": "Upcoming"
+  },
+  {
+    "path": "status.health.ready",
+    "v": "Ready"
+  },
+  {
+    "path": "status.health.attention",
+    "v": "Check when ready"
+  },
+  {
+    "path": "status.health.pending",
+    "v": "Not yet"
+  },
+  {
+    "path": "status.flightTimeline.booked",
+    "v": "Booked"
+  },
+  {
+    "path": "status.flightTimeline.checkedIn",
+    "v": "Checked In"
+  },
+  {
+    "path": "status.flightTimeline.security",
+    "v": "Security"
+  },
+  {
+    "path": "status.flightTimeline.boarding",
+    "v": "Boarding"
+  },
+  {
+    "path": "status.flightTimeline.departed",
+    "v": "Departed"
+  },
+  {
+    "path": "status.flightTimeline.landed",
+    "v": "Landed"
+  },
+  {
+    "path": "stageLabels.PLANNING",
+    "v": "Planning"
+  },
+  {
+    "path": "stageLabels.WEEK_BEFORE",
+    "v": "Week before"
+  },
+  {
+    "path": "stageLabels.DAY_BEFORE",
+    "v": "Day before"
+  },
+  {
+    "path": "stageLabels.CHECK_IN_OPEN",
+    "v": "Check-in open"
+  },
+  {
+    "path": "stageLabels.LEAVING_HOME",
+    "v": "Leaving home"
+  },
+  {
+    "path": "stageLabels.AT_AIRPORT",
+    "v": "At airport"
+  },
+  {
+    "path": "stageLabels.AFTER_SECURITY",
+    "v": "After security"
+  },
+  {
+    "path": "stageLabels.BOARDING",
+    "v": "Boarding"
+  },
+  {
+    "path": "stageLabels.IN_FLIGHT",
+    "v": "In flight"
+  },
+  {
+    "path": "stageLabels.ARRIVAL",
+    "v": "Arrival"
+  },
+  {
+    "path": "stageLabels.AFTER_ARRIVAL",
+    "v": "After arrival"
+  },
+  {
+    "path": "stages.PLANNING.eyebrow",
+    "v": "{days} days until departure"
+  },
+  {
+    "path": "stages.PLANNING.heading",
+    "v": "Melbourne in two weeks."
+  },
+  {
+    "path": "stages.PLANNING.reassurance",
+    "v": "Nothing to do yet. We'll tell you when that changes."
+  },
+  {
+    "path": "stages.PLANNING.journeyStatus",
+    "v": "Booked · seat selected"
+  },
+  {
+    "path": "stages.PLANNING.nextActionTitle",
+    "v": "Run through your packing list"
+  },
+  {
+    "path": "stages.PLANNING.nextActionTiming",
+    "v": "Any time"
+  },
+  {
+    "path": "stages.PLANNING.nextActionExplanation",
+    "v": "Seat and booking are set."
+  },
+  {
+    "path": "stages.PLANNING.whatChanged",
+    "v": "Nothing new since your last visit."
+  },
+  {
+    "path": "stages.PLANNING.cardDaysDetail",
+    "v": "{travelDate}"
+  },
+  {
+    "path": "stages.PLANNING.cardSeatDetail",
+    "v": "{boardingGroup} · Window"
+  },
+  {
+    "path": "stages.PLANNING.cardBaggageValue",
+    "v": "1 checked · 1 carry-on"
+  },
+  {
+    "path": "stages.PLANNING.cardChecklistDone",
+    "v": "Done"
+  },
+  {
+    "path": "stages.PLANNING.cardChecklistToDo",
+    "v": "To do"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.eyebrow",
+    "v": "One week to go"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.heading",
+    "v": "One week out."
+  },
+  {
+    "path": "stages.WEEK_BEFORE.reassurance",
+    "v": "Flight's confirmed. Sort out how you'll get to the airport."
+  },
+  {
+    "path": "stages.WEEK_BEFORE.journeyStatus",
+    "v": "Getting ready"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.nextActionTitle",
+    "v": "Plan your airport trip"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.nextActionTiming",
+    "v": "This week"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.nextActionExplanation",
+    "v": "About 35 minutes by car."
+  },
+  {
+    "path": "stages.WEEK_BEFORE.whatChanged",
+    "v": "Still on time."
+  },
+  {
+    "path": "stages.WEEK_BEFORE.cardTransportValue",
+    "v": "{drive} drive"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.cardTransportDetail",
+    "v": "Arrive by {time}"
+  },
+  {
+    "path": "stages.WEEK_BEFORE.cardBaggageValue",
+    "v": "1 checked bag"
+  },
+  {
+    "path": "stages.DAY_BEFORE.eyebrow",
+    "v": "Travel day tomorrow"
+  },
+  {
+    "path": "stages.DAY_BEFORE.heading",
+    "v": "You fly tomorrow."
+  },
+  {
+    "path": "stages.DAY_BEFORE.reassurance",
+    "v": "Pack tonight. Check-in opens this afternoon."
+  },
+  {
+    "path": "stages.DAY_BEFORE.journeyStatus",
+    "v": "Almost there"
+  },
+  {
+    "path": "stages.DAY_BEFORE.nextActionTitle",
+    "v": "Pack and find your ID"
+  },
+  {
+    "path": "stages.DAY_BEFORE.nextActionTiming",
+    "v": "Tonight"
+  },
+  {
+    "path": "stages.DAY_BEFORE.nextActionExplanation",
+    "v": "Rain forecast in Melbourne. Pack a jacket."
+  },
+  {
+    "path": "stages.DAY_BEFORE.whatChanged",
+    "v": "Check-in opens at {time} today."
+  },
+  {
+    "path": "stages.DAY_BEFORE.cardPackingValue",
+    "v": "Bring a jacket"
+  },
+  {
+    "path": "stages.DAY_BEFORE.cardLeaveHomeDetail",
+    "v": "{drive} drive · arrive {time}"
+  },
+  {
+    "path": "stages.DAY_BEFORE.cardCheckInValue",
+    "v": "Opens today"
+  },
+  {
+    "path": "stages.DAY_BEFORE.notificationSummary",
+    "v": "Check-in opens this afternoon"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.eyebrow",
+    "v": "Check-in open"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.heading",
+    "v": "Check-in's open."
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.reassurance",
+    "v": "Check in to get your boarding pass on your phone."
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.journeyStatus",
+    "v": "Check in now"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.nextActionTitle",
+    "v": "Check in online"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.nextActionTiming",
+    "v": "Now"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.nextActionExplanation",
+    "v": "Seat {seat}. Baggage allowance already on your booking."
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.nextActionLabel",
+    "v": "Check in"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.whatChanged",
+    "v": "{flightNumber} is open for check-in."
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.cardBaggageValue",
+    "v": "1 checked · 1 carry-on"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.cardDepartureDetail",
+    "v": "{origin} → {destination}"
+  },
+  {
+    "path": "stages.CHECK_IN_OPEN.notificationSummary",
+    "v": "Check-in open"
+  },
+  {
+    "path": "stages.LEAVING_HOME.eyebrow",
+    "v": "Time to leave"
+  },
+  {
+    "path": "stages.LEAVING_HOME.heading",
+    "v": "Time to go."
+  },
+  {
+    "path": "stages.LEAVING_HOME.reassurance",
+    "v": "You have time for the drive, bag drop, and security."
+  },
+  {
+    "path": "stages.LEAVING_HOME.journeyStatus",
+    "v": "On the way to the airport"
+  },
+  {
+    "path": "stages.LEAVING_HOME.nextActionTitle",
+    "v": "Leave by {time}"
+  },
+  {
+    "path": "stages.LEAVING_HOME.nextActionTiming",
+    "v": "{time}"
+  },
+  {
+    "path": "stages.LEAVING_HOME.nextActionExplanation",
+    "v": "Traffic builds after 8:15. This gets you there with room to spare."
+  },
+  {
+    "path": "stages.LEAVING_HOME.whatChanged",
+    "v": "No changes. Flight on time."
+  },
+  {
+    "path": "stages.LEAVING_HOME.cardArrivalDetail",
+    "v": "Domestic Terminal"
+  },
+  {
+    "path": "stages.LEAVING_HOME.cardBoardingDetail",
+    "v": "{gate} · {group}"
+  },
+  {
+    "path": "stages.AT_AIRPORT.eyebrow",
+    "v": "Brisbane Airport"
+  },
+  {
+    "path": "stages.AT_AIRPORT.heading",
+    "v": "You're at the airport."
+  },
+  {
+    "path": "stages.AT_AIRPORT.reassurance",
+    "v": "On time. Bag drop first, then security."
+  },
+  {
+    "path": "stages.AT_AIRPORT.journeyStatus",
+    "v": "At the airport"
+  },
+  {
+    "path": "stages.AT_AIRPORT.nextActionTitle",
+    "v": "Bag drop, then security"
+  },
+  {
+    "path": "stages.AT_AIRPORT.nextActionTiming",
+    "v": "Now"
+  },
+  {
+    "path": "stages.AT_AIRPORT.nextActionExplanation",
+    "v": "Virgin Australia counter, then about {minutes} minutes for security. {gate} is a short walk after."
+  },
+  {
+    "path": "stages.AT_AIRPORT.whatChanged",
+    "v": "{gate} assigned."
+  },
+  {
+    "path": "stages.AT_AIRPORT.cardSecurityValue",
+    "v": "{minutes} minutes"
+  },
+  {
+    "path": "stages.AT_AIRPORT.cardUntilBoardingValue",
+    "v": "About 1 hour 30 minutes"
+  },
+  {
+    "path": "stages.AT_AIRPORT.cardUntilBoardingDetail",
+    "v": "Boarding {time}"
+  },
+  {
+    "path": "stages.AT_AIRPORT.cardNextValue",
+    "v": "Bag drop"
+  },
+  {
+    "path": "stages.AT_AIRPORT.notificationSummary",
+    "v": "{gate}"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.eyebrow",
+    "v": "Airside"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.heading",
+    "v": "You've got time."
+  },
+  {
+    "path": "stages.AFTER_SECURITY.reassurance",
+    "v": "{gate} is {walk} away. Boarding at {time}."
+  },
+  {
+    "path": "stages.AFTER_SECURITY.journeyStatus",
+    "v": "Through security"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.nextActionTitle",
+    "v": "Walk to {gate}"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.nextActionTiming",
+    "v": "{walk}"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.nextActionExplanation",
+    "v": "Grab a coffee if you want. Boarding hasn't started yet."
+  },
+  {
+    "path": "stages.AFTER_SECURITY.whatChanged",
+    "v": "Rain forecast in Melbourne this afternoon."
+  },
+  {
+    "path": "stages.AFTER_SECURITY.cardUntilBoardingValue",
+    "v": "About 45 minutes"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.cardUntilBoardingDetail",
+    "v": "Boarding {time}"
+  },
+  {
+    "path": "stages.AFTER_SECURITY.cardWalkDetail",
+    "v": "If you're not at the gate yet"
+  },
+  {
+    "path": "stages.BOARDING.eyebrow",
+    "v": "Boarding"
+  },
+  {
+    "path": "stages.BOARDING.heading",
+    "v": "Boarding now."
+  },
+  {
+    "path": "stages.BOARDING.reassurance",
+    "v": "Head to the gate. Boarding pass ready to scan."
+  },
+  {
+    "path": "stages.BOARDING.journeyStatus",
+    "v": "Boarding"
+  },
+  {
+    "path": "stages.BOARDING.nextActionTitle",
+    "v": "{group} · {gate}"
+  },
+  {
+    "path": "stages.BOARDING.nextActionTiming",
+    "v": "Now"
+  },
+  {
+    "path": "stages.BOARDING.nextActionExplanation",
+    "v": "Seat {seat}, left side of the aircraft."
+  },
+  {
+    "path": "stages.BOARDING.whatChanged",
+    "v": "{flightNumber} is boarding."
+  },
+  {
+    "path": "stages.BOARDING.cardWalkDetail",
+    "v": "If you're not at the gate yet"
+  },
+  {
+    "path": "stages.BOARDING.notificationSummary",
+    "v": "Boarding started"
+  },
+  {
+    "path": "stages.IN_FLIGHT.eyebrow",
+    "v": "En route to Melbourne"
+  },
+  {
+    "path": "stages.IN_FLIGHT.heading",
+    "v": "In the air."
+  },
+  {
+    "path": "stages.IN_FLIGHT.reassurance",
+    "v": "On the way to Melbourne."
+  },
+  {
+    "path": "stages.IN_FLIGHT.journeyStatus",
+    "v": "In flight"
+  },
+  {
+    "path": "stages.IN_FLIGHT.nextActionTitle",
+    "v": "Before you land"
+  },
+  {
+    "path": "stages.IN_FLIGHT.nextActionTiming",
+    "v": "{time}"
+  },
+  {
+    "path": "stages.IN_FLIGHT.nextActionExplanation",
+    "v": "Light rain in Melbourne. Hotel check-in from 3:00 PM."
+  },
+  {
+    "path": "stages.IN_FLIGHT.whatChanged",
+    "v": "On time for {time}."
+  },
+  {
+    "path": "stages.IN_FLIGHT.cardLocalTimeDetail",
+    "v": "Same as Brisbane"
+  },
+  {
+    "path": "stages.ARRIVAL.eyebrow",
+    "v": "Melbourne"
+  },
+  {
+    "path": "stages.ARRIVAL.heading",
+    "v": "You've landed."
+  },
+  {
+    "path": "stages.ARRIVAL.reassurance",
+    "v": "Baggage and transport are below."
+  },
+  {
+    "path": "stages.ARRIVAL.journeyStatus",
+    "v": "Landed"
+  },
+  {
+    "path": "stages.ARRIVAL.nextActionTitle",
+    "v": "Baggage at {carousel}"
+  },
+  {
+    "path": "stages.ARRIVAL.nextActionTiming",
+    "v": "{wait}"
+  },
+  {
+    "path": "stages.ARRIVAL.nextActionExplanation",
+    "v": "Then SkyBus, taxi, or rideshare to the city. Hotel from 3:00 PM."
+  },
+  {
+    "path": "stages.ARRIVAL.whatChanged",
+    "v": "{flightNumber} landed on time."
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.eyebrow",
+    "v": "Done for today"
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.heading",
+    "v": "Flight's over."
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.reassurance",
+    "v": "Nothing urgent."
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.journeyStatus",
+    "v": "Trip done"
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.nextActionTitle",
+    "v": "Head to the hotel"
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.nextActionTiming",
+    "v": "Check-in from 3:00 PM"
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.nextActionExplanation",
+    "v": "Booking confirmed at Victoria Hotel Melbourne."
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.nextActionLabel",
+    "v": "Trip summary"
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.whatChanged",
+    "v": "All done."
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.cardSummaryDetail",
+    "v": "{flightNumber} · on time"
+  },
+  {
+    "path": "stages.AFTER_ARRIVAL.cardHotelValue",
+    "v": "Confirmed"
+  },
+  {
+    "path": "journey.cardTitles.daysUntilDeparture",
+    "v": "Days until departure"
+  },
+  {
+    "path": "journey.cardTitles.seat",
+    "v": "Seat"
+  },
+  {
+    "path": "journey.cardTitles.baggage",
+    "v": "Baggage"
+  },
+  {
+    "path": "journey.cardTitles.baggageAllowance",
+    "v": "Baggage allowance"
+  },
+  {
+    "path": "journey.cardTitles.checklist",
+    "v": "Checklist"
+  },
+  {
+    "path": "journey.cardTitles.melbourneWeather",
+    "v": "Melbourne weather"
+  },
+  {
+    "path": "journey.cardTitles.melbourne",
+    "v": "Melbourne"
+  },
+  {
+    "path": "journey.cardTitles.gettingThere",
+    "v": "Getting there"
+  },
+  {
+    "path": "journey.cardTitles.toDo",
+    "v": "To do"
+  },
+  {
+    "path": "journey.cardTitles.packing",
+    "v": "Packing"
+  },
+  {
+    "path": "journey.cardTitles.leaveHome",
+    "v": "Leave home"
+  },
+  {
+    "path": "journey.cardTitles.checkIn",
+    "v": "Check-in"
+  },
+  {
+    "path": "journey.cardTitles.documents",
+    "v": "Documents"
+  },
+  {
+    "path": "journey.cardTitles.departure",
+    "v": "Departure"
+  },
+  {
+    "path": "journey.cardTitles.drive",
+    "v": "Drive"
+  },
+  {
+    "path": "journey.cardTitles.arriveAtAirport",
+    "v": "Arrive at airport"
+  },
+  {
+    "path": "journey.cardTitles.boarding",
+    "v": "Boarding"
+  },
+  {
+    "path": "journey.cardTitles.terminal",
+    "v": "Terminal"
+  },
+  {
+    "path": "journey.cardTitles.security",
+    "v": "Security"
+  },
+  {
+    "path": "journey.cardTitles.untilBoarding",
+    "v": "Until boarding"
+  },
+  {
+    "path": "journey.cardTitles.next",
+    "v": "Next"
+  },
+  {
+    "path": "journey.cardTitles.gate",
+    "v": "Gate"
+  },
+  {
+    "path": "journey.cardTitles.group",
+    "v": "Group"
+  },
+  {
+    "path": "journey.cardTitles.walk",
+    "v": "Walk"
+  },
+  {
+    "path": "journey.cardTitles.arrival",
+    "v": "Arrival"
+  },
+  {
+    "path": "journey.cardTitles.localTime",
+    "v": "Local time"
+  },
+  {
+    "path": "journey.cardTitles.hotel",
+    "v": "Hotel"
+  },
+  {
+    "path": "journey.cardTitles.carousel",
+    "v": "Carousel"
+  },
+  {
+    "path": "journey.cardTitles.transport",
+    "v": "Transport"
+  },
+  {
+    "path": "journey.cardTitles.weather",
+    "v": "Weather"
+  },
+  {
+    "path": "journey.cardTitles.today",
+    "v": "Today"
+  },
+  {
+    "path": "journey.cardTitles.nearby",
+    "v": "Nearby"
+  },
+  {
+    "path": "journey.page.yourTrip",
+    "v": "Your trip"
+  },
+  {
+    "path": "journey.page.tripProgress",
+    "v": "Trip progress"
+  },
+  {
+    "path": "journey.page.lookingAhead",
+    "v": "Looking ahead"
+  },
+  {
+    "path": "journey.page.noUpcomingSteps",
+    "v": "No upcoming steps."
+  },
+  {
+    "path": "journey.page.today",
+    "v": "Today"
+  },
+  {
+    "path": "journey.page.ifTimingHolds",
+    "v": "If timing holds."
+  },
+  {
+    "path": "journey.page.moreDetail",
+    "v": "More detail"
+  },
+  {
+    "path": "journey.page.sinceLastVisit",
+    "v": "Since your last visit"
+  },
+  {
+    "path": "journey.page.journeyHealth",
+    "v": "Journey health"
+  },
+  {
+    "path": "journey.page.journeyHealthSubtitle",
+    "v": "Documents, flight, weather, and hotel at a glance."
+  },
+  {
+    "path": "journey.planFlow.home",
+    "v": "Home"
+  },
+  {
+    "path": "journey.planFlow.airport",
+    "v": "Airport"
+  },
+  {
+    "path": "journey.planFlow.security",
+    "v": "Security"
+  },
+  {
+    "path": "journey.planFlow.coffee",
+    "v": "Coffee"
+  },
+  {
+    "path": "journey.planFlow.boarding",
+    "v": "Boarding"
+  },
+  {
+    "path": "journey.planFlow.melbourne",
+    "v": "Melbourne"
+  },
+  {
+    "path": "journey.planFlow.hotel",
+    "v": "Hotel"
+  },
+  {
+    "path": "journey.milestones.planning.title",
+    "v": "Planning"
+  },
+  {
+    "path": "journey.milestones.planning.time",
+    "v": "Now"
+  },
+  {
+    "path": "journey.milestones.planning.description",
+    "v": "Trip confirmed. Seat selected."
+  },
+  {
+    "path": "journey.milestones.planning.whyItMatters",
+    "v": "Nothing urgent yet. Checklist and baggage allowance are here when you want them."
+  },
+  {
+    "path": "journey.milestones.planning.detailStatus",
+    "v": "On track"
+  },
+  {
+    "path": "journey.milestones.planning.detailStatusDetail",
+    "v": "{days} days until departure"
+  },
+  {
+    "path": "journey.milestones.planning.detailSeatDetail",
+    "v": "Window · already selected"
+  },
+  {
+    "path": "journey.milestones.planning.detailBoardingPassValue",
+    "v": "Digital"
+  },
+  {
+    "path": "journey.milestones.planning.detailBoardingPassDetail",
+    "v": "After check-in"
+  },
+  {
+    "path": "journey.milestones.planning.detailStatusReady",
+    "v": "Ready when check-in opens"
+  },
+  {
+    "path": "journey.milestones.checkIn.title",
+    "v": "Check-in"
+  },
+  {
+    "path": "journey.milestones.checkIn.time",
+    "v": "Opens 24 hours before departure"
+  },
+  {
+    "path": "journey.milestones.checkIn.description",
+    "v": "Check in online for your boarding pass."
+  },
+  {
+    "path": "journey.milestones.checkIn.whyItMatters",
+    "v": "Confirms your seat. Saves time at the counter."
+  },
+  {
+    "path": "journey.milestones.leaveHome.title",
+    "v": "Leave Home"
+  },
+  {
+    "path": "journey.milestones.leaveHome.time",
+    "v": "{time}"
+  },
+  {
+    "path": "journey.milestones.leaveHome.description",
+    "v": "Leave home to reach the airport with time to spare."
+  },
+  {
+    "path": "journey.milestones.leaveHome.whyItMatters",
+    "v": "Traffic picks up after 8:15 AM. This timing covers the drive and bag drop."
+  },
+  {
+    "path": "journey.milestones.leaveHome.detailDrive",
+    "v": "Drive"
+  },
+  {
+    "path": "journey.milestones.leaveHome.detailAirportArrival",
+    "v": "Airport arrival"
+  },
+  {
+    "path": "journey.milestones.leaveHome.detailStatusEnough",
+    "v": "Enough time"
+  },
+  {
+    "path": "journey.milestones.airport.title",
+    "v": "Airport"
+  },
+  {
+    "path": "journey.milestones.airport.time",
+    "v": "{time}"
+  },
+  {
+    "path": "journey.milestones.airport.description",
+    "v": "Arrive at {terminal}. Bag drop, then security."
+  },
+  {
+    "path": "journey.milestones.airport.whyItMatters",
+    "v": "You're early enough to handle queues without rushing."
+  },
+  {
+    "path": "journey.milestones.airport.detailBaggageDrop",
+    "v": "Baggage drop"
+  },
+  {
+    "path": "journey.milestones.airport.detailBaggageDropValue",
+    "v": "Next"
+  },
+  {
+    "path": "journey.milestones.security.title",
+    "v": "Security"
+  },
+  {
+    "path": "journey.milestones.security.time",
+    "v": "About 15 minutes"
+  },
+  {
+    "path": "journey.milestones.security.description",
+    "v": "Clear security, then walk to your gate."
+  },
+  {
+    "path": "journey.milestones.security.whyItMatters",
+    "v": "Typical wait at this hour. You'll still have time near the gate."
+  },
+  {
+    "path": "journey.milestones.security.detailWait",
+    "v": "Wait"
+  },
+  {
+    "path": "journey.milestones.security.detailGateDetail",
+    "v": "{walk} after security"
+  },
+  {
+    "path": "journey.milestones.security.detailStatusAhead",
+    "v": "Ahead of boarding"
+  },
+  {
+    "path": "journey.milestones.boarding.title",
+    "v": "Boarding"
+  },
+  {
+    "path": "journey.milestones.boarding.time",
+    "v": "{time}"
+  },
+  {
+    "path": "journey.milestones.boarding.description",
+    "v": "{group} at Gate {gate}."
+  },
+  {
+    "path": "journey.milestones.boarding.whyItMatters",
+    "v": "Priority groups first. Seat {seat}, left side."
+  },
+  {
+    "path": "journey.milestones.boarding.detailBoardingGroup",
+    "v": "Boarding group"
+  },
+  {
+    "path": "journey.milestones.flight.title",
+    "v": "Flight"
+  },
+  {
+    "path": "journey.milestones.flight.time",
+    "v": "{departure} to {arrival}"
+  },
+  {
+    "path": "journey.milestones.flight.description",
+    "v": "{flightNumber} to {city}."
+  },
+  {
+    "path": "journey.milestones.flight.whyItMatters",
+    "v": "On time. Light rain in Melbourne. Pack a jacket."
+  },
+  {
+    "path": "journey.milestones.arrival.title",
+    "v": "Arrival"
+  },
+  {
+    "path": "journey.milestones.arrival.time",
+    "v": "{time}"
+  },
+  {
+    "path": "journey.milestones.arrival.description",
+    "v": "Collect baggage. Pick your ride into the city."
+  },
+  {
+    "path": "journey.milestones.arrival.whyItMatters",
+    "v": "Carousel and transport options are listed before you leave the terminal."
+  },
+  {
+    "path": "journey.milestones.hotel.title",
+    "v": "Hotel"
+  },
+  {
+    "path": "journey.milestones.hotel.time",
+    "v": "{time}"
+  },
+  {
+    "path": "journey.milestones.hotel.description",
+    "v": "Check in at Victoria Hotel Melbourne."
+  },
+  {
+    "path": "journey.milestones.hotel.whyItMatters",
+    "v": "Reservation confirmed. No rush from the airport."
+  },
+  {
+    "path": "journey.milestones.hotel.detailCheckIn",
+    "v": "Check-in"
+  },
+  {
+    "path": "journey.milestones.hotel.detailTransportValue",
+    "v": "Your choice"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.seat",
+    "v": "Seat"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.baggage",
+    "v": "Baggage"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.status",
+    "v": "Status"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.boardingPass",
+    "v": "Boarding pass"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.drive",
+    "v": "Drive"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.airportArrival",
+    "v": "Airport arrival"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.terminal",
+    "v": "Terminal"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.baggageDrop",
+    "v": "Baggage drop"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.wait",
+    "v": "Wait"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.gate",
+    "v": "Gate"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.boardingGroup",
+    "v": "Boarding group"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.flight",
+    "v": "Flight"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.arrival",
+    "v": "Arrival"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.weather",
+    "v": "Weather"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.localTime",
+    "v": "Local time"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.carousel",
+    "v": "Carousel"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.checkIn",
+    "v": "Check-in"
+  },
+  {
+    "path": "journey.milestoneDetailLabels.transport",
+    "v": "Transport"
+  },
+  {
+    "path": "journey.checklist.photoId",
+    "v": "Photo ID ready"
+  },
+  {
+    "path": "journey.checklist.seatSelected",
+    "v": "Seat selected"
+  },
+  {
+    "path": "journey.checklist.baggageReviewed",
+    "v": "Baggage allowance reviewed"
+  },
+  {
+    "path": "journey.checklist.transportPlanned",
+    "v": "Airport transport planned"
+  },
+  {
+    "path": "journey.documents.photoId",
+    "v": "Photo ID"
+  },
+  {
+    "path": "journey.documents.photoIdStatus",
+    "v": "Ready"
+  },
+  {
+    "path": "journey.documents.boardingPass",
+    "v": "Boarding pass"
+  },
+  {
+    "path": "journey.documents.boardingPassStatus",
+    "v": "Available after check-in"
+  },
+  {
+    "path": "journey.documents.bookingReference",
+    "v": "Booking reference"
+  },
+  {
+    "path": "journey.preparationTasks.parking",
+    "v": "Confirm airport parking or ride"
+  },
+  {
+    "path": "journey.preparationTasks.liquids",
+    "v": "Review carry-on liquids limits"
+  },
+  {
+    "path": "flight.summary",
+    "v": "Flight summary"
+  },
+  {
+    "path": "flight.passenger",
+    "v": "Passenger"
+  },
+  {
+    "path": "flight.flightLabel",
+    "v": "Flight"
+  },
+  {
+    "path": "flight.group",
+    "v": "Group"
+  },
+  {
+    "path": "flight.terminal",
+    "v": "Terminal"
+  },
+  {
+    "path": "flight.boarding",
+    "v": "Boarding"
+  },
+  {
+    "path": "flight.departure",
+    "v": "Departure"
+  },
+  {
+    "path": "flight.arrival",
+    "v": "Arrival"
+  },
+  {
+    "path": "flight.flightNumber",
+    "v": "Flight number"
+  },
+  {
+    "path": "flight.route",
+    "v": "Route"
+  },
+  {
+    "path": "flight.boardingGroup",
+    "v": "Boarding group"
+  },
+  {
+    "path": "flight.viewDetails",
+    "v": "View flight details"
+  },
+  {
+    "path": "flight.baggageCarousel",
+    "v": "Baggage carousel"
+  },
+  {
+    "path": "flight.notAssigned",
+    "v": "Not assigned"
+  },
+  {
+    "path": "flight.aircraft",
+    "v": "Aircraft"
+  },
+  {
+    "path": "flight.duration",
+    "v": "Duration"
+  },
+  {
+    "path": "flight.airline",
+    "v": "Airline"
+  },
+  {
+    "path": "flight.distance",
+    "v": "Distance"
+  },
+  {
+    "path": "flight.flightTime",
+    "v": "Flight time"
+  },
+  {
+    "path": "flight.baggageAllowance",
+    "v": "Baggage allowance"
+  },
+  {
+    "path": "flight.cabin",
+    "v": "Cabin"
+  },
+  {
+    "path": "flight.meal",
+    "v": "Meal"
+  },
+  {
+    "path": "flight.wifi",
+    "v": "Wi-Fi"
+  },
+  {
+    "path": "flight.powerOutlets",
+    "v": "Power outlets"
+  },
+  {
+    "path": "flight.entertainment",
+    "v": "Entertainment"
+  },
+  {
+    "path": "flight.flightDetails",
+    "v": "Flight details"
+  },
+  {
+    "path": "flight.yourFlight",
+    "v": "Your flight"
+  },
+  {
+    "path": "flight.helpfulInformation",
+    "v": "Helpful information"
+  },
+  {
+    "path": "flight.boardingPassNoteAfterCheckIn",
+    "v": "Available after check-in"
+  },
+  {
+    "path": "flight.boardingPassNoteActivate",
+    "v": "Complete check-in to activate"
+  },
+  {
+    "path": "flight.amenities.cabin",
+    "v": "Economy"
+  },
+  {
+    "path": "flight.amenities.meal",
+    "v": "Snack available for purchase"
+  },
+  {
+    "path": "flight.amenities.wifi",
+    "v": "Available"
+  },
+  {
+    "path": "flight.amenities.power",
+    "v": "USB-A at every seat"
+  },
+  {
+    "path": "flight.amenities.entertainment",
+    "v": "Streaming via personal device"
+  },
+  {
+    "path": "flight.pages.PLANNING.displayStatus",
+    "v": "Scheduled"
+  },
+  {
+    "path": "flight.pages.PLANNING.nextActionMessage",
+    "v": "No action needed."
+  },
+  {
+    "path": "flight.pages.PLANNING.tips",
+    "v": "[\"Seat 8A, left side.\",\"Boarding starts 30 minutes before departure.\",\"Check-in opens 24 hours ahead.\"]"
+  },
+  {
+    "path": "flight.pages.WEEK_BEFORE.displayStatus",
+    "v": "Scheduled"
+  },
+  {
+    "path": "flight.pages.WEEK_BEFORE.nextActionMessage",
+    "v": "No action needed."
+  },
+  {
+    "path": "flight.pages.WEEK_BEFORE.tips",
+    "v": "[\"One checked bag (23 kg) and one carry-on (7 kg).\",\"Boarding starts 30 minutes before departure.\",\"Seat 8A, left side.\"]"
+  },
+  {
+    "path": "flight.pages.DAY_BEFORE.displayStatus",
+    "v": "Scheduled"
+  },
+  {
+    "path": "flight.pages.DAY_BEFORE.nextActionMessage",
+    "v": "Check-in opens this afternoon."
+  },
+  {
+    "path": "flight.pages.DAY_BEFORE.tips",
+    "v": "[\"Check-in opens at 10:35 AM today.\",\"Pack a light jacket for Melbourne.\",\"Boarding starts 30 minutes before departure.\"]"
+  },
+  {
+    "path": "flight.pages.CHECK_IN_OPEN.displayStatus",
+    "v": "Check-in Open"
+  },
+  {
+    "path": "flight.pages.CHECK_IN_OPEN.nextActionMessage",
+    "v": "Check in now."
+  },
+  {
+    "path": "flight.pages.CHECK_IN_OPEN.tips",
+    "v": "[\"Check in for your digital boarding pass.\",\"Seat 8A, left side.\",\"Boarding starts 30 minutes before departure.\"]"
+  },
+  {
+    "path": "flight.pages.LEAVING_HOME.displayStatus",
+    "v": "Scheduled"
+  },
+  {
+    "path": "flight.pages.LEAVING_HOME.nextActionMessage",
+    "v": "Leave within 20 minutes."
+  },
+  {
+    "path": "flight.pages.LEAVING_HOME.tips",
+    "v": "[\"About 35 minutes to Brisbane Airport.\",\"Boarding pass and photo ID ready.\",\"Boarding starts 30 minutes before departure.\"]"
+  },
+  {
+    "path": "flight.pages.AT_AIRPORT.displayStatus",
+    "v": "Scheduled"
+  },
+  {
+    "path": "flight.pages.AT_AIRPORT.nextActionMessage",
+    "v": "Bag drop, then security."
+  },
+  {
+    "path": "flight.pages.AT_AIRPORT.tips",
+    "v": "[\"Drop checked bags at the Virgin Australia counter.\",\"About 15 minutes for security.\",\"{gate} in the Domestic Terminal.\"]"
+  },
+  {
+    "path": "flight.pages.AFTER_SECURITY.displayStatus",
+    "v": "Scheduled"
+  },
+  {
+    "path": "flight.pages.AFTER_SECURITY.nextActionMessage",
+    "v": "Head to {gate}."
+  },
+  {
+    "path": "flight.pages.AFTER_SECURITY.tips",
+    "v": "[\"{gate} is a 6-minute walk.\",\"Boarding starts 30 minutes before departure.\",\"Seat 8A, left side.\"]"
+  },
+  {
+    "path": "flight.pages.BOARDING.displayStatus",
+    "v": "Boarding"
+  },
+  {
+    "path": "flight.pages.BOARDING.nextActionMessage",
+    "v": "Head to {gate}."
+  },
+  {
+    "path": "flight.pages.BOARDING.tips",
+    "v": "[\"{group} boarding at {gate}.\",\"Boarding pass ready to scan.\",\"Seat 8A, left side.\"]"
+  },
+  {
+    "path": "flight.pages.IN_FLIGHT.displayStatus",
+    "v": "In Flight"
+  },
+  {
+    "path": "flight.pages.IN_FLIGHT.nextActionMessage",
+    "v": "Arriving at 1:00 PM."
+  },
+  {
+    "path": "flight.pages.IN_FLIGHT.tips",
+    "v": "[\"Melbourne arrival {time}.\",\"Light rain on arrival. Pack a jacket.\",\"Hotel check-in from 3:00 PM.\"]"
+  },
+  {
+    "path": "flight.pages.ARRIVAL.displayStatus",
+    "v": "Landed"
+  },
+  {
+    "path": "flight.pages.ARRIVAL.nextActionMessage",
+    "v": "Baggage at {carousel}."
+  },
+  {
+    "path": "flight.pages.ARRIVAL.tips",
+    "v": "[\"{carousel}. About 15 minutes.\",\"SkyBus and taxis from Terminal 3.\",\"Melbourne time 1:05 PM.\"]"
+  },
+  {
+    "path": "flight.pages.AFTER_ARRIVAL.displayStatus",
+    "v": "Landed"
+  },
+  {
+    "path": "flight.pages.AFTER_ARRIVAL.nextActionMessage",
+    "v": "Head to your hotel."
+  },
+  {
+    "path": "flight.pages.AFTER_ARRIVAL.tips",
+    "v": "[\"Flight complete.\",\"Hotel check-in from 3:00 PM.\",\"Keep your baggage tag until you've collected everything.\"]"
+  },
+  {
+    "path": "destination.weather",
+    "v": "Weather"
+  },
+  {
+    "path": "destination.localTime",
+    "v": "Local time"
+  },
+  {
+    "path": "destination.expectedArrival",
+    "v": "Expected arrival"
+  },
+  {
+    "path": "destination.localInformation",
+    "v": "Local information"
+  },
+  {
+    "path": "destination.transport",
+    "v": "Transport"
+  },
+  {
+    "path": "destination.transportSubtitle",
+    "v": "Options from Melbourne Airport to the city."
+  },
+  {
+    "path": "destination.hotel",
+    "v": "Hotel"
+  },
+  {
+    "path": "destination.checkIn",
+    "v": "Check-in"
+  },
+  {
+    "path": "destination.distance",
+    "v": "Distance"
+  },
+  {
+    "path": "destination.travelTime",
+    "v": "Travel time"
+  },
+  {
+    "path": "destination.discoverSubtitle",
+    "v": "Close to your hotel."
+  },
+  {
+    "path": "destination.nearbyTitle",
+    "v": "Nearby after you land"
+  },
+  {
+    "path": "destination.nearbyDescription",
+    "v": "Shows up when you arrive in Melbourne."
+  },
+  {
+    "path": "destination.reminders",
+    "v": "Reminders"
+  },
+  {
+    "path": "destination.localInfo.sunset",
+    "v": "Sunset"
+  },
+  {
+    "path": "destination.localInfo.currency",
+    "v": "Currency"
+  },
+  {
+    "path": "destination.localInfo.emergency",
+    "v": "Emergency"
+  },
+  {
+    "path": "destination.localInfo.powerPlug",
+    "v": "Power plug"
+  },
+  {
+    "path": "destination.localInfo.timezone",
+    "v": "Timezone"
+  },
+  {
+    "path": "destination.steps.land.title",
+    "v": "Land"
+  },
+  {
+    "path": "destination.steps.land.description",
+    "v": "Follow signs to baggage claim or exit."
+  },
+  {
+    "path": "destination.steps.baggage.title",
+    "v": "Collect baggage"
+  },
+  {
+    "path": "destination.steps.baggage.description",
+    "v": "Carousel {carousel} in the arrivals hall."
+  },
+  {
+    "path": "destination.steps.transport.title",
+    "v": "Transport"
+  },
+  {
+    "path": "destination.steps.transport.description",
+    "v": "SkyBus, taxi, and rideshare from Terminal 3."
+  },
+  {
+    "path": "destination.steps.hotel.title",
+    "v": "Hotel"
+  },
+  {
+    "path": "destination.steps.hotel.description",
+    "v": "{hotelName} · check-in from {time}."
+  },
+  {
+    "path": "destination.steps.freeTime.title",
+    "v": "Free time"
+  },
+  {
+    "path": "destination.steps.freeTime.time",
+    "v": "After check-in"
+  },
+  {
+    "path": "destination.steps.freeTime.description",
+    "v": "Walk the neighbourhood or rest before your plans start."
+  },
+  {
+    "path": "destination.shared.previewTagline",
+    "v": "What happens after you land."
+  },
+  {
+    "path": "destination.shared.afterYouArrive",
+    "v": "After you arrive"
+  },
+  {
+    "path": "destination.shared.arrivalSteps",
+    "v": "Arrival steps"
+  },
+  {
+    "path": "destination.shared.afterLanding",
+    "v": "After landing"
+  },
+  {
+    "path": "destination.shared.nextSteps",
+    "v": "Next steps"
+  },
+  {
+    "path": "destination.shared.beforeYouLand",
+    "v": "Before you land."
+  },
+  {
+    "path": "destination.shared.afterLandingTagline",
+    "v": "After landing."
+  },
+  {
+    "path": "destination.shared.settleIn",
+    "v": "Settle in."
+  },
+  {
+    "path": "destination.shared.melbourne",
+    "v": "Melbourne"
+  },
+  {
+    "path": "destination.pages.PLANNING.heroTitle",
+    "v": "After you land"
+  },
+  {
+    "path": "destination.pages.PLANNING.heroSummary",
+    "v": "Hotel and transport are on your booking. Details here when you're closer."
+  },
+  {
+    "path": "destination.pages.PLANNING.reminders",
+    "v": "[\"Melbourne in August is mild. Pack a light jacket.\",\"Hotel check-in from 3:00 PM.\",\"Booking confirmed.\"]"
+  },
+  {
+    "path": "destination.pages.WEEK_BEFORE.heroTitle",
+    "v": "After you land"
+  },
+  {
+    "path": "destination.pages.WEEK_BEFORE.heroSummary",
+    "v": "Same hotel and transport as your booking. Open this page when you need them."
+  },
+  {
+    "path": "destination.pages.WEEK_BEFORE.reminders",
+    "v": "[\"Light rain expected on arrival.\",\"Hotel check-in from 3:00 PM.\",\"Melbourne uses AUD.\"]"
+  },
+  {
+    "path": "destination.pages.DAY_BEFORE.heroTitle",
+    "v": "Tomorrow in Melbourne"
+  },
+  {
+    "path": "destination.pages.DAY_BEFORE.heroSummary",
+    "v": "Landing around {time}. Baggage, transport, and hotel below."
+  },
+  {
+    "path": "destination.pages.DAY_BEFORE.reminders",
+    "v": "[\"Pack a light jacket.\",\"Hotel check-in from 3:00 PM.\",\"Emergency services: 000.\"]"
+  },
+  {
+    "path": "destination.pages.CHECK_IN_OPEN.heroTitle",
+    "v": "After you land"
+  },
+  {
+    "path": "destination.pages.CHECK_IN_OPEN.heroSummary",
+    "v": "Today's flight comes first. Arrival details stay here for later."
+  },
+  {
+    "path": "destination.pages.CHECK_IN_OPEN.reminders",
+    "v": "[\"Hotel reservation confirmed.\",\"Light rain on arrival. Pack a jacket.\"]"
+  },
+  {
+    "path": "destination.pages.LEAVING_HOME.heroTitle",
+    "v": "After you land"
+  },
+  {
+    "path": "destination.pages.LEAVING_HOME.heroSummary",
+    "v": "Arrival details are set. Check back before landing if you want a refresher."
+  },
+  {
+    "path": "destination.pages.LEAVING_HOME.reminders",
+    "v": "[\"Hotel check-in from 3:00 PM.\"]"
+  },
+  {
+    "path": "destination.pages.AT_AIRPORT.heroTitle",
+    "v": "Landing at 1:00 PM"
+  },
+  {
+    "path": "destination.pages.AT_AIRPORT.heroSummary",
+    "v": "Transport and {hotelName} are below."
+  },
+  {
+    "path": "destination.pages.AT_AIRPORT.reminders",
+    "v": "[\"{hotelName} is about 25 minutes from the airport.\"]"
+  },
+  {
+    "path": "destination.pages.AFTER_SECURITY.heroTitle",
+    "v": "After you land"
+  },
+  {
+    "path": "destination.pages.AFTER_SECURITY.heroSummary",
+    "v": "Baggage, transport, and hotel. Same details you'll see when you touch down."
+  },
+  {
+    "path": "destination.pages.AFTER_SECURITY.reminders",
+    "v": "[\"Light rain expected. Pack a jacket.\"]"
+  },
+  {
+    "path": "destination.pages.BOARDING.heroTitle",
+    "v": "Melbourne on arrival"
+  },
+  {
+    "path": "destination.pages.BOARDING.heroSummary",
+    "v": "What happens from touchdown to hotel check-in."
+  },
+  {
+    "path": "destination.pages.BOARDING.reminders",
+    "v": "[\"Save your hotel address for taxi or rideshare.\",\"Cards widely accepted. Cash optional.\"]"
+  },
+  {
+    "path": "destination.pages.IN_FLIGHT.heroTitle",
+    "v": "Almost in Melbourne"
+  },
+  {
+    "path": "destination.pages.IN_FLIGHT.heroSummary",
+    "v": "Arriving around {time}. Light rain expected. {hotelName} is about 25 minutes from the airport."
+  },
+  {
+    "path": "destination.pages.IN_FLIGHT.reminders",
+    "v": "[\"Baggage carousel {carousel}.\",\"Hotel check-in from 3:00 PM.\",\"Light rain expected.\"]"
+  },
+  {
+    "path": "destination.pages.ARRIVAL.heroTitle",
+    "v": "You've landed"
+  },
+  {
+    "path": "destination.pages.ARRIVAL.heroSummary",
+    "v": "{temp}, {condition}. Local time {localTime}."
+  },
+  {
+    "path": "destination.pages.ARRIVAL.reminders",
+    "v": "[\"Carry-on only? Skip baggage claim.\",\"SkyBus every 10 minutes from Terminal 3.\",\"Hotel check-in from 3:00 PM.\"]"
+  },
+  {
+    "path": "destination.pages.AFTER_ARRIVAL.heroTitle",
+    "v": "In Melbourne"
+  },
+  {
+    "path": "destination.pages.AFTER_ARRIVAL.heroSummary",
+    "v": "Head to the hotel when you're ready. Check-in from 3:00 PM."
+  },
+  {
+    "path": "destination.pages.AFTER_ARRIVAL.reminders",
+    "v": "[\"Early? Reception can hold your bags.\",\"Light rain expected.\",\"Emergency: 000.\"]"
+  },
+  {
+    "path": "destination.hotelEarlyArrival",
+    "v": "Reception can store bags before check-in."
+  },
+  {
+    "path": "updates.title",
+    "v": "Updates"
+  },
+  {
+    "path": "updates.subtitle",
+    "v": "Changes to your trip. Nothing else."
+  },
+  {
+    "path": "updates.emptyTitle",
+    "v": "Nothing new"
+  },
+  {
+    "path": "updates.emptyDescription",
+    "v": "Still on track."
+  },
+  {
+    "path": "updates.filterEmptyTitle",
+    "v": "No updates here"
+  },
+  {
+    "path": "updates.filterEmptyDescription",
+    "v": "Try a different filter."
+  },
+  {
+    "path": "updates.filters.all",
+    "v": "All"
+  },
+  {
+    "path": "updates.filters.important",
+    "v": "Important"
+  },
+  {
+    "path": "updates.filters.flight",
+    "v": "Flight"
+  },
+  {
+    "path": "updates.filters.journey",
+    "v": "Journey"
+  },
+  {
+    "path": "updates.filters.destination",
+    "v": "Destination"
+  },
+  {
+    "path": "updates.items.gateAssigned.title",
+    "v": "Gate assigned"
+  },
+  {
+    "path": "updates.items.gateAssigned.message",
+    "v": "{gate}."
+  },
+  {
+    "path": "updates.items.gateAssigned.relativeTime",
+    "v": "15 minutes ago"
+  },
+  {
+    "path": "updates.items.checkInOpen.title",
+    "v": "Check-in open"
+  },
+  {
+    "path": "updates.items.checkInOpen.message",
+    "v": "Check in online for your boarding pass."
+  },
+  {
+    "path": "updates.items.checkInOpen.relativeTime",
+    "v": "Yesterday"
+  },
+  {
+    "path": "updates.items.weatherUpdated.title",
+    "v": "Weather updated"
+  },
+  {
+    "path": "updates.items.weatherUpdated.message",
+    "v": "Rain expected after you land."
+  },
+  {
+    "path": "updates.items.weatherUpdated.relativeTime",
+    "v": "2 hours ago"
+  },
+  {
+    "path": "updates.items.boardingSoon.title",
+    "v": "Boarding in 45 minutes"
+  },
+  {
+    "path": "updates.items.boardingSoon.message",
+    "v": "Head to {gate}."
+  },
+  {
+    "path": "updates.items.boardingSoon.relativeTime",
+    "v": "Just now"
+  },
+  {
+    "path": "updates.items.seatConfirmed.title",
+    "v": "Seat confirmed"
+  },
+  {
+    "path": "updates.items.seatConfirmed.message",
+    "v": "Seat {seat}."
+  },
+  {
+    "path": "updates.items.seatConfirmed.relativeTime",
+    "v": "3 days ago"
+  },
+  {
+    "path": "updates.items.packJacket.title",
+    "v": "Pack a jacket"
+  },
+  {
+    "path": "updates.items.packJacket.message",
+    "v": "Light rain forecast in Melbourne."
+  },
+  {
+    "path": "updates.items.packJacket.relativeTime",
+    "v": "Yesterday"
+  },
+  {
+    "path": "updates.items.suggestedArrival.title",
+    "v": "Suggested arrival time"
+  },
+  {
+    "path": "updates.items.suggestedArrival.message",
+    "v": "Arrive by {time}."
+  },
+  {
+    "path": "updates.items.suggestedArrival.relativeTime",
+    "v": "1 hour ago"
+  },
+  {
+    "path": "updates.items.securityWait.title",
+    "v": "Security wait"
+  },
+  {
+    "path": "updates.items.securityWait.message",
+    "v": "About {minutes} minutes right now."
+  },
+  {
+    "path": "updates.items.securityWait.relativeTime",
+    "v": "20 minutes ago"
+  },
+  {
+    "path": "updates.items.boardingStarted.title",
+    "v": "Boarding started"
+  },
+  {
+    "path": "updates.items.boardingStarted.message",
+    "v": "{group} at {gate}."
+  },
+  {
+    "path": "updates.items.boardingStarted.relativeTime",
+    "v": "Just now"
+  },
+  {
+    "path": "updates.items.stillOnTime.title",
+    "v": "Still on time"
+  },
+  {
+    "path": "updates.items.stillOnTime.message",
+    "v": "{flightNumber} departs at {time}."
+  },
+  {
+    "path": "updates.items.stillOnTime.relativeTime",
+    "v": "45 minutes ago"
+  },
+  {
+    "path": "updates.items.landed.title",
+    "v": "Landed"
+  },
+  {
+    "path": "updates.items.landed.message",
+    "v": "{flightNumber} on time."
+  },
+  {
+    "path": "updates.items.landed.relativeTime",
+    "v": "Just now"
+  },
+  {
+    "path": "updates.items.baggageCarousel.title",
+    "v": "Baggage carousel"
+  },
+  {
+    "path": "updates.items.baggageCarousel.message",
+    "v": "Carousel {carousel}."
+  },
+  {
+    "path": "updates.items.baggageCarousel.relativeTime",
+    "v": "5 minutes ago"
+  },
+  {
+    "path": "updates.items.skybusRunning.title",
+    "v": "SkyBus running"
+  },
+  {
+    "path": "updates.items.skybusRunning.message",
+    "v": "Every 10 minutes from Terminal 3."
+  },
+  {
+    "path": "updates.items.skybusRunning.relativeTime",
+    "v": "10 minutes ago"
+  },
+  {
+    "path": "updates.items.hotelCheckIn.title",
+    "v": "Hotel check-in"
+  },
+  {
+    "path": "updates.items.hotelCheckIn.message",
+    "v": "From {time}."
+  },
+  {
+    "path": "updates.items.hotelCheckIn.relativeTime",
+    "v": "1 hour ago"
+  },
+  {
+    "path": "settings.language.title",
+    "v": "Language"
+  },
+  {
+    "path": "settings.language.displayLanguage",
+    "v": "Display language"
+  },
+  {
+    "path": "settings.language.english",
+    "v": "English"
+  },
+  {
+    "path": "settings.language.japanese",
+    "v": "日本語"
+  },
+  {
+    "path": "settings.language.frenchComingSoon",
+    "v": "Français (Coming soon)"
+  },
+  {
+    "path": "settings.regionalFormats.title",
+    "v": "Regional formats"
+  },
+  {
+    "path": "settings.regionalFormats.timeFormat",
+    "v": "Time format"
+  },
+  {
+    "path": "settings.regionalFormats.hour24",
+    "v": "24-hour"
+  },
+  {
+    "path": "settings.regionalFormats.hour12",
+    "v": "12-hour"
+  },
+  {
+    "path": "settings.regionalFormats.distanceUnits",
+    "v": "Distance units"
+  },
+  {
+    "path": "settings.regionalFormats.metric",
+    "v": "Metric"
+  },
+  {
+    "path": "settings.regionalFormats.imperial",
+    "v": "Imperial"
+  },
+  {
+    "path": "settings.regionalFormats.temperature",
+    "v": "Temperature"
+  },
+  {
+    "path": "settings.regionalFormats.celsius",
+    "v": "Celsius"
+  },
+  {
+    "path": "settings.regionalFormats.fahrenheit",
+    "v": "Fahrenheit"
+  },
+  {
+    "path": "settings.accessibility.title",
+    "v": "Accessibility"
+  },
+  {
+    "path": "settings.accessibility.largerText",
+    "v": "Larger text"
+  },
+  {
+    "path": "settings.accessibility.reducedMotion",
+    "v": "Reduced motion"
+  },
+  {
+    "path": "settings.accessibility.highContrastComingSoon",
+    "v": "High contrast (Coming soon)"
+  },
+  {
+    "path": "settings.notifications.title",
+    "v": "Notifications"
+  },
+  {
+    "path": "settings.notifications.journeyUpdates",
+    "v": "Journey updates"
+  },
+  {
+    "path": "settings.notifications.boardingReminders",
+    "v": "Boarding reminders"
+  },
+  {
+    "path": "settings.notifications.flightChanges",
+    "v": "Flight changes"
+  },
+  {
+    "path": "settings.homeAirport.title",
+    "v": "Home airport"
+  },
+  {
+    "path": "settings.homeAirport.description",
+    "v": "For departures and airport guidance."
+  },
+  {
+    "path": "settings.homeAirport.preferredAirport",
+    "v": "Preferred airport"
+  },
+  {
+    "path": "settings.homeAirport.brisbane",
+    "v": "Brisbane (BNE)"
+  },
+  {
+    "path": "settings.homeAirport.melbourne",
+    "v": "Melbourne (MEL)"
+  },
+  {
+    "path": "settings.homeAirport.sydney",
+    "v": "Sydney (SYD)"
+  },
+  {
+    "path": "settings.homeAirport.adelaide",
+    "v": "Adelaide (ADL)"
+  },
+  {
+    "path": "settings.homeAirport.perth",
+    "v": "Perth (PER)"
+  },
+  {
+    "path": "settings.preferredTransport.title",
+    "v": "Preferred transport"
+  },
+  {
+    "path": "settings.preferredTransport.description",
+    "v": "Used on the Destination page."
+  },
+  {
+    "path": "settings.preferredTransport.gettingAround",
+    "v": "Getting around"
+  },
+  {
+    "path": "settings.preferredTransport.taxi",
+    "v": "Taxi"
+  },
+  {
+    "path": "settings.preferredTransport.rideshare",
+    "v": "Ride share"
+  },
+  {
+    "path": "settings.preferredTransport.publicTransport",
+    "v": "Public transport"
+  },
+  {
+    "path": "settings.preferredTransport.rentalCar",
+    "v": "Rental car"
+  },
+  {
+    "path": "settings.preferredTransport.walking",
+    "v": "Walking"
+  },
+  {
+    "path": "settings.frequentFlyer.title",
+    "v": "Frequent flyer"
+  },
+  {
+    "path": "settings.frequentFlyer.programme",
+    "v": "Programme"
+  },
+  {
+    "path": "settings.frequentFlyer.membershipTier",
+    "v": "Membership tier"
+  },
+  {
+    "path": "health.labels.documents",
+    "v": "Travel documents"
+  },
+  {
+    "path": "health.labels.transport",
+    "v": "Transport"
+  },
+  {
+    "path": "health.labels.flight",
+    "v": "Flight"
+  },
+  {
+    "path": "health.labels.weather",
+    "v": "Weather"
+  },
+  {
+    "path": "health.labels.accommodation",
+    "v": "Accommodation"
+  },
+  {
+    "path": "health.baseDetails.photoIdReady",
+    "v": "Photo ID ready"
+  },
+  {
+    "path": "health.baseDetails.planAirportTransport",
+    "v": "Plan airport transport"
+  },
+  {
+    "path": "health.baseDetails.onTime",
+    "v": "On time"
+  },
+  {
+    "path": "health.baseDetails.lightRainExpected",
+    "v": "Light rain expected"
+  },
+  {
+    "path": "health.baseDetails.hotelConfirmed",
+    "v": "Hotel confirmed"
+  },
+  {
+    "path": "health.stages.PLANNING.transport",
+    "v": "Not planned yet"
+  },
+  {
+    "path": "health.stages.PLANNING.flight",
+    "v": "{flightNumber} confirmed"
+  },
+  {
+    "path": "health.stages.PLANNING.weather",
+    "v": "Pack a light jacket"
+  },
+  {
+    "path": "health.stages.PLANNING.accommodation",
+    "v": "{hotelName} confirmed"
+  },
+  {
+    "path": "health.stages.WEEK_BEFORE.transport",
+    "v": "Confirm soon"
+  },
+  {
+    "path": "health.stages.DAY_BEFORE.transport",
+    "v": "Confirm tomorrow's route"
+  },
+  {
+    "path": "health.stages.DAY_BEFORE.flight",
+    "v": "Check-in opens soon"
+  },
+  {
+    "path": "health.stages.CHECK_IN_OPEN.transport",
+    "v": "Plan airport travel"
+  },
+  {
+    "path": "health.stages.CHECK_IN_OPEN.flight",
+    "v": "Check-in open"
+  },
+  {
+    "path": "health.stages.LEAVING_HOME.countdownLabel",
+    "v": "Leave home in"
+  },
+  {
+    "path": "health.stages.LEAVING_HOME.countdownDisplay",
+    "v": "20 minutes"
+  },
+  {
+    "path": "health.stages.LEAVING_HOME.transport",
+    "v": "Leave at 8:00 AM"
+  },
+  {
+    "path": "health.stages.AT_AIRPORT.countdownLabel",
+    "v": "Boarding begins in"
+  },
+  {
+    "path": "health.stages.AT_AIRPORT.countdownDisplay",
+    "v": "1 hour 30 minutes"
+  },
+  {
+    "path": "health.stages.AT_AIRPORT.transport",
+    "v": "At the airport"
+  },
+  {
+    "path": "health.stages.AT_AIRPORT.flight",
+    "v": "{gate} assigned"
+  },
+  {
+    "path": "health.stages.AFTER_SECURITY.countdownLabel",
+    "v": "Boarding begins in"
+  },
+  {
+    "path": "health.stages.AFTER_SECURITY.countdownDisplay",
+    "v": "45 minutes"
+  },
+  {
+    "path": "health.stages.AFTER_SECURITY.transport",
+    "v": "Airside"
+  },
+  {
+    "path": "health.stages.AFTER_SECURITY.flight",
+    "v": "Head to {gate}"
+  },
+  {
+    "path": "health.stages.BOARDING.countdownLabel",
+    "v": "Departure in"
+  },
+  {
+    "path": "health.stages.BOARDING.countdownDisplay",
+    "v": "54 minutes"
+  },
+  {
+    "path": "health.stages.BOARDING.transport",
+    "v": "At the gate"
+  },
+  {
+    "path": "health.stages.BOARDING.flight",
+    "v": "Boarding now"
+  },
+  {
+    "path": "health.stages.IN_FLIGHT.countdownLabel",
+    "v": "Landing in"
+  },
+  {
+    "path": "health.stages.IN_FLIGHT.countdownDisplay",
+    "v": "46 minutes"
+  },
+  {
+    "path": "health.stages.IN_FLIGHT.transport",
+    "v": "Plan city transfer"
+  },
+  {
+    "path": "health.stages.IN_FLIGHT.flight",
+    "v": "In flight · on time"
+  },
+  {
+    "path": "health.stages.IN_FLIGHT.weather",
+    "v": "Rain on arrival"
+  },
+  {
+    "path": "health.stages.IN_FLIGHT.accommodation",
+    "v": "Check-in 3:00 PM"
+  },
+  {
+    "path": "health.stages.ARRIVAL.transport",
+    "v": "Choose your transfer"
+  },
+  {
+    "path": "health.stages.ARRIVAL.flight",
+    "v": "Landed on time"
+  },
+  {
+    "path": "health.stages.ARRIVAL.accommodation",
+    "v": "Check-in from 3:00 PM"
+  },
+  {
+    "path": "health.stages.AFTER_ARRIVAL.transport",
+    "v": "When you're ready"
+  },
+  {
+    "path": "health.stages.AFTER_ARRIVAL.flight",
+    "v": "Flight done"
+  },
+  {
+    "path": "health.stages.AFTER_ARRIVAL.accommodation",
+    "v": "Head to your hotel"
+  },
+  {
+    "path": "pulse.relaxed.label",
+    "v": "Relaxed"
+  },
+  {
+    "path": "pulse.relaxed.badge",
+    "v": "Nothing to do right now"
+  },
+  {
+    "path": "pulse.attentive.label",
+    "v": "Attentive"
+  },
+  {
+    "path": "pulse.attentive.badge",
+    "v": "Worth a look when you can"
+  },
+  {
+    "path": "pulse.actionRequired.label",
+    "v": "Action needed"
+  },
+  {
+    "path": "pulse.actionRequired.badge",
+    "v": "Do this next"
+  },
+  {
+    "path": "presentation.tagline",
+    "v": "Travel app prototype"
+  },
+  {
+    "path": "presentation.productConcept",
+    "v": "Product concept"
+  },
+  {
+    "path": "presentation.preparedFor",
+    "v": "Prepared for"
+  },
+  {
+    "path": "presentation.intro",
+    "v": "Should a travel app change as your trip moves along? This prototype follows one Virgin Australia flight, VA 313 from Brisbane to Melbourne."
+  },
+  {
+    "path": "presentation.inThisPrototype",
+    "v": "In this prototype"
+  },
+  {
+    "path": "presentation.startDemo",
+    "v": "Start demo"
+  },
+  {
+    "path": "presentation.engineeringDecisions",
+    "v": "Engineering Decisions"
+  },
+  {
+    "path": "presentation.brandGuide",
+    "v": "Brand Guide"
+  },
+  {
+    "path": "presentation.backToIntroduction",
+    "v": "Back to introduction"
+  },
+  {
+    "path": "presentation.howBuilt",
+    "v": "How this prototype is built."
+  },
+  {
+    "path": "presentation.principles.cutNoise",
+    "v": "Cut the noise"
+  },
+  {
+    "path": "presentation.principles.leadNextStep",
+    "v": "Lead with the next step"
+  },
+  {
+    "path": "presentation.principles.sayWhy",
+    "v": "Say why when it helps"
+  },
+  {
+    "path": "presentation.highlights.stageContent",
+    "v": "Screen content changes by trip stage"
+  },
+  {
+    "path": "presentation.highlights.replayDay",
+    "v": "Replay the full day"
+  },
+  {
+    "path": "presentation.highlights.flightUpdates",
+    "v": "Updates tied to this flight"
+  },
+  {
+    "path": "presentation.highlights.accessibility",
+    "v": "Keyboard and screen reader support"
+  },
+  {
+    "path": "presentation.highlights.componentLibrary",
+    "v": "Shared component library"
+  },
+  {
+    "path": "presentation.highlights.responsive",
+    "v": "Mobile and desktop layouts"
+  },
+  {
+    "path": "presentation.engineering.nextjs.title",
+    "v": "Next.js App Router"
+  },
+  {
+    "path": "presentation.engineering.nextjs.detail",
+    "v": "File-based routing. Presentation and app routes stay separate."
+  },
+  {
+    "path": "presentation.engineering.typescript.title",
+    "v": "TypeScript + stage config"
+  },
+  {
+    "path": "presentation.engineering.typescript.detail",
+    "v": "One config layer drives copy and what appears on each screen."
+  },
+  {
+    "path": "presentation.engineering.muiTailwind.title",
+    "v": "MUI + Tailwind v4"
+  },
+  {
+    "path": "presentation.engineering.muiTailwind.detail",
+    "v": "Accessible components with shared spacing, colour, and type tokens."
+  },
+  {
+    "path": "presentation.engineering.framerMotion.title",
+    "v": "Framer Motion"
+  },
+  {
+    "path": "presentation.engineering.framerMotion.detail",
+    "v": "Short page and stage transitions. Respects reduced motion."
+  },
+  {
+    "path": "presentation.engineering.componentDriven.title",
+    "v": "Component-driven UI"
+  },
+  {
+    "path": "presentation.engineering.componentDriven.detail",
+    "v": "Shared cards, health indicators, and countdowns across pages."
+  },
+  {
+    "path": "presentation.engineering.mockData.title",
+    "v": "Mock data layer"
+  },
+  {
+    "path": "presentation.engineering.mockData.detail",
+    "v": "Fixed simulated journey for demos. No live ops feeds."
+  },
+  {
+    "path": "presentation.roles.cto",
+    "v": "CTO, Airline Operations"
+  },
+  {
+    "path": "presentation.roles.headDigital",
+    "v": "Head of Digital Engineering"
+  },
+  {
+    "path": "brand.idea",
+    "v": "Tell passengers what's happening, what to do next, and why it matters."
+  },
+  {
+    "path": "brand.principles.cutNoise",
+    "v": "Cut the noise"
+  },
+  {
+    "path": "brand.principles.nextStepFirst",
+    "v": "Next step first"
+  },
+  {
+    "path": "brand.principles.explainWhenHelps",
+    "v": "Explain when it helps"
+  },
+  {
+    "path": "brand.principles.plainLanguage",
+    "v": "Plain language"
+  },
+  {
+    "path": "brand.principles.detailsOnDemand",
+    "v": "Details on demand"
+  },
+  {
+    "path": "brand.typography.display",
+    "v": "Display"
+  },
+  {
+    "path": "brand.typography.pageTitle",
+    "v": "Page title"
+  },
+  {
+    "path": "brand.typography.sectionHeading",
+    "v": "Section heading"
+  },
+  {
+    "path": "brand.typography.cardHeading",
+    "v": "Card heading"
+  },
+  {
+    "path": "brand.typography.body",
+    "v": "Body"
+  },
+  {
+    "path": "brand.typography.label",
+    "v": "Label"
+  },
+  {
+    "path": "brand.typography.metadata",
+    "v": "Metadata"
+  },
+  {
+    "path": "brand.typography.button",
+    "v": "Button"
+  },
+  {
+    "path": "brand.typography.samplePageTitle",
+    "v": "Your Journey"
+  },
+  {
+    "path": "brand.typography.sampleSectionHeading",
+    "v": "Flight Summary"
+  },
+  {
+    "path": "brand.typography.sampleCardHeading",
+    "v": "Next Action"
+  },
+  {
+    "path": "brand.typography.sampleBody",
+    "v": "On time. Boarding at {time}."
+  },
+  {
+    "path": "brand.typography.sampleLabel",
+    "v": "Boarding group"
+  },
+  {
+    "path": "brand.typography.sampleMetadata",
+    "v": "Updated 2 minutes ago"
+  },
+  {
+    "path": "brand.typography.sampleButton",
+    "v": "Start demo"
+  },
+  {
+    "path": "brand.voice.qualities.calm",
+    "v": "Calm"
+  },
+  {
+    "path": "brand.voice.qualities.clear",
+    "v": "Clear"
+  },
+  {
+    "path": "brand.voice.qualities.human",
+    "v": "Human"
+  },
+  {
+    "path": "brand.voice.qualities.direct",
+    "v": "Direct"
+  },
+  {
+    "path": "brand.voice.qualities.reassuring",
+    "v": "Reassuring"
+  },
+  {
+    "path": "brand.voice.avoidFlightOnTime",
+    "v": "Flight On Time"
+  },
+  {
+    "path": "brand.voice.preferOnTime",
+    "v": "On time."
+  },
+  {
+    "path": "brand.voice.avoidProceedSecurity",
+    "v": "Proceed to security immediately."
+  },
+  {
+    "path": "brand.voice.preferSecurityNext",
+    "v": "Security is your next step. Allow around 10 minutes."
+  },
+  {
+    "path": "brand.voice.avoidNoUpdates",
+    "v": "No updates available."
+  },
+  {
+    "path": "brand.voice.preferNothingNew",
+    "v": "Nothing new."
+  },
+  {
+    "path": "brand.productPrinciples.oneQuestion",
+    "v": "One question per screen."
+  },
+  {
+    "path": "brand.productPrinciples.nextActionFirst",
+    "v": "Next action first."
+  },
+  {
+    "path": "brand.productPrinciples.urgencyWhenReal",
+    "v": "Urgency only when it's real."
+  },
+  {
+    "path": "brand.productPrinciples.fewerWords",
+    "v": "Fewer words beat more data."
+  },
+  {
+    "path": "brand.productPrinciples.showDetailOnAsk",
+    "v": "Show detail when someone asks."
+  },
+  {
+    "path": "brand.productPrinciples.accessibilityFirst",
+    "v": "Accessibility from the start."
+  },
+  {
+    "path": "brand.demo.nextActionTitle",
+    "v": "Baggage drop, then security"
+  },
+  {
+    "path": "brand.demo.nextActionTiming",
+    "v": "Allow around 10 minutes"
+  },
+  {
+    "path": "brand.demo.nextActionExplanation",
+    "v": "Drop your checked bag, then head to security. {gate} · boarding at {time}."
+  },
+  {
+    "path": "brand.demo.nextActionLabel",
+    "v": "View journey"
+  },
+  {
+    "path": "brand.demo.countdownLabel",
+    "v": "Boarding begins in"
+  },
+  {
+    "path": "brand.demo.countdownDisplay",
+    "v": "1 hour 30 minutes"
+  },
+  {
+    "path": "brand.demo.gateAssignedTitle",
+    "v": "Gate assigned"
+  },
+  {
+    "path": "brand.demo.gateAssignedMessage",
+    "v": "Now departing from {gate}."
+  },
+  {
+    "path": "brand.demo.gateAssignedTime",
+    "v": "2 minutes ago"
+  },
+  {
+    "path": "brand.demo.emptyTitle",
+    "v": "Nothing new"
+  },
+  {
+    "path": "brand.demo.emptyDescription",
+    "v": "No updates since your last visit."
+  },
+  {
+    "path": "brand.components.primaryButton",
+    "v": "Primary button"
+  },
+  {
+    "path": "brand.components.secondaryButton",
+    "v": "Secondary button"
+  },
+  {
+    "path": "brand.components.statusBadge",
+    "v": "Status badge"
+  },
+  {
+    "path": "brand.components.informationCard",
+    "v": "Information card"
+  },
+  {
+    "path": "brand.components.nextActionCard",
+    "v": "Next Action card"
+  },
+  {
+    "path": "brand.components.journeyMilestone",
+    "v": "Journey milestone"
+  },
+  {
+    "path": "brand.components.updateCard",
+    "v": "Update card"
+  },
+  {
+    "path": "brand.components.countdown",
+    "v": "Countdown"
+  },
+  {
+    "path": "brand.components.healthItem",
+    "v": "Journey Health item"
+  },
+  {
+    "path": "brand.components.emptyState",
+    "v": "Empty state"
+  },
+  {
+    "path": "demo.panelTitle",
+    "v": "ReadyGate Demo"
+  },
+  {
+    "path": "demo.panelSubtitle",
+    "v": "Prototype control · not passenger UI"
+  },
+  {
+    "path": "demo.journeyStage",
+    "v": "Journey stage"
+  },
+  {
+    "path": "demo.resetToDefault",
+    "v": "Reset to default"
+  }
+]
