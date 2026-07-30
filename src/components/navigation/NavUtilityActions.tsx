@@ -22,7 +22,10 @@ export function NavUtilityActions() {
   const utilityNavItems = desktopNavItems.filter((item) => item.iconOnly);
 
   return (
-    <div className="flex shrink-0 items-center gap-0.5">
+    <div
+      data-tour="utility-actions"
+      className="flex shrink-0 items-center gap-0"
+    >
       {utilityNavItems.map((item) => {
         const active =
           item.href === "/settings/preferences"
@@ -45,7 +48,7 @@ export function NavUtilityActions() {
                 : label
             }
             aria-current={active ? "page" : undefined}
-            className={`relative ${desktopNavIconClassName(active)}`}
+            className={`relative ${desktopNavIconClassName(active, true)}`}
           >
             <Icon sx={{ fontSize: desktopNavIconSize }} aria-hidden="true" />
             {item.href === "/notifications" ? (
@@ -54,7 +57,7 @@ export function NavUtilityActions() {
           </Link>
         );
       })}
-      <ProfileMenu />
+      <ProfileMenu compact />
     </div>
   );
 }

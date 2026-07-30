@@ -16,6 +16,7 @@
     "updates": "Mises à jour",
     "settings": "Paramètres",
     "profile": "Profil",
+    "appTour": "Visite",
     "designSystem": "Système de design",
     "aboutReadyGate": "About ReadyGate",
     "signOut": "Se déconnecter",
@@ -92,6 +93,7 @@
     "previousStage": "Étape précédente du voyage",
     "nextStage": "Étape suivante du voyage",
     "startDemo": "Démarrer la démo",
+    "startAppTour": "Démarrer la visite",
     "productPrinciples": "Principes produit"
   },
   "format": {
@@ -105,7 +107,8 @@
     "gateAndGroup": "{gate} · {group}",
     "driveAndArrive": "{drive} en voiture · arrivée {time}",
     "stageOfTotal": "Étape {current} sur {total}",
-    "demoStageCounter": "{current} / {total}",
+    "demoStageCounter": "Étape {current}/{total}",
+    "demoStageHeader": "{label} (Étape {current}/{total})",
     "flightTimelineNext": "Next: {step}",
     "seatLeftSide": "Siège {seat}, côté gauche de l'appareil.",
     "seatDetail": "Siège {seat}. Franchise bagages déjà incluse dans votre réservation.",
@@ -1235,14 +1238,48 @@
   },
   "demo": {
     "panelTitle": "ReadyGate Demo",
-    "panelSubtitle": "Parcourir les étapes",
+    "panelSubtitle": "Contrôleur démo",
     "journeyStage": "Journey stage",
     "disruptionScenario": "Disruption Scenario (gate / delay)",
     "disruptionScenarioActive": "Disruption active",
     "resetDemo": "Reset demo",
     "resetConfirmTitle": "Réinitialiser la démo ?",
     "resetConfirmMessage": "Cela restaure l'étape du voyage, la langue et les préférences par défaut.",
-    "resetCancel": "Annuler"
+    "resetCancel": "Annuler",
+    "tour": {
+      "dialogLabel": "Visite guidée ReadyGate",
+      "stepCounter": "Visite: Étape {current} sur {total}",
+      "next": "Suivant",
+      "done": "Terminer",
+      "skip": "Ignorer la visite",
+      "settingsTitle": "Visite guidée",
+      "settingsDescription": "Un court tour du prototype interactif.",
+      "showTour": "Afficher la visite",
+      "steps": {
+        "demoPanel": {
+          "title": "Piloter le voyage",
+          "bodyBefore": "Utilisez le panneau démo pour avancer dans chaque étape du voyage. Développez-le pour sauter des étapes ou essayer le ",
+          "disruptionLabel": "scénario de perturbation",
+          "bodyAfter": "."
+        },
+        "todayHeader": {
+          "title": "Aujourd'hui s'adapte à l'étape",
+          "body": "Le titre, le statut et le message rassurant évoluent avec le voyage — toujours centré sur l'essentiel maintenant."
+        },
+        "nextAction": {
+          "title": "Une prochaine action claire",
+          "body": "Au lieu de tout afficher d'un coup, ReadyGate met en avant une seule priorité pour ce moment du voyage."
+        },
+        "mainNav": {
+          "title": "Vol, voyage et destination",
+          "body": "Chaque zone couvre une facette du voyage — l'essentiel aujourd'hui, le parcours complet, le vol et l'arrivée."
+        },
+        "utilityActions": {
+          "title": "Notifications et paramètres",
+          "body": "La cloche signale les alertes voyage. Les paramètres permettent de changer la langue, les unités et l'accessibilité."
+        }
+      }
+    }
   },
   "errors": {
     "notFoundTitle": "Page not found",

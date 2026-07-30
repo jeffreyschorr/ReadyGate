@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
+import { AppTourNavTrigger } from "@/components/navigation/AppTourNavTrigger";
 import { FixedUiRoot } from "@/components/layout/FixedUiRoot";
 import { mobileNavItems } from "@/config/navigation";
 import { useTravellerPreferences } from "@/hooks/useTravellerPreferences";
@@ -17,6 +18,7 @@ export function MobileNavigation() {
     <FixedUiRoot>
       <nav
         aria-label={t("a11y.mobileNavigation")}
+        data-tour="main-nav"
         className="pointer-events-auto absolute inset-x-0 bottom-0 w-full max-w-full border-t border-border bg-surface md:hidden"
         style={{ paddingBottom: "env(safe-area-inset-bottom, 0px)" }}
       >
@@ -31,7 +33,7 @@ export function MobileNavigation() {
                 href={item.href}
                 aria-current={active ? "page" : undefined}
                 className={cn(
-                  "flex min-w-0 flex-1 flex-col items-center justify-center gap-0.5 px-1 py-1 text-[11px] font-medium transition-colors",
+                  "flex min-w-0 flex-1 flex-col items-center justify-center gap-0.5 px-0.5 py-1 text-[10px] font-medium transition-colors",
                   active ? "text-accent" : "text-muted",
                 )}
               >
@@ -42,6 +44,7 @@ export function MobileNavigation() {
               </Link>
             );
           })}
+          <AppTourNavTrigger variant="mobile" />
         </div>
       </nav>
     </FixedUiRoot>

@@ -40,12 +40,20 @@ export function HomeView() {
   const showFlight =
     content.flightVisibility.showSummary || content.flightVisibility.showGate;
   const showBoardingPass = isBoardingPassVisibleStage(stage);
-  const boardingPass = showBoardingPass ? (
-    <BoardingPassCard
-      journey={journey}
-      active
-      gate={getEffectiveGate(disruptionActive)}
-    />
+  const boardingPassProps = {
+    journey,
+    active: true as const,
+    gate: getEffectiveGate(disruptionActive),
+  };
+  const mobileBoardingPass = showBoardingPass ? (
+    <div className="lg:hidden">
+      <BoardingPassCard {...boardingPassProps} />
+    </div>
+  ) : null;
+  const desktopBoardingPass = showBoardingPass ? (
+    <div className="hidden lg:block">
+      <BoardingPassCard {...boardingPassProps} />
+    </div>
   ) : null;
 
   return (
@@ -60,7 +68,7 @@ export function HomeView() {
       }
     >
       <StageStaggerItem>
-        <header className="max-w-2xl space-y-4">
+        <header className="max-w-2xl space-y-4" data-tour="today-header">
           <p className={cn(typography.label, "text-accent")}>{content.eyebrow}</p>
           <h1
             className={cn(typography.pageTitle, "text-page-title")}
@@ -77,8 +85,9 @@ export function HomeView() {
       </StageStaggerItem>
 
       {refinement.countdown && content.layout !== "focused" ? (
-        <StageStaggerItem>
+        <StageStaggerItem className="space-y-6">
           <CountdownCard countdown={refinement.countdown} />
+          {mobileBoardingPass}
         </StageStaggerItem>
       ) : null}
 
@@ -92,14 +101,17 @@ export function HomeView() {
         >
           <div className="space-y-6">
             {refinement.countdown ? (
-              <CountdownCard countdown={refinement.countdown} />
+              <>
+                <CountdownCard countdown={refinement.countdown} />
+                {mobileBoardingPass}
+              </>
             ) : null}
-            <NextAction action={content.nextAction} urgency={content.urgency} compact />
+            <NextAction action={content.nextAction} urgency={content.urgency} compact tourId="next-action" />
             <ContextCardGrid cards={content.contextCards} columns={1} />
           </div>
 
           <div className={pageLayout.asideStack}>
-            {boardingPass}
+            {desktopBoardingPass}
             {showFlight ? (
               <FlightSummary
                 flight={journey.flight}
@@ -132,7 +144,7 @@ export function HomeView() {
           )}
         >
           <div className="space-y-6">
-            <NextAction action={content.nextAction} urgency={content.urgency} />
+            <NextAction action={content.nextAction} urgency={content.urgency} tourId="next-action" />
             <ContextCardGrid cards={content.contextCards} />
           </div>
           <div className={pageLayout.asideStack}>
@@ -161,7 +173,7 @@ export function HomeView() {
           )}
         >
           <div className="space-y-6">
-            <NextAction action={content.nextAction} urgency={content.urgency} />
+            <NextAction action={content.nextAction} urgency={content.urgency} tourId="next-action" />
             <ContextCardGrid cards={content.contextCards} />
             <JourneyHealth items={refinement.health} />
             {content.notificationSummary ? (
@@ -175,7 +187,7 @@ export function HomeView() {
           </div>
 
           <div className="space-y-6">
-            {boardingPass}
+            {desktopBoardingPass}
             {showFlight ? (
               <FlightSummary
                 flight={journey.flight}

@@ -1,6 +1,7 @@
 "use client";
 
 import { JourneyDemoProvider } from "@/context/JourneyDemoContext";
+import { DemoTourProvider } from "@/context/DemoTourContext";
 import { JourneySimulator } from "@/components/demo/JourneySimulator";
 
 type AppProvidersProps = {
@@ -10,8 +11,10 @@ type AppProvidersProps = {
 export function AppProviders({ children }: AppProvidersProps) {
   return (
     <JourneyDemoProvider>
-      {children}
-      <JourneySimulator />
+      <DemoTourProvider>
+        {children}
+        <JourneySimulator />
+      </DemoTourProvider>
     </JourneyDemoProvider>
   );
 }

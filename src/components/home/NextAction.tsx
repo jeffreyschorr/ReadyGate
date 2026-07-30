@@ -12,6 +12,7 @@ import { cn } from "@/lib/utils";
 type NextActionProps = {
   urgency: UrgencyLevel;
   compact?: boolean;
+  tourId?: string;
 } & (
   | { action: NextActionContent; message?: never }
   | { message: string; action?: never }
@@ -23,7 +24,7 @@ const urgencyStyles: Record<UrgencyLevel, string> = {
   high: "border-accent/30 bg-accent-subtle",
 };
 
-export function NextAction({ urgency, compact = false, ...props }: NextActionProps) {
+export function NextAction({ urgency, compact = false, tourId, ...props }: NextActionProps) {
   const titleId = useId();
   const { t } = useTravellerPreferences();
 
@@ -31,6 +32,7 @@ export function NextAction({ urgency, compact = false, ...props }: NextActionPro
     <Card
       className={cn(urgencyStyles[urgency], compact && "shadow-sm")}
       aria-labelledby={titleId}
+      {...(tourId ? { "data-tour": tourId } : {})}
     >
       <p className="text-xs font-medium uppercase tracking-wide text-accent">
         {t("common.nextAction")}

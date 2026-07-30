@@ -51,8 +51,17 @@ export function FlightView() {
       </StageStaggerItem>
 
       {refinement.countdown ? (
-        <StageStaggerItem>
+        <StageStaggerItem className="space-y-6">
           <CountdownCard countdown={refinement.countdown} />
+          {pageContent.showBoardingPass ? (
+            <div className="lg:hidden">
+              <BoardingPassCard
+                journey={journey}
+                active
+                gate={gate}
+              />
+            </div>
+          ) : null}
         </StageStaggerItem>
       ) : null}
 
@@ -76,12 +85,14 @@ export function FlightView() {
               urgency={pageContent.urgency}
             />
           </div>
-          <BoardingPassCard
-            journey={journey}
-            active={pageContent.showBoardingPass}
-            gate={gate}
-            note={pageContent.boardingPassNote}
-          />
+          <div className={pageContent.showBoardingPass ? "hidden lg:block" : undefined}>
+            <BoardingPassCard
+              journey={journey}
+              active={pageContent.showBoardingPass}
+              gate={gate}
+              note={pageContent.boardingPassNote}
+            />
+          </div>
           <JourneyHealth items={refinement.health} />
         </aside>
       </StageStaggerItem>

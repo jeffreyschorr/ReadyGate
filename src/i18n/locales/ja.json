@@ -16,6 +16,7 @@
     "updates": "更新",
     "settings": "設定 (Settings)",
     "profile": "プロフィール",
+    "appTour": "アプリツアー",
     "designSystem": "デザインシステム",
     "aboutReadyGate": "ReadyGateについて",
     "signOut": "サインアウト",
@@ -92,6 +93,7 @@
     "previousStage": "前の旅程段階",
     "nextStage": "次の旅程段階",
     "startDemo": "デモを開始",
+    "startAppTour": "アプリツアーを開始",
     "productPrinciples": "プロダクト原則"
   },
   "format": {
@@ -105,7 +107,8 @@
     "gateAndGroup": "{gate} · {group}",
     "driveAndArrive": "車で {drive} · {time} 到着",
     "stageOfTotal": "段階 {current} / {total}",
-    "demoStageCounter": "{current} / {total}",
+    "demoStageCounter": "ステップ {current}/{total}",
+    "demoStageHeader": "{label}（ステップ {current}/{total}）",
     "flightTimelineNext": "次: {step}",
     "seatLeftSide": "座席 {seat}、左側（窓側）。",
     "seatDetail": "座席 {seat}。手荷物許容量は予約済みです。",
@@ -1235,14 +1238,48 @@
   },
   "demo": {
     "panelTitle": "ReadyGate Demo",
-    "panelSubtitle": "段階で試す",
+    "panelSubtitle": "デモコントローラー",
     "journeyStage": "旅程段階",
     "disruptionScenario": "乱れシナリオ（ゲート / 遅延）",
     "disruptionScenarioActive": "乱れシナリオ適用中",
     "resetDemo": "デモをリセット",
     "resetConfirmTitle": "デモをリセットしますか？",
     "resetConfirmMessage": "旅程段階、言語、設定が初期状態に戻ります。",
-    "resetCancel": "キャンセル"
+    "resetCancel": "キャンセル",
+    "tour": {
+      "dialogLabel": "ReadyGate デモウォークスルー",
+      "stepCounter": "アプリツアー: ステップ {current} / {total}",
+      "next": "次へ",
+      "done": "完了",
+      "skip": "ツアーをスキップ",
+      "settingsTitle": "デモウォークスルー",
+      "settingsDescription": "インタラクティブなプロトタイプの簡単なガイドツアーです。",
+      "showTour": "ツアーを表示",
+      "steps": {
+        "demoPanel": {
+          "title": "旅程を操作",
+          "bodyBefore": "デモパネルで旅行の各段階を進めます。展開すると段階を飛ばしたり、",
+          "disruptionLabel": "乱れシナリオ",
+          "bodyAfter": "を試せます。"
+        },
+        "todayHeader": {
+          "title": "今日は段階に合わせて変化",
+          "body": "見出し、旅程ステータス、安心メッセージが進行に合わせて変わり、今必要なことに集中できます。"
+        },
+        "nextAction": {
+          "title": "次の一手がひとつ",
+          "body": "すべてを一度に見せるのではなく、この瞬間の優先事項をひとつ示します。"
+        },
+        "mainNav": {
+          "title": "フライト、旅程、目的地",
+          "body": "今日の要点、旅程全体、フライト詳細、到着後まで — 旅のそれぞれの側面を切り替えられます。"
+        },
+        "utilityActions": {
+          "title": "通知と設定",
+          "body": "ベルアイコンで旅程アラートを確認。設定から言語、単位、アクセシビリティなどを変更できます。"
+        }
+      }
+    }
   },
   "errors": {
     "notFoundTitle": "ページが見つかりません",

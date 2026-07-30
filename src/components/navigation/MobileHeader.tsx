@@ -21,7 +21,7 @@ export function MobileHeader() {
           className="inline-flex min-w-0 shrink-0 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-accent focus-visible:ring-offset-2 focus-visible:ring-offset-background"
           aria-label={t("a11y.readyGateHome")}
         >
-          <BrandLogo variant="lockup" size="sm" priority />
+          <BrandLogo variant="lockup" size="sm" />
         </Link>
         <NavUtilityActions />
       </Container>

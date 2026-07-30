@@ -16,6 +16,7 @@
     "updates": "Updates",
     "settings": "Settings",
     "profile": "Profile",
+    "appTour": "App Tour",
     "designSystem": "Design system",
     "aboutReadyGate": "About ReadyGate",
     "signOut": "Sign out",
@@ -92,6 +93,7 @@
     "previousStage": "Previous journey stage",
     "nextStage": "Next journey stage",
     "startDemo": "Start demo",
+    "startAppTour": "Start app tour",
     "productPrinciples": "Product principles"
   },
   "format": {
@@ -105,7 +107,8 @@
     "gateAndGroup": "{gate} · {group}",
     "driveAndArrive": "{drive} drive · arrive {time}",
     "stageOfTotal": "Stage {current} of {total}",
-    "demoStageCounter": "{current} / {total}",
+    "demoStageCounter": "Step {current}/{total}",
+    "demoStageHeader": "{label} (Step {current}/{total})",
     "flightTimelineNext": "Next: {step}",
     "seatLeftSide": "Seat {seat}, left side of the aircraft.",
     "seatDetail": "Seat {seat}. Baggage allowance already on your booking.",
@@ -1235,14 +1238,48 @@
   },
   "demo": {
     "panelTitle": "ReadyGate Demo",
-      "panelSubtitle": "Step through stages",
+    "panelSubtitle": "Demo controller",
     "journeyStage": "Journey stage",
     "disruptionScenario": "Disruption Scenario (gate / delay)",
     "disruptionScenarioActive": "Disruption active",
     "resetDemo": "Reset demo",
     "resetConfirmTitle": "Reset demo?",
     "resetConfirmMessage": "This restores the default journey stage, language, and preferences.",
-    "resetCancel": "Cancel"
+    "resetCancel": "Cancel",
+    "tour": {
+      "dialogLabel": "ReadyGate demo walkthrough",
+      "stepCounter": "App Tour: Step {current} of {total}",
+      "next": "Next",
+      "done": "Done",
+      "skip": "Skip tour",
+      "settingsTitle": "Demo walkthrough",
+      "settingsDescription": "A quick guided tour of the interactive prototype.",
+      "showTour": "Show tour",
+      "steps": {
+        "demoPanel": {
+          "title": "Control the journey",
+          "bodyBefore": "Use the demo panel to move through each stage of travel. Expand it to jump stages or try the ",
+          "disruptionLabel": "disruption scenario",
+          "bodyAfter": "."
+        },
+        "todayHeader": {
+          "title": "Today adapts to your stage",
+          "body": "The headline, journey status, and reassurance change as your trip progresses — always focused on what matters now."
+        },
+        "nextAction": {
+          "title": "One clear next action",
+          "body": "Instead of showing everything at once, ReadyGate highlights a single priority for this moment in your trip."
+        },
+        "mainNav": {
+          "title": "Flight, journey, and destination",
+          "body": "Each area covers a different part of your trip — what matters today, the full journey, flight details, and arrival."
+        },
+        "utilityActions": {
+          "title": "Notifications and settings",
+          "body": "Check trip alerts from the bell icon. Open settings to change language, units, accessibility, and other preferences."
+        }
+      }
+    }
   },
   "errors": {
     "notFoundTitle": "Page not found",

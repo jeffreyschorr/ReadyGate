@@ -13,3 +13,9 @@ export function isAppRoute(pathname: string): boolean {
     (prefix) => pathname === prefix || pathname.startsWith(`${prefix}/`),
   );
 }
+
+export function isHomeRoute(pathname: string): boolean {
+  return pathname === "/home" || pathname === "/home/";
+}
+
+export const HOME_ROUTE = "/home/";

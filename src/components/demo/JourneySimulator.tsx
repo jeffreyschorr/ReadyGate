@@ -108,23 +108,23 @@ export function JourneySimulator() {
     <FixedUiRoot>
     <aside
       aria-label={t("a11y.demoControls")}
+      data-tour="demo-panel"
       className="pointer-events-auto absolute right-4 bottom-[calc(3.5rem+env(safe-area-inset-bottom,0px)+0.5rem)] left-4 z-[100] max-w-sm md:right-4 md:bottom-4 md:left-auto md:w-80"
     >
       <div className="rounded-lg bg-accent text-accent-foreground shadow-lg">
         <div
           className={`flex items-center justify-between gap-2 px-3 py-2${collapsed ? "" : " border-b border-white/20"}`}
         >
-          <div className="min-w-0 flex-1">
-            <p className="flex min-w-0 items-baseline gap-1 text-sm font-semibold leading-tight">
-              <span className="truncate">{getStageLabel(stage, t)}</span>
-              {collapsed ? (
-                <span className="shrink-0 font-medium text-white/90">
-                  ({stageIndex + 1}/{stageCount})
-                </span>
-              ) : null}
-            </p>
-            <p className="truncate text-[11px] text-white/80">
+          <div className="min-w-0 flex-1 pb-1">
+            <p className="truncate text-[11px] font-semibold text-white/80">
               {t("demo.panelSubtitle")}
+            </p>
+            <p className="truncate text-sm font-semibold leading-tight">
+              {t("format.demoStageHeader", {
+                label: getStageLabel(stage, t),
+                current: stageIndex + 1,
+                total: stageCount,
+              })}
             </p>
           </div>
           {collapsed ? (

@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 
 import { settingsNavItems } from "@/config/navigation";
 import { useTranslation } from "@/i18n/useTranslation";
-import { cn } from "@/lib/utils";
+import { cn, isPathActive } from "@/lib/utils";
 
 type SettingsLayoutProps = {
   children: React.ReactNode;
@@ -27,7 +27,7 @@ export function SettingsLayout({ children }: SettingsLayoutProps) {
         <nav>
           <ul className="space-y-1">
             {settingsNavItems.map((item) => {
-              const active = pathname === item.href;
+              const active = isPathActive(pathname, item.href);
               const navKey = settingsNavKeys[item.href as keyof typeof settingsNavKeys];
 
               return (

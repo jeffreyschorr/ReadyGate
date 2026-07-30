@@ -13,7 +13,7 @@ import {
 } from "@/components/navigation/desktop-nav-icon-styles";
 import { useTranslation } from "@/i18n/useTranslation";
 
-export function ProfileMenu() {
+export function ProfileMenu({ compact = false }: { compact?: boolean }) {
   const { t } = useTranslation();
   const [anchorEl, setAnchorEl] = useState<null | HTMLElement>(null);
   const open = Boolean(anchorEl);
@@ -27,7 +27,7 @@ export function ProfileMenu() {
         aria-haspopup="true"
         aria-expanded={open ? "true" : undefined}
         onClick={(event) => setAnchorEl(event.currentTarget)}
-        className={desktopNavIconClassName(false)}
+        className={desktopNavIconClassName(false, compact)}
       >
         <PersonIcon sx={{ fontSize: desktopNavIconSize }} aria-hidden="true" />
       </button>
