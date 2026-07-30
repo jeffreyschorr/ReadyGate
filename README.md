@@ -1,5 +1,7 @@
 # ReadyGate
 
+**Live demo:** [readygate.app](https://readygate.app) · [Open demo](https://readygate.app/home/)
+
 ReadyGate is an independent product concept: a mobile-first web prototype that shows how a travel app could adapt across the day of travel.
 
 It follows one simulated Virgin Australia flight (VA 313, Brisbane to Melbourne) and changes what it highlights as the journey moves from planning through arrival. The goal is to reduce the mental load of checking multiple apps, emails, and signs for the same trip details.
@@ -86,53 +88,56 @@ Set `NEXT_PUBLIC_SHOW_DEMO_PANEL=true` in production to show the demo panel on r
 
 Production URL: [https://readygate.app](https://readygate.app)
 
-### Environment
+ReadyGate is deployed as a **static export** (HTML/CSS/JS in `out/`). No Node.js is required on the server.
 
-Copy `.env.example` to `.env` on the server (or set variables in cPanel):
+### Build upload archive (on your Mac)
 
 ```bash
-NEXT_PUBLIC_SHOW_DEMO_PANEL=true
+npm run export:static
 ```
 
-Rebuild after changing public env vars (`npm run build`).
+This creates:
 
-### cPanel / WHM (Node.js)
+| Output | Purpose |
+| --- | --- |
+| `out/` | Static site files |
+| `dist/readygate-static/` | Same files, ready to upload |
+| `dist/readygate-static.zip` | Zip archive for cPanel File Manager |
 
-Requires **Setup Node.js App** (Application Manager) with Node 18+.
+Set `NEXT_PUBLIC_SHOW_DEMO_PANEL=true` at build time so the demo panel appears on readygate.app (the export script does this automatically).
 
-1. **Git Version Control** (cPanel) or SSH: clone `https://github.com/jeffreyschorr/readygate.git` into the app directory (e.g. `~/readygate`).
-2. **Setup Node.js App**:
-   - Application root: path to the cloned repo
-   - Application URL: `readygate.app` (or subdomain for testing)
-   - Application startup file: `server.js`
-   - Node.js version: 18 or 20
-3. Add environment variable: `NEXT_PUBLIC_SHOW_DEMO_PANEL` = `true`
-4. In the app terminal (or SSH):
+### Upload to cPanel
+
+1. Open **File Manager** → `public_html` for `readygate.app`
+2. Delete old site files (keep anything unrelated to this app)
+3. Upload **`dist/readygate-static.zip`**
+4. **Extract** the archive into `public_html` (contents at the root, not inside a subfolder)
+5. Confirm `.htaccess` is present (redirects and security headers)
+
+Visit https://readygate.app
+
+### Updates
+
+After code changes:
 
 ```bash
-cd ~/readygate
-npm ci
-npm run build
+npm run export:static
 ```
 
-5. **Restart** the Node.js app in cPanel.
+Re-upload and extract the new zip (or replace the folder contents).
 
-Document root for the domain should proxy to the Node app (cPanel usually configures this when you attach the URL to the Node application). If the site shows a directory listing, the domain is pointing at an empty `public_html` instead of the Node app — reassign the domain in **Domains** / **Setup Node.js App**.
+Redirects and security headers for Apache live in `public/.htaccess` and are copied into `out/` on build.
 
-Updates: pull latest from GitHub, then `npm ci && npm run build`, and restart the app.
-
-### Local production smoke test
+### Local smoke test
 
 ```bash
-npm run build
-npm run start
+npm run export:static
+npx serve out
 ```
 
 Site metadata, Open Graph tags, and canonical URLs are configured in `src/config/site.ts` and `src/lib/metadata.ts`.
 
 Search indexing is disabled (`noindex`, `robots.txt` disallow). No public sitemap is generated.
-
-Security headers are set in `next.config.ts`.
 
 ## Analytics
 

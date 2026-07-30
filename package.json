@@ -7,6 +7,7 @@
     "dev:clean": "bash scripts/dev-clean.sh",
     "dev:turbo": "node scripts/ensure-dev-cache.mjs && next dev --turbopack",
     "build": "node scripts/ensure-no-dev.mjs && next build",
+    "export:static": "node scripts/export-static.mjs",
     "start": "NODE_ENV=production node server.js",
     "lint": "eslint"
   },

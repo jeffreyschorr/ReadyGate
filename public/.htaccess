@@ -1,0 +1,20 @@
+# ReadyGate static export — Apache rules for cPanel / public_html
+
+<IfModule mod_headers.c>
+  Header set X-Content-Type-Options "nosniff"
+  Header set X-Frame-Options "SAMEORIGIN"
+  Header set Referrer-Policy "strict-origin-when-cross-origin"
+  Header set Permissions-Policy "camera=(), microphone=(), geolocation=()"
+  Header set X-Robots-Tag "noindex, nofollow, noarchive, nosnippet, noimageindex"
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteBase /
+
+  # Legacy redirects (previously in next.config.ts)
+  RewriteRule ^updates/?$ /notifications/ [R=301,L]
+  RewriteRule ^replay/?$ /journey/ [R=302,L]
+  RewriteRule ^design-system/?$ /design/ [R=301,L]
+  RewriteRule ^preferences/?$ /settings/preferences/ [R=302,L]
+</IfModule>
