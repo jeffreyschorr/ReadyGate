@@ -409,6 +409,12 @@
       "sinceLastVisit": "Depuis votre dernière visite",
       "sectionSummary": "Chronologie complète, étapes et prochaines échéances — distinct de ce dont vous avez besoin maintenant dans Aujourd'hui.",
       "sectionUpdatesHint": "Les changements de porte, d'horaire ou d'étape apparaissent ici.",
+      "heroLabel": "Voyage vers {city}",
+      "heroImageAlt": "Vue de {city}",
+      "heroPlaceholder": "Image destination",
+      "heroDestination": "Destination",
+      "heroTripWindow": "Dates du voyage",
+      "heroArrival": "Arrivée",
       "journeyHealth": "État du voyage",
       "journeyHealthSubtitle": "Documents, vol, météo et hôtel en un coup d'œil."
     },
@@ -552,6 +558,8 @@
     "flightDetails": "Détails du vol",
     "yourFlight": "Votre vol",
     "helpfulInformation": "Informations utiles",
+    "disruptionBannerTitle": "Porte et vol modifiés",
+    "disruptionBannerMessage": "Porte {newGate} (était {oldGate}). {flightNumber} retardé de {minutes} minutes — nouveau départ {time}.",
     "boardingPassNoteAfterCheckIn": "Disponible après l'enregistrement",
     "boardingPassNoteActivate": "Terminez l'enregistrement pour activer",
     "boardingPassTicket": {

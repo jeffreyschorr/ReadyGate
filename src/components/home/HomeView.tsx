@@ -6,6 +6,7 @@ import { FlightTimelineStrip } from "@/components/flight/FlightTimelineStrip";
 import { BoardingPassCard } from "@/components/flight/BoardingPassCard";
 import { ContextCardGrid } from "@/components/journey/ContextCard";
 import { CountdownCard } from "@/components/journey/CountdownCard";
+import { JourneyHeroBanner } from "@/components/journey/JourneyHeroBanner";
 import { JourneyHealth } from "@/components/journey/JourneyHealth";
 import { JourneyProgress } from "@/components/journey/JourneyProgress";
 import { JourneyPulse } from "@/components/journey/JourneyPulse";
@@ -78,6 +79,10 @@ export function HomeView() {
           <JourneyPulse state={content.pulse} statusLabel={content.journeyStatus} />
           <ReassuranceMessage message={content.reassurance} />
         </header>
+      </StageStaggerItem>
+
+      <StageStaggerItem>
+        <JourneyHeroBanner journey={journey} />
       </StageStaggerItem>
 
       <StageStaggerItem>

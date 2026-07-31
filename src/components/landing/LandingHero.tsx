@@ -15,21 +15,21 @@ export function LandingHero() {
   return (
     <section className="landing-section pt-8 pb-10 md:pt-10 md:pb-12">
       <div className="landing-shell">
-        <div className="grid items-start gap-8 lg:grid-cols-2 lg:gap-10">
+        <div className="grid items-start gap-5 md:gap-8 lg:grid-cols-2 lg:gap-10">
           <div className="flex max-w-xl flex-col justify-center lg:py-4">
             <p className={cn(typography.metadata, "text-accent")}>
               {t("landing.hero.eyebrow")}
             </p>
-            <h1 className="landing-hero-title mt-4">{t("landing.hero.title")}</h1>
-            <p className="landing-lead mt-6">
+            <h1 className="landing-hero-title mt-3 md:mt-4">{t("landing.hero.title")}</h1>
+            <p className="landing-lead mt-4 md:mt-6">
               {t("landing.hero.descriptionBefore")}
               <strong className="font-semibold text-foreground">
                 {t("landing.hero.descriptionHighlight")}
               </strong>
               {t("landing.hero.descriptionAfter")}
             </p>
-            <p className="landing-lead mt-4">{t("landing.hero.descriptionSecondary")}</p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:flex-wrap">
+            <p className="landing-lead mt-3 md:mt-4">{t("landing.hero.descriptionSecondary")}</p>
+            <div className="mt-6 flex flex-col gap-3 sm:mt-8 sm:flex-row sm:flex-wrap">
               <Button component={Link} href="/home" className="w-full sm:w-auto">
                 {t("landing.hero.beginDemo")}
               </Button>
@@ -45,7 +45,7 @@ export function LandingHero() {
             <LandingHeroMobileQr />
           </div>
 
-          <div className="flex justify-center lg:justify-end">
+          <div className="-mt-1 flex justify-center md:mt-0 lg:justify-end">
             <LandingHeroVisual />
           </div>
         </div>

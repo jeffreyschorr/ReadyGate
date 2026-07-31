@@ -1,7 +1,10 @@
 "use client";
 
+import { useEffect } from "react";
+
 import { BoardingPassCard } from "@/components/flight/BoardingPassCard";
 import { FlightDetailsCard } from "@/components/flight/FlightDetailsCard";
+import { FlightDisruptionBanner } from "@/components/flight/FlightDisruptionBanner";
 import { FlightOverviewCard } from "@/components/flight/FlightOverviewCard";
 import { FlightPageHeader } from "@/components/flight/FlightPageHeader";
 import { NextAction } from "@/components/home/NextAction";
@@ -22,13 +25,18 @@ import { useTravellerPreferences } from "@/hooks/useTravellerPreferences";
 import { pageLayout } from "@/lib/layout";
 
 export function FlightView() {
-  const { stage, journey, disruptionActive } = useJourneyDemo();
+  const { stage, journey, disruptionActive, acknowledgeFlightDisruption } =
+    useJourneyDemo();
   const { t } = useTravellerPreferences();
   const effectiveDisplay = useEffectiveJourneyDisplay();
   const pageContent = getFlightPageContent(stage, effectiveDisplay, t);
   const refinement = getRefinementContent(stage, effectiveDisplay, t);
   const routeLabel = `${journey.flight.origin.city} → ${journey.flight.destination.city}`;
   const gate = getEffectiveGate(disruptionActive);
+
+  useEffect(() => {
+    acknowledgeFlightDisruption();
+  }, [acknowledgeFlightDisruption]);
 
   return (
     <StageViewShell
@@ -49,6 +57,12 @@ export function FlightView() {
           displayStatus={pageContent.displayStatus}
         />
       </StageStaggerItem>
+
+      {disruptionActive ? (
+        <StageStaggerItem>
+          <FlightDisruptionBanner departureTime={effectiveDisplay.departureTime} />
+        </StageStaggerItem>
+      ) : null}
 
       {refinement.countdown ? (
         <StageStaggerItem className="space-y-6">

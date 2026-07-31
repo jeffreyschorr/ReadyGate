@@ -16,15 +16,12 @@ export function JourneyPageHeader({
   const { t } = useTranslation();
 
   return (
-    <header className="space-y-3">
-      <div className="space-y-1">
-        <h1 className={cn(typography.pageTitle, "text-page-title")}>
-          {t("journey.page.myJourney")}
-        </h1>
-        <p className={cn(typography.label, "text-lg text-foreground")}>{routeLabel}</p>
-        <p className={cn(typography.bodySm, "text-muted")}>{tripWindow}</p>
-      </div>
-      <p className={cn(typography.body, "text-muted")}>{t("journey.page.sectionSummary")}</p>
+    <header className="space-y-1">
+      <h1 className={cn(typography.pageTitle, "text-page-title")}>
+        {t("journey.page.myJourney")}
+      </h1>
+      <p className={cn(typography.label, "text-lg text-foreground")}>{routeLabel}</p>
+      <p className={cn(typography.bodySm, "text-muted")}>{tripWindow}</p>
     </header>
   );
 }

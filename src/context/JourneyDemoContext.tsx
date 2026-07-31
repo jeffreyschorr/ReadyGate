@@ -35,7 +35,9 @@ type JourneyDemoContextValue = {
   disruptionActive: boolean;
   triggerDisruptionScenario: () => void;
   acknowledgeDisruptionUpdates: () => void;
+  acknowledgeFlightDisruption: () => void;
   updatesBadgeCount: number;
+  flightBadgeCount: number;
 };
 
 export const JourneyDemoContext = createContext<JourneyDemoContextValue | null>(
@@ -51,12 +53,15 @@ export function JourneyDemoProvider({ children }: JourneyDemoProviderProps) {
   const [stage, setStageState] = useState<JourneyStageId>(demoConfig.defaultStage);
   const [disruptionActive, setDisruptionActive] = useState(false);
   const [disruptionAcknowledged, setDisruptionAcknowledged] = useState(false);
+  const [flightDisruptionAcknowledged, setFlightDisruptionAcknowledged] =
+    useState(false);
 
   const stageIndex = JOURNEY_STAGE_IDS.indexOf(stage);
 
   const clearDisruption = useCallback(() => {
     setDisruptionActive(false);
     setDisruptionAcknowledged(false);
+    setFlightDisruptionAcknowledged(false);
   }, []);
 
   const setStage = useCallback((nextStage: JourneyStageId) => {
@@ -85,6 +90,7 @@ export function JourneyDemoProvider({ children }: JourneyDemoProviderProps) {
   const triggerDisruptionScenario = useCallback(() => {
     setDisruptionActive(true);
     setDisruptionAcknowledged(false);
+    setFlightDisruptionAcknowledged(false);
 
     const airportStageIndex = JOURNEY_STAGE_IDS.indexOf(DISRUPTION_DEMO_STAGE);
     if (stageIndex < airportStageIndex) {
@@ -95,6 +101,12 @@ export function JourneyDemoProvider({ children }: JourneyDemoProviderProps) {
   const acknowledgeDisruptionUpdates = useCallback(() => {
     if (disruptionActive) {
       setDisruptionAcknowledged(true);
+    }
+  }, [disruptionActive]);
+
+  const acknowledgeFlightDisruption = useCallback(() => {
+    if (disruptionActive) {
+      setFlightDisruptionAcknowledged(true);
     }
   }, [disruptionActive]);
 
@@ -111,6 +123,10 @@ export function JourneyDemoProvider({ children }: JourneyDemoProviderProps) {
   const updatesBadgeCount = getDisruptionUnreadCount(
     disruptionActive,
     disruptionAcknowledged,
+  );
+  const flightBadgeCount = getDisruptionUnreadCount(
+    disruptionActive,
+    flightDisruptionAcknowledged,
   );
 
   const value = useMemo<JourneyDemoContextValue>(
@@ -129,7 +145,9 @@ export function JourneyDemoProvider({ children }: JourneyDemoProviderProps) {
       disruptionActive,
       triggerDisruptionScenario,
       acknowledgeDisruptionUpdates,
+      acknowledgeFlightDisruption,
       updatesBadgeCount,
+      flightBadgeCount,
     }),
     [
       stage,
@@ -142,7 +160,9 @@ export function JourneyDemoProvider({ children }: JourneyDemoProviderProps) {
       disruptionActive,
       triggerDisruptionScenario,
       acknowledgeDisruptionUpdates,
+      acknowledgeFlightDisruption,
       updatesBadgeCount,
+      flightBadgeCount,
     ],
   );
 

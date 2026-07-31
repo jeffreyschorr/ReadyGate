@@ -58,6 +58,25 @@ type ContextCardGridProps = {
   columns?: 1 | 2;
 };
 
+function chunkContextCardRows(cards: ContextCardData[]): ContextCardData[][] {
+  const rows: ContextCardData[][] = [];
+  let index = 0;
+
+  while (index < cards.length) {
+    const remaining = cards.length - index;
+
+    if (remaining === 1) {
+      rows.push([cards[index]]);
+      index += 1;
+    } else {
+      rows.push([cards[index], cards[index + 1]]);
+      index += 2;
+    }
+  }
+
+  return rows;
+}
+
 export function ContextCardGrid({ cards, columns = 2 }: ContextCardGridProps) {
   const { t } = useTranslation();
 
@@ -65,19 +84,35 @@ export function ContextCardGrid({ cards, columns = 2 }: ContextCardGridProps) {
     return null;
   }
 
+  if (columns === 1) {
+    return (
+      <div className="grid gap-4" role="list" aria-label={t("a11y.contextDetails")}>
+        {cards.map((card) => (
+          <div key={card.id} role="listitem">
+            <ContextCard card={card} />
+          </div>
+        ))}
+      </div>
+    );
+  }
+
+  const rows = chunkContextCardRows(cards);
+
   return (
-    <div
-      className={
-        columns === 2
-          ? "grid gap-4 sm:grid-cols-2"
-          : "grid gap-4"
-      }
-      role="list"
-      aria-label={t("a11y.contextDetails")}
-    >
-      {cards.map((card) => (
-        <div key={card.id} role="listitem" className={columns === 2 ? "h-full" : undefined}>
-          <ContextCard card={card} />
+    <div className="space-y-4" role="list" aria-label={t("a11y.contextDetails")}>
+      {rows.map((row) => (
+        <div
+          key={row.map((card) => card.id).join("-")}
+          className={
+            row.length === 2 ? "grid grid-cols-1 gap-4 sm:grid-cols-2" : "grid grid-cols-1"
+          }
+          role="presentation"
+        >
+          {row.map((card) => (
+            <div key={card.id} role="listitem" className="h-full min-w-0">
+              <ContextCard card={card} />
+            </div>
+          ))}
         </div>
       ))}
     </div>

@@ -54,10 +54,10 @@ export function BoardingPassTicket({ journey, gate }: BoardingPassTicketProps) {
 
   return (
     <article
-      className="w-full overflow-hidden rounded-xl bg-accent text-accent-foreground shadow-lg"
+      className="w-full overflow-hidden rounded-xl bg-heading text-white shadow-lg"
       aria-label={t("common.boardingPass")}
     >
-      <header className="relative bg-[color-mix(in_srgb,var(--color-accent)_78%,black)] px-4 py-2.5">
+      <header className="relative bg-[color-mix(in_srgb,var(--color-accent)_82%,black)] px-4 py-2.5">
         <TicketNotch side="left" />
         <TicketNotch side="right" />
         <div className="flex items-center justify-between gap-3">

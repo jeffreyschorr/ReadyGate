@@ -1,6 +1,6 @@
 "use client";
 
-import BoltOutlinedIcon from "@mui/icons-material/BoltOutlined";
+import WarningAmberOutlinedIcon from "@mui/icons-material/WarningAmberOutlined";
 import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
 import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ExpandLessIcon from "@mui/icons-material/ExpandLess";
@@ -223,9 +223,9 @@ export function JourneySimulator() {
               type="button"
               onClick={triggerDisruptionScenario}
               disabled={disruptionActive}
-              className="flex w-full items-center justify-center gap-1.5 rounded-md border border-white/30 px-3 py-2 text-xs font-medium text-accent-foreground transition-colors hover:bg-white/10 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent disabled:cursor-default disabled:border-white/15 disabled:text-white/50 disabled:hover:bg-transparent"
+              className="flex w-full items-center justify-center gap-1.5 rounded-md border border-black bg-black px-3 py-2 text-xs font-medium text-white transition-colors hover:bg-black/85 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-white focus-visible:ring-offset-2 focus-visible:ring-offset-accent disabled:cursor-default disabled:border-black/40 disabled:bg-black/40 disabled:text-white/50 disabled:hover:bg-black/40"
             >
-              <BoltOutlinedIcon
+              <WarningAmberOutlinedIcon
                 sx={{ fontSize: 16, color: disruptionActive ? "rgba(255,255,255,0.5)" : "#ffffff" }}
                 aria-hidden="true"
               />

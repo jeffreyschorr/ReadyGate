@@ -409,6 +409,12 @@
       "sinceLastVisit": "前回の訪問以降",
       "sectionSummary": "旅程全体のタイムライン、マイルストーン、この先の予定です。Today の「今必要な情報」とは別の画面です。",
       "sectionUpdatesHint": "ゲート、時間、マイルストーンに変更があった場合、ここに表示されます。",
+      "heroLabel": "{city}への旅程",
+      "heroImageAlt": "{city}の風景",
+      "heroPlaceholder": "目的地画像",
+      "heroDestination": "目的地",
+      "heroTripWindow": "旅程日程",
+      "heroArrival": "到着",
       "journeyHealth": "旅程ステータス",
       "journeyHealthSubtitle": "書類、フライト、天気、ホテルを一覧で確認。"
     },
@@ -552,6 +558,8 @@
     "flightDetails": "フライト詳細",
     "yourFlight": "あなたのフライト",
     "helpfulInformation": "お役立ち情報",
+    "disruptionBannerTitle": "ゲートとフライトが変更されました",
+    "disruptionBannerMessage": "ゲート {newGate}（以前は {oldGate}）。{flightNumber} は {minutes} 分遅延 — 新しい出発 {time}。",
     "boardingPassNoteAfterCheckIn": "チェックイン後に利用可能",
     "boardingPassNoteActivate": "チェックイン完了で有効化",
     "boardingPassTicket": {

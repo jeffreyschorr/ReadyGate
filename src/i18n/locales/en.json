@@ -409,6 +409,12 @@
       "sinceLastVisit": "Since your last visit",
       "sectionSummary": "Your full trip timeline, milestones, and what is ahead. Separate from what you need right now on Today.",
       "sectionUpdatesHint": "Gate, timing, and milestone changes appear here when something shifts.",
+      "heroLabel": "Trip to {city}",
+      "heroImageAlt": "View of {city}",
+      "heroPlaceholder": "Destination image",
+      "heroDestination": "Destination",
+      "heroTripWindow": "Trip dates",
+      "heroArrival": "Arrival",
       "journeyHealth": "Journey health",
       "journeyHealthSubtitle": "Documents, flight, weather, and hotel at a glance."
     },
@@ -552,6 +558,8 @@
     "flightDetails": "Flight details",
     "yourFlight": "Your flight",
     "helpfulInformation": "Helpful information",
+    "disruptionBannerTitle": "Gate and flight changed",
+    "disruptionBannerMessage": "Gate {newGate} (was {oldGate}). {flightNumber} is delayed {minutes} minutes — new departure {time}.",
     "boardingPassNoteAfterCheckIn": "Available after check-in",
     "boardingPassNoteActivate": "Complete check-in to activate",
     "boardingPassTicket": {
